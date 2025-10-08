@@ -1,0 +1,52 @@
+# e_atlantis
+#  k_atlantis
+#   d_atlantis 
+#    c_atlantis
+
+2 = {
+    culture = atlantean
+    religion = atlantite
+    holding = castle_holding
+}
+
+3 = {
+	holding = none
+}
+
+4 = {
+	holding = none
+}
+
+#    c_atlantis_b
+
+5 = {
+	culture = atlantean
+	religion = atlantite
+	holding = castle_holding
+}
+
+6 = {
+	holding = none
+}
+
+7 = {
+	culture = atlantean
+	religion = atlantite
+	holding = castle_holding
+}
+
+#    c_atlantis_c
+
+8 = {
+	culture = atlantean
+	religion = atlantite
+	holding = castle_holding
+}
+
+9 = {
+	holding = none
+}
+
+10 = {
+	holding = none
+}
