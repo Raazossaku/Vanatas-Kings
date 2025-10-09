@@ -1,63 +1,72 @@
-﻿@correct_culture_primary_score = 100
-@better_than_the_alternatives_score = 50
-@always_primary_score = 1000
-@never_primary_score = -1000
+﻿e_sedes = {
+	color = { 87 218 42 }
+	capital = c_messglassey
 
-e_atlantis = {
-	color = { 250 250 250 }
-	capital = c_atlantis
+	k_ordrey = {
+		color = { 77 166 67 }
+		capital = c_messglassey
 
-	k_atlantis = {
-		color = { 200 200 200 }
-		capital = c_atlantis
-		d_atlantis = {
-			color = { 150 150 150 }
-			capital = c_atlantis
-			c_atlantis = {
-				color = { 100 100 100 }
-				b_atlantis = {
-					province = 2
-					color = { 50 50 50 }
-				}
-				b_atlantis_2 = {
-					province = 3
-					color = { 50 50 50 }
-				}
-				b_atlantis_3 = {
-					province = 4
-					color = { 50 50 50 }
-				}
-			}
-			c_atlantis_b = {
-				color = { 75 75 75 }
-				b_atlantis_4 = {
-					province = 5
-					color = { 25 25 25 }
-				}
-				b_atlantis_5 = {
+		d_lathadu = {
+			color = { 230 180 1 }
+			capital = c_messglassey
+
+			c_messglassey = {
+				color = { 230 193 62 }
+
+				b_ooylshugrey = {
+					color = { 230 193 62 }
 					province = 6
-					color = { 25 25 25 }
 				}
-				b_atlantis_6 = {
-					province = 7
-					color = { 25 25 25 }
+
+				b_lathadu_1 = {
+					color = { 230 193 62 }
+					province = 2
+				}
+
+				b_calleebane = {
+					color = { 230 193 62 }
+					province = 9
 				}
 			}
-			c_atlantis_c = {
-				color = { 50 50 50 }
-				b_atlantis_7 = {
-					province = 8
-					color = { 1 1 1 }
-                }
-				b_atlantis_8 = {
-					province = 9
-					color = { 1 1 1 }
+
+			c_blaas = {
+				color = { 230 186 31 }
+
+				b_ushteyghoo = {
+					color = { 230 186 31 }
+					province = 4
 				}
-				b_atlantis_9 = {
+
+				b_aarnieu_delta = {
+					color = { 230 186 31 }
+					province = 3
+				}
+			}
+
+			c_crongan = {
+				color = { 230 200 93 }
+
+				b_lheimmeyushtey = {
+					color = { 230 200 93 }
 					province = 10
-					color = { 1 1 1 }
+				}
+
+				b_loch_craine = {
+					color = { 230 200 93 }
+					province = 8
+				}
+
+				b_lathadu_6 = {
+					color = { 230 200 93 }
+					province = 7
+				}
+
+				b_lathadu_4 = {
+					color = { 230 200 93 }
+					province = 5
 				}
 			}
 		}
 	}
 }
+

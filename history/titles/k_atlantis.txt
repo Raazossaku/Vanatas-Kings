@@ -1,24 +1,21 @@
-d_atlantis = {
-	1.1.1 = {
+﻿c_messglassey = {
+	0.0.0 = {
+		holder = 1
+	}
+}
+c_blaas = {
+	0.0.0 = {
+		holder = 1
+	}
+}
+c_crongan = {
+	0.0.0 = {
+		holder = 1
+	}
+}
+d_lathadu = {
+	0.0.0 = {
 		holder = 1
 		government = feudal_government
-	}
-}
-
-c_atlantis = {
-	1.1.1 = {
-		holder = 1
-	}
-}
-
-c_atlantis_b = {
-	1.1.1 = {
-		holder = 1
-	}
-}
-
-c_atlantis_c = {
-	1.1.1 = {
-		holder = 1
 	}
 }
