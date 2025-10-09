@@ -14,10 +14,10 @@
 		dynasty_splendor_level = 1
 		type = male
 		birth = 1.1.1
-		title = d_atlantis
+		title = d_lathadu
 		government = feudal_government
-		culture = atlantean
-		religion = atlantite
+		culture = gundiach
+		religion = cideach_ayekism
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = 1
 		position = { 200 400 }

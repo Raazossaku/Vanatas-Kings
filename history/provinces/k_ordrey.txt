@@ -1,0 +1,49 @@
+# e_sedes
+#  k_ordrey
+#   d_lathadu
+
+2 = {
+	holding = none
+}
+
+3 = {
+    culture = gundiagh
+    religion = cideach_ayekism
+	holding = city_holding
+}
+
+4 = {
+    culture = gundiagh
+    religion = cideach_ayekism
+    holding = castle_holding
+}
+
+5 = {
+	holding = none
+}
+
+6 = {
+	culture = gundiagh
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+7 = {
+	holding = none
+}
+
+8 = {
+	culture = gundiagh
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+9 = {
+	holding = none
+}
+
+10 = {
+	culture = gundiagh
+	religion = cideach_ayekism
+	holding = castle_holding
+}

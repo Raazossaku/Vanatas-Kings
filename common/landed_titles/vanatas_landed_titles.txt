@@ -2,6 +2,8 @@
 	color = { 87 218 42 }
 	capital = c_messglassey
 
+	definite_form = yes
+
 	k_ordrey = {
 		color = { 77 166 67 }
 		capital = c_messglassey

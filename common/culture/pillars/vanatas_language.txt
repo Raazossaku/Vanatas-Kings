@@ -1,0 +1,60 @@
+﻿language_cideach = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_cideach
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_cideach }
+			multiply = 10
+		}
+	}
+	
+	color = gaelic
+}
+language_gundiagh = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_gundiagh
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_gundiagh }
+			multiply = 10
+		}
+	}
+	
+	color = gaelic
+}
+
+language_manuak = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_manuak
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_manuak }
+			multiply = 10
+		}
+		if = {
+			limit = {
+				scope:character = {
+					religion = religion:islam_religion
+				}
+			}
+			multiply = 2
+		}
+	}
+	
+	color = bedouin
+}

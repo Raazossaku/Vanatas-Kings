@@ -1,0 +1,18 @@
+﻿l_english:
+
+ atlantite_religion: "Atlantitism"
+ atlantite_religion_adj: "Atlantite"
+ atlantite_religion_desc: "Atlantites worship the Hellenic pantheon."
+
+ atlantite: "Atlantitism"
+ atlantite_adj: "Atlantite"
+
+ holy_site_atlantis_name: "Atlantis"
+ holy_site_atlantis_effect_name: "From [holy_site|E] #weak ($holy_site_atlantis_name$)#!"
+
+ ayekism_religion: "Ayekism"
+ ayekism_religion_adj: "Ayekist"
+ ayekism_religion_desc: "Ayekists follow the Living Path of Allfather Fire."
+
+ cideach_ayekism: "Cídeach Ayekism"
+ cideach_ayekism_adj: "Cídeach"
