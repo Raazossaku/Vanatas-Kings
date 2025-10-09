@@ -4,38 +4,34 @@
 #    c_atlantis
 
 2 = {
-    culture = atlantean
-    religion = atlantite
-    holding = castle_holding
+	holding = none
 }
 
 3 = {
-	holding = none
+    	culture = atlantean
+    	religion = atlantite
+	holding = city_holding
 }
 
 4 = {
-	holding = none
+    	culture = atlantean
+    	religion = atlantite
+    	holding = castle_holding
 }
 
-#    c_atlantis_b
-
 5 = {
-	culture = atlantean
-	religion = atlantite
-	holding = castle_holding
+	holding = none
 }
 
 6 = {
-	holding = none
-}
-
-7 = {
 	culture = atlantean
 	religion = atlantite
 	holding = castle_holding
 }
 
-#    c_atlantis_c
+7 = {
+	holding = none
+}
 
 8 = {
 	culture = atlantean
@@ -48,5 +44,7 @@
 }
 
 10 = {
-	holding = none
+	culture = atlantean
+	religion = atlantite
+	holding = castle_holding
 }
