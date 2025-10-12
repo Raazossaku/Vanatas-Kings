@@ -5,8 +5,8 @@ topology = "heightmap.heightmap"
 continent = "continent.txt"
 adjacencies = "adjacencies.csv"
 island_region = "island_region.txt"
-geographical_region = "geographical_region.txt"
-seasons = "seasons.txt"
+#geographical_region = "geographical_region.txt"
+#seasons = "seasons.txt"
 
 
 
