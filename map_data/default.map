@@ -14,7 +14,7 @@ sea_zones = LIST { 1 21 22 23 }
 
 impassable_seas = LIST { 1 }
 
-
+impassable_mountains = LIST { 24 }
 
 
 
