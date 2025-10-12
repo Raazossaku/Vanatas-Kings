@@ -9,10 +9,14 @@
 }
 
 3 = {
+    culture = gundiagh
+    religion = cideach_ayekism
 	holding = none
 }
 
 4 = {
+    culture = gundiagh
+    religion = cideach_ayekism
 	holding = none
 }
 
@@ -41,9 +45,74 @@
 }
 
 9 = {
+    culture = gundiagh
+    religion = cideach_ayekism
 	holding = none
 }
 
 10 = {
+    culture = gundiagh
+    religion = cideach_ayekism
 	holding = none
 }
+
+11 = {
+	culture = gundiagh
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+12 = {
+    culture = gundiagh
+    religion = cideach_ayekism
+	holding = none
+}
+
+13 = {
+    culture = gundiagh
+    religion = cideach_ayekism
+	holding = none
+}
+
+14 = {
+	culture = gundiagh
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+15 = {
+    culture = gundiagh
+    religion = cideach_ayekism
+	holding = none
+}
+
+16 = {
+    culture = gundiagh
+    religion = cideach_ayekism
+	holding = none
+}
+
+17 = {
+	culture = gundiagh
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+18 = {
+    culture = gundiagh
+    religion = cideach_ayekism
+	holding = none
+}
+
+19 = {
+    culture = gundiagh
+    religion = cideach_ayekism
+	holding = none
+}
+
+20 = {
+    culture = gundiagh
+    religion = cideach_ayekism
+	holding = city_holding
+}
+

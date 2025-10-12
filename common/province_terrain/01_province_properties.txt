@@ -17,4 +17,13 @@
 11 = { winter_severity_bias = 0.50 }
 12 = { winter_severity_bias = 0.50 }
 13 = { winter_severity_bias = 0.50 }
-14 = { }
+14 = { winter_severity_bias = 0.50 }
+15 = { winter_severity_bias = 0.50 }
+16 = { winter_severity_bias = 0.50 }
+17 = { winter_severity_bias = 0.50 }
+18 = { winter_severity_bias = 0.50 }
+19 = { winter_severity_bias = 0.50 }
+20 = { winter_severity_bias = 0.50 }
+21 = { winter_severity_bias = 0.50 }
+22 = { winter_severity_bias = 0.50 }
+23 = { winter_severity_bias = 0.50 }
