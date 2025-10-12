@@ -17,17 +17,17 @@
 
 				b_ooylshugrey = {
 					color = { 230 193 62 }
-					province = 6
+					province = 2
 				}
 
 				b_lathadu_1 = {
 					color = { 230 193 62 }
-					province = 2
+					province = 3
 				}
 
 				b_calleebane = {
 					color = { 230 193 62 }
-					province = 9
+					province = 4
 				}
 			}
 
@@ -36,12 +36,12 @@
 
 				b_ushteyghoo = {
 					color = { 230 186 31 }
-					province = 4
+					province = 5
 				}
 
 				b_aarnieu_delta = {
 					color = { 230 186 31 }
-					province = 3
+					province = 6
 				}
 			}
 
@@ -50,7 +50,7 @@
 
 				b_lheimmeyushtey = {
 					color = { 230 200 93 }
-					province = 10
+					province = 7
 				}
 
 				b_loch_craine = {
@@ -58,14 +58,14 @@
 					province = 8
 				}
 
-				b_lathadu_6 = {
-					color = { 230 200 93 }
-					province = 7
-				}
-
 				b_lathadu_4 = {
 					color = { 230 200 93 }
-					province = 5
+					province = 9
+				}
+
+				b_lathadu_6 = {
+					color = { 230 200 93 }
+					province = 10
 				}
 			}
 		}

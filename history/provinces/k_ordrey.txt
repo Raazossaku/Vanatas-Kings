@@ -3,33 +3,35 @@
 #   d_lathadu
 
 2 = {
-	holding = none
+    culture = gundiagh
+    religion = cideach_ayekism
+	holding = castle_holding
 }
 
 3 = {
-    culture = gundiagh
-    religion = cideach_ayekism
-	holding = city_holding
+	holding = none
 }
 
 4 = {
+	holding = none
+}
+
+5 = {
     culture = gundiagh
     religion = cideach_ayekism
     holding = castle_holding
 }
 
-5 = {
-	holding = none
-}
-
 6 = {
 	culture = gundiagh
 	religion = cideach_ayekism
-	holding = castle_holding
+	holding = city_holding
 }
 
 7 = {
-	holding = none
+	culture = gundiagh
+	religion = cideach_ayekism
+	holding = castle_holding
 }
 
 8 = {
@@ -43,7 +45,5 @@
 }
 
 10 = {
-	culture = gundiagh
-	religion = cideach_ayekism
-	holding = castle_holding
+	holding = none
 }
