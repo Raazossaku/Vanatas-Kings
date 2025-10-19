@@ -212,7 +212,7 @@ custom_arakan_mountains = { }
 ghw_region_caspian_steppe = { }
 special_mongol_empire_conquest_region_prio_1 = { }
 sea_south_atlantic = {
-	provinces = {     1 11 12 13 }
+	provinces = {     1 88 89 90 91 92 }
 }
 custom_asturleonese = { }
 ghw_region_gujarat_&_rajputana = { }

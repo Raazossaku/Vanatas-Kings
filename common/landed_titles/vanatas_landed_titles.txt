@@ -20,7 +20,7 @@
 					province = 2
 				}
 
-				b_lathadu_1 = {
+				b_messglassey_1 = {
 					color = { 230 193 62 }
 					province = 3
 				}
@@ -57,16 +57,6 @@
 					color = { 230 200 93 }
 					province = 8
 				}
-
-				b_lathadu_4 = {
-					color = { 230 200 93 }
-					province = 9
-				}
-
-				b_lathadu_6 = {
-					color = { 230 200 93 }
-					province = 10
-				}
 			}
 
 			c_gareyblaa = {
@@ -74,17 +64,17 @@
 
 				b_loch_bane = {
 					color = { 189 151 18 }
+					province = 9
+				}
+
+				b_gareyblaa_1 = {
+					color = { 189 151 18 }
+					province = 10
+				}
+
+				b_gareyblaa_2 = {
+					color = { 189 151 18 }
 					province = 11
-				}
-
-				b_lathadu_2 = {
-					color = { 189 151 18 }
-					province = 12
-				}
-
-				b_lathadu_3 = {
-					color = { 189 151 18 }
-					province = 13
 				}
 			}
 
@@ -93,17 +83,17 @@
 
 				b_balleyollym = {
 					color = { 247 189 43 }
-					province = 14
+					province = 12
 				}
 
 				b_doghyscalit = {
 					color = { 247 189 43 }
-					province = 15
+					province = 13
 				}
 
 				b_shenncheyll = {
 					color = { 247 189 43 }
-					province = 16
+					province = 14
 				}
 			}
 
@@ -112,17 +102,17 @@
 
 				b_logh_bowen = {
 					color = { 246 217 116 }
-					province = 17
+					province = 15
 				}
 
 				b_mayragh_ushtaghyn = {
 					color = { 246 217 116 }
-					province = 18
+					province = 16
 				}
 
-				b_lathadu_5 = {
+				b_doochassagh_1 = {
 					color = { 246 217 116 }
-					province = 19
+					province = 17
 				}
 			}
 
@@ -131,7 +121,7 @@
 
 				b_forbes = {
 					color = { 189 222 32 }
-					province = 20
+					province = 18
 				}
 			}
 		}

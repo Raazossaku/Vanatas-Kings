@@ -1,21 +1,6 @@
 ﻿c_messglassey = {
 	1.1.1 = {
 		holder = 1
-	}
-}
-c_blaas = {
-	1.1.1 = {
-		holder = 1
-	}
-}
-c_crongan = {
-	1.1.1 = {
-		holder = 1
-	}
-}
-d_lathadu = {
-	1.1.1 = {
-		holder = 1
 		government = feudal_government
 	}
 }

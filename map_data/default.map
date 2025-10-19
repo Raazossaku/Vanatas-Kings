@@ -10,11 +10,11 @@ seasons = "seasons.txt"
 
 
 
-sea_zones = LIST { 1 21 22 23 }
+sea_zones = LIST { 1 88 89 90 91 92 }
 
 impassable_seas = LIST { 1 }
 
-impassable_mountains = LIST { 24 }
+impassable_mountains = LIST { 93 }
 
 
 
