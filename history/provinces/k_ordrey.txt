@@ -104,3 +104,416 @@
 	holding = city_holding
 }
 
+19 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+20 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+21 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+22 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+23 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = city_holding
+}
+
+24 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+25 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+26 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+27 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+28 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+29 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+30 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+31 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+32 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+33 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+34 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+35 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+36 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+37 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+38 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+39 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+40 = {
+	culture = ordrish
+	religion = tretweg_ayekism
+	holding = castle_holding
+}
+
+41 = {
+	culture = ordrish
+	religion = tretweg_ayekism
+	holding = none
+}
+
+42 = {
+	culture = ordrish
+	religion = tretweg_ayekism
+	holding = castle_holding
+}
+
+43 = {
+	culture = ordrish
+	religion = tretweg_ayekism
+	holding = none
+}
+
+44 = {
+	culture = ordrish
+	religion = tretweg_ayekism
+	holding = castle_holding
+}
+
+45 = {
+	culture = ordrish
+	religion = tretweg_ayekism
+	holding = none
+}
+
+46 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+47 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+48 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+49 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+50 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+51 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+52 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+53 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+54 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+55 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+56 = {
+	culture = ordrish
+	religion = tretweg_ayekism
+	holding = castle_holding
+}
+
+57 = {
+	culture = ordrish
+	religion = tretweg_ayekism
+	holding = castle_holding
+}
+
+58 = {
+	culture = ordrish
+	religion = tretweg_ayekism
+	holding = none
+}
+
+59 = {
+	culture = ordrish
+	religion = tretweg_ayekism
+	holding = castle_holding
+}
+
+60 = {
+	culture = ordrish
+	religion = tretweg_ayekism
+	holding = none
+}
+
+61 = {
+	culture = ordrish
+	religion = tretweg_ayekism
+	holding = castle_holding
+}
+
+62 = {
+	culture = ordrish
+	religion = tretweg_ayekism
+	holding = none
+}
+
+63 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+64 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+65 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+66 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+67 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+68 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+69 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+70 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+71 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+72 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+73 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+74 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+75 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+76 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+77 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+78 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+79 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+80 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+81 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+82 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+83 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+84 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+85 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+
+86 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+
+87 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}

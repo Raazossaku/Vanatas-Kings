@@ -1,5 +1,5 @@
 cideach = {
-	color = hsv { 0.43 0.86 0.61 }
+	color = hsv { 0.65 0.75 0.18 }
 	
 	ethos = ethos_courtly
 	heritage = heritage_sedic
@@ -30,7 +30,7 @@ cideach = {
 }
 
 gundiagh = {
-	color = gaelic
+	color = hsv { 0.80 0.84 0.19 }
 	created = 1000.1.1
 	parents = { cideach }
 	
@@ -52,6 +52,39 @@ gundiagh = {
 	coa_gfx = { scottish_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+ordrish = {
+	color = hsv { 0.46 0.61 0.17 }
+	created = 400.1.1
+	parents = { lledoweg }
+	
+	ethos = ethos_stoic
+	heritage = heritage_sedic
+	language = language_ordrish
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mystical_ancestors
+		tradition_strong_kinship
+		tradition_wetlanders
+		tradition_storytellers
+		tradition_festivities
+	}
+
+	name_list = name_list_cumbrian
+	
+	coa_gfx = { welsh_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
