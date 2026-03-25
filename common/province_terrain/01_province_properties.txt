@@ -1,29 +1,20 @@
-﻿@himalayan_mountains = 0.90
-@tibetan_mountains = 0.80
-@afghan_mountains = 0.60
-@azerbaijan_mountains = 0.40
-@the_alps = 0.80
+﻿1 = {
+	winter_severity_bias = 0.00
+}
 
-1 = { winter_severity_bias = 0.50 }
-2 = { winter_severity_bias = 0.50 }
-3 = { winter_severity_bias = 0.50 }
-4 = { winter_severity_bias = 0.50 }
-5 = { winter_severity_bias = 0.50 }
-6 = { winter_severity_bias = 0.50 }
-7 = { winter_severity_bias = 0.50 }
-8 = { winter_severity_bias = 0.50 }
-9 = { winter_severity_bias = 0.50 }
-10 = { winter_severity_bias = 0.50 }
-11 = { winter_severity_bias = 0.50 }
-12 = { winter_severity_bias = 0.50 }
-13 = { winter_severity_bias = 0.50 }
-14 = { winter_severity_bias = 0.50 }
-15 = { winter_severity_bias = 0.50 }
-16 = { winter_severity_bias = 0.50 }
-17 = { winter_severity_bias = 0.50 }
-18 = { winter_severity_bias = 0.50 }
-19 = { winter_severity_bias = 0.50 }
-20 = { winter_severity_bias = 0.50 }
-21 = { winter_severity_bias = 0.50 }
-22 = { winter_severity_bias = 0.50 }
-23 = { winter_severity_bias = 0.50 }
+
+2 = {
+	winter_severity_bias = 0.00
+}
+
+3 = {
+	winter_severity_bias = 0.00
+}
+
+4 = {
+	winter_severity_bias = 0.00
+}
+
+5 = {
+	winter_severity_bias = 0.00
+}

@@ -1,6 +1,0 @@
-﻿c_messglassey = {
-	1.1.1 = {
-		holder = 1
-		government = feudal_government
-	}
-}
