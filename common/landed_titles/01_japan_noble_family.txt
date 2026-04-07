@@ -1,0 +1,894 @@
+﻿c_nf_yamato = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_ashikaga = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_hamuro = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_hidesato = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_hizume = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_jimyoin = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_kajuji = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_kanin = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_kazanin = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_koichijo = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_kujo = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_kyo = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_manatsu = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_matsudono = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_michitsuna = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_mikohida = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_nakamikado = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_nakamura = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_namba = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_nan = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_oinomikado = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_ononomiya = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_oshu = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_rokujo = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_yoshikado = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_saionji = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_saito = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_sanjo = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_sesonji = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_shijo = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_shiki = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_takaie = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_tokudaiji = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_uona = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_utsunomiya = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_yamakage = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_fujiwara_yoshiyo = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_daigo = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_hiraga = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_hitachi = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_inoue = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_ishikawa = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_kai = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_kawachi = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_kazan = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_kiso = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_koga = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_koko = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_kozuke = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_mino = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_mitsumasa = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_mizukui = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_montoku = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_murakami = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_murakami_shinano = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_ninmyo = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_oshu_ishikawa = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_saga = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_sanjo = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_sasaki = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_seiwa = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_settsu = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_shimotsuke = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_shinano = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_toki = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_watanabe = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_uda = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_yamamoto = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_yamato = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_yoda = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minamoto_yozei = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_boso = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_chiba = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_chichibu = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_echigo = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_hara = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_hatakeyama = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_hitachi = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_hojo = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_iwaki = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_kajiwara = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_kamakura = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_kaneko = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_kanmu = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_kawagoe = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_kazusa = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_miura = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_murayama = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_nakamura = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_noyo = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_oba = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_satsuma = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_shibuya = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_takamune = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taira_wada = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_ki_hosomi = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_ki_miyatsuko = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_ki_oi = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_abe = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_abe_oshu = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_abe_noto = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_abiru = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_abo = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_adachi = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_ariwara = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_funya = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_harada = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_harusumi = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_hatano = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_hozumi = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_ikeda = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_irie = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_ito = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_ito_2 = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_kamachi = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_kawazu = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_ki = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_kibi = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_kikkawa = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_kikuchi = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_kimiko = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_kimotsuki = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_kono = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_kusakabe = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_kiyohara = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_kiyohara_hirozumi = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_kiyohara_masato = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_kiyotaki = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_koremune = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_kudara = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_kudo = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_matsura = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_mihara = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_minabuchi = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_miyako = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_mononobe_isonokami = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_naga = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_nagamine = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_nakahara = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_nakahara_kiso = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_nakatomi = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_ochi = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_oe = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_omiwa_usuki = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_okawa = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_okasuga = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_omiwa = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_onakatomi = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_ono = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_oono = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_osada = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_otsuki = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_ouchi = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_saeki_2 = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_saeki_sanyo = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_sakanoue = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_sato = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_senoo = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_shigeno = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_shimada = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_soga_ishikawa = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_sugano = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_sugawara = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_suzuki = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_tachibana = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_tachibana_tokai = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_tagawa = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_taguchi = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_takashina = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_tatara = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_tomo = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_usa = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_wake = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_yokoyama = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_yoshimichi = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_yoshimine = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_yuasa = {
+	capital = c_atlantis
+	landless = yes
+}
+
+d_laamp_arrow_cutters = {
+	capital = c_atlantis
+	landless = yes
+}

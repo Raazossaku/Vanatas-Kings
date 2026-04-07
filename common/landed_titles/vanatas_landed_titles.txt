@@ -375,27 +375,27 @@
 			}
 			
 			c_weilan = {
-				color = { 106 144 108 }
+				color = { 55 173 120 }
 
 				b_weilan_weilan = {
-					color = { 106 144 108 }
+					color = { 55 173 120 }
 					province = 57
 				}
 				b_weilan_1 = {
-					color = { 133 174 128 }
+					color = { 55 173 120 }
 					province = 58
 				}
 			}
 			
 			c_flay = {
-				color = { 55 173 120 }
+				color = { 95 132 132 }
 
 				b_flay_flaisdour = {
-					color = { 55 173 120 }
+					color = { 95 132 132 }
 					province = 59
 				}
 				b_flay_1 = {
-					color = { 55 173 120 }
+					color = { 95 132 132 }
 					province = 60
 				}
 			}
@@ -559,5 +559,22 @@
 			}
 		}
 	}
+	
+	k_salia = {
+		color = { 77 166 67 }
+		capital = c_melesa
+
+		d_melesa = {
+			color = { 230 180 1 }
+			capital = c_melesa
+
+			c_melesa = {
+				color = { 208 168 28 }
+
+				b_melesa = {
+					color = { 208 168 28 }
+					province = 88
+				}
+
 }
 

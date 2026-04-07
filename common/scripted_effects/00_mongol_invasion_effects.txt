@@ -1527,11 +1527,14 @@ assign_core_mongol_titles_to_heir_effect = {
 								geographical_region = special_mongol_empire_ilkhanate_region
 								geographical_region = special_mongol_empire_golden_horde_region
 								geographical_region = special_mongol_empire_chagatai_region
-								geographical_region = special_mongol_empire_black_horde_region
+								geographical_region = special_mongol_empire_red_horde_region
 								geographical_region = special_mongol_empire_white_horde_region
 								geographical_region = special_mongol_empire_aarlud_khanate_region
 								geographical_region = special_mongol_empire_togskol_khanate_region
 								geographical_region = special_mongol_empire_baruun_khanate_region
+								geographical_region = special_mongol_empire_great_yuan_region
+								geographical_region = special_mongol_empire_blue_horde_region
+								geographical_region = special_mongol_empire_omnod_dalai_khanate_region
 							}
 						}
 					}
@@ -1545,11 +1548,14 @@ assign_core_mongol_titles_to_heir_effect = {
 								geographical_region = special_mongol_empire_ilkhanate_region
 								geographical_region = special_mongol_empire_golden_horde_region
 								geographical_region = special_mongol_empire_chagatai_region
-								geographical_region = special_mongol_empire_black_horde_region
+								geographical_region = special_mongol_empire_red_horde_region
 								geographical_region = special_mongol_empire_white_horde_region
 								geographical_region = special_mongol_empire_aarlud_khanate_region
 								geographical_region = special_mongol_empire_togskol_khanate_region
 								geographical_region = special_mongol_empire_baruun_khanate_region
+								geographical_region = special_mongol_empire_great_yuan_region
+								geographical_region = special_mongol_empire_blue_horde_region
+								geographical_region = special_mongol_empire_omnod_dalai_khanate_region
 							}
 						}
 					}
@@ -2201,7 +2207,7 @@ grant_chagatai_effect = {
 	grant_mongol_successor_nomadic_bonuses_effect = yes
 }
 
-grant_black_horde_effect = {
+grant_red_horde_effect = {
 
 	# If the character doesn't hold any titles in the relevant
 	if = {
@@ -2210,7 +2216,7 @@ grant_black_horde_effect = {
 				any_held_title = {
 					tier = tier_county
 					title_province = {
-						geographical_region = special_mongol_empire_black_horde_region
+						geographical_region = special_mongol_empire_red_horde_region
 					}
 				}
 			}
@@ -2219,7 +2225,7 @@ grant_black_horde_effect = {
 			random_sub_realm_county = {
 				limit = {
 					title_province = {
-						geographical_region = special_mongol_empire_black_horde_region
+						geographical_region = special_mongol_empire_red_horde_region
 					}
 				}
 				save_scope_as = county_to_transfer
@@ -2243,7 +2249,7 @@ grant_black_horde_effect = {
 		save_scope_as = title_change
 		add_claim_on_loss = no
 	}
-	title:e_black_horde = {
+	title:e_red_horde = {
 		change_title_holder = {
 			holder = scope:candidate
 			change = scope:title_change
@@ -2252,11 +2258,11 @@ grant_black_horde_effect = {
 	resolve_title_and_vassal_change = scope:title_change
 
 	scope:candidate = {
-		save_scope_as = black_horde_ruler
+		save_scope_as = red_horde_ruler
 	}
 
 	set_global_variable = {
-		name = black_horde_handed_out
+		name = red_horde_handed_out
 		value = yes
 	}
 	
@@ -2265,7 +2271,7 @@ grant_black_horde_effect = {
 		limit = {
 			scope:old_mongol_emperor = {
 				any_sub_realm_county = {
-					duchy = title:e_black_horde.title_capital_county.duchy
+					duchy = title:e_red_horde.title_capital_county.duchy
 					NOR = {
 						holder = scope:candidate
 						holder = { # Don't steal the player's lands
@@ -2281,7 +2287,7 @@ grant_black_horde_effect = {
 		scope:old_mongol_emperor = {
 			every_sub_realm_county = {
 				limit = {
-					duchy = title:e_black_horde.title_capital_county.duchy
+					duchy = title:e_red_horde.title_capital_county.duchy
 					NOR = {
 						holder = scope:candidate
 						holder = { # Don't steal the player's lands
@@ -2315,21 +2321,21 @@ grant_black_horde_effect = {
 	}
 	if = {
 		limit = {
-			has_title = title:e_black_horde.title_capital_county
+			has_title = title:e_red_horde.title_capital_county
 		}
-		set_realm_capital = title:e_black_horde.title_capital_county
+		set_realm_capital = title:e_red_horde.title_capital_county
 	}
 	else_if = {
 		limit = {
 			NOT = {
 				capital_county.title_province = {
-					geographical_region = special_mongol_empire_black_horde_region
+					geographical_region = special_mongol_empire_red_horde_region
 				}
 			}
 			any_held_title = {
 				tier = tier_county
 				title_province = {
-					geographical_region = special_mongol_empire_black_horde_region
+					geographical_region = special_mongol_empire_red_horde_region
 				}
 			}
 		}
@@ -2337,7 +2343,7 @@ grant_black_horde_effect = {
 			limit = {
 				tier = tier_county
 				title_province = {
-					geographical_region = special_mongol_empire_black_horde_region
+					geographical_region = special_mongol_empire_red_horde_region
 				}
 			}
 			scope:candidate = {
@@ -2980,11 +2986,11 @@ pick_up_remaining_counties_effect = {
 		# Try Black Horde
 		else_if = {
 			limit = {
-				exists = global_var:black_horde_handed_out
+				exists = global_var:red_horde_handed_out
 			}
 			every_in_list = {
 				list = ilkhanate_counties
-				add_to_list = black_horde_counties
+				add_to_list = red_horde_counties
 			}
 		}
 		# Try Golden Horde
@@ -3097,9 +3103,9 @@ pick_up_remaining_counties_effect = {
 	### Black Horde
 	if = {
 		limit = {
-			NOT = { exists = global_var:black_horde_handed_out }
+			NOT = { exists = global_var:red_horde_handed_out }
 			any_in_list = {
-				list = black_horde_counties
+				list = red_horde_counties
 				count > 0
 			}
 		}
@@ -3109,7 +3115,7 @@ pick_up_remaining_counties_effect = {
 				exists = global_var:ilkhanate_handed_out
 			}
 			every_in_list = {
-				list = black_horde_counties
+				list = red_horde_counties
 				add_to_list = ilkhanate_counties
 			}
 		}
@@ -3119,7 +3125,7 @@ pick_up_remaining_counties_effect = {
 				exists = global_var:chagatai_handed_out
 			}
 			every_in_list = {
-				list = black_horde_counties
+				list = red_horde_counties
 				add_to_list = chagatai_counties
 			}
 		}
@@ -3129,7 +3135,7 @@ pick_up_remaining_counties_effect = {
 				exists = global_var:baruun_khanate_handed_out
 			}
 			every_in_list = {
-				list = black_horde_counties
+				list = red_horde_counties
 				add_to_list = baruun_khanate_counties
 			}
 		}
@@ -3324,11 +3330,11 @@ pick_up_remaining_counties_effect = {
 		# Try Black Horde
 		else_if = {
 			limit = {
-				exists = global_var:black_horde_handed_out
+				exists = global_var:red_horde_handed_out
 			}
 			every_in_list = {
 				list = baruun_khanate_counties
-				add_to_list = black_horde_counties
+				add_to_list = red_horde_counties
 			}
 		}
 	}
@@ -3411,20 +3417,20 @@ set_correct_mongol_breakup_vassalage_effect = {
 				}
 			}
 			set_global_variable = {
-				name = black_horde_county_count
+				name = red_horde_county_count
 				value = 0
 			}
 			if = { # Count Black Horde counties
 				limit = {
-					exists = global_var:black_horde_handed_out
+					exists = global_var:red_horde_handed_out
 				}
 				every_sub_realm_county = {
 					limit = {
-						is_in_list = black_horde_counties
+						is_in_list = red_horde_counties
 					}
 					scope:vassal = {
 						change_global_variable = {
-							name = black_horde_county_count
+							name = red_horde_county_count
 							add = 1
 						}
 					}
@@ -3530,8 +3536,8 @@ set_correct_mongol_breakup_vassalage_effect = {
 						NOT = { is_in_list = chagatai_counties }
 					}
 					trigger_if = {
-						limit = { exists = global_var:black_horde_handed_out }
-						NOT = { is_in_list = black_horde_counties }
+						limit = { exists = global_var:red_horde_handed_out }
+						NOT = { is_in_list = red_horde_counties }
 					}
 					trigger_if = {
 						limit = { exists = global_var:white_horde_handed_out }
@@ -3564,7 +3570,7 @@ set_correct_mongol_breakup_vassalage_effect = {
 					global_var:leftover_mongol_county_count >= global_var:ilkhanate_county_count
 					global_var:leftover_mongol_county_count >= global_var:golden_horde_county_count
 					global_var:leftover_mongol_county_count >= global_var:chagatai_county_count
-					global_var:leftover_mongol_county_count >= global_var:black_horde_county_count
+					global_var:leftover_mongol_county_count >= global_var:red_horde_county_count
 					global_var:leftover_mongol_county_count >= global_var:white_horde_county_count
 					global_var:leftover_mongol_county_count >= global_var:aarlud_khanate_county_count
 					global_var:leftover_mongol_county_count >= global_var:togskol_khanate_county_count
@@ -3577,7 +3583,7 @@ set_correct_mongol_breakup_vassalage_effect = {
 					global_var:ilkhanate_county_count > global_var:leftover_mongol_county_count
 					global_var:ilkhanate_county_count > global_var:golden_horde_county_count
 					global_var:ilkhanate_county_count > global_var:chagatai_county_count
-					global_var:ilkhanate_county_count > global_var:black_horde_county_count
+					global_var:ilkhanate_county_count > global_var:red_horde_county_count
 					global_var:ilkhanate_county_count > global_var:white_horde_county_count
 					global_var:ilkhanate_county_count > global_var:aarlud_khanate_county_count
 					global_var:ilkhanate_county_count > global_var:togskol_khanate_county_count
@@ -3590,7 +3596,7 @@ set_correct_mongol_breakup_vassalage_effect = {
 					global_var:golden_horde_county_count > global_var:leftover_mongol_county_count
 					global_var:golden_horde_county_count > global_var:ilkhanate_county_count
 					global_var:golden_horde_county_count > global_var:chagatai_county_count
-					global_var:golden_horde_county_count > global_var:black_horde_county_count
+					global_var:golden_horde_county_count > global_var:red_horde_county_count
 					global_var:golden_horde_county_count > global_var:white_horde_county_count
 					global_var:golden_horde_county_count > global_var:aarlud_khanate_county_count
 					global_var:golden_horde_county_count > global_var:togskol_khanate_county_count
@@ -3603,7 +3609,7 @@ set_correct_mongol_breakup_vassalage_effect = {
 					global_var:chagatai_county_count > global_var:leftover_mongol_county_count
 					global_var:chagatai_county_count > global_var:ilkhanate_county_count
 					global_var:chagatai_county_count > global_var:golden_horde_county_count
-					global_var:chagatai_county_count > global_var:black_horde_county_count
+					global_var:chagatai_county_count > global_var:red_horde_county_count
 					global_var:chagatai_county_count > global_var:white_horde_county_count
 					global_var:chagatai_county_count > global_var:aarlud_khanate_county_count
 					global_var:chagatai_county_count > global_var:togskol_khanate_county_count
@@ -3613,16 +3619,16 @@ set_correct_mongol_breakup_vassalage_effect = {
 			}
 			else_if = {
 				limit = {
-					global_var:black_horde_county_count > global_var:leftover_mongol_county_count
-					global_var:black_horde_county_count > global_var:ilkhanate_county_count
-					global_var:black_horde_county_count > global_var:golden_horde_county_count
-					global_var:black_horde_county_count > global_var:chagatai_county_count
-					global_var:black_horde_county_count > global_var:white_horde_county_count
-					global_var:black_horde_county_count > global_var:aarlud_khanate_county_count
-					global_var:black_horde_county_count > global_var:togskol_khanate_county_count
-					global_var:black_horde_county_count > global_var:baruun_khanate_county_count
+					global_var:red_horde_county_count > global_var:leftover_mongol_county_count
+					global_var:red_horde_county_count > global_var:ilkhanate_county_count
+					global_var:red_horde_county_count > global_var:golden_horde_county_count
+					global_var:red_horde_county_count > global_var:chagatai_county_count
+					global_var:red_horde_county_count > global_var:white_horde_county_count
+					global_var:red_horde_county_count > global_var:aarlud_khanate_county_count
+					global_var:red_horde_county_count > global_var:togskol_khanate_county_count
+					global_var:red_horde_county_count > global_var:baruun_khanate_county_count
 				}
-				add_character_flag = should_be_vassalized_by_black_horde
+				add_character_flag = should_be_vassalized_by_red_horde
 			}
 			else_if = {
 				limit = {
@@ -3630,7 +3636,7 @@ set_correct_mongol_breakup_vassalage_effect = {
 					global_var:white_horde_county_count > global_var:ilkhanate_county_count
 					global_var:white_horde_county_count > global_var:golden_horde_county_count
 					global_var:white_horde_county_count > global_var:chagatai_county_count
-					global_var:white_horde_county_count > global_var:black_horde_county_count
+					global_var:white_horde_county_count > global_var:red_horde_county_count
 					global_var:white_horde_county_count > global_var:aarlud_khanate_county_count
 					global_var:white_horde_county_count > global_var:togskol_khanate_county_count
 					global_var:white_horde_county_count > global_var:baruun_khanate_county_count
@@ -3643,7 +3649,7 @@ set_correct_mongol_breakup_vassalage_effect = {
 					global_var:aarlud_khanate_county_count > global_var:ilkhanate_county_count
 					global_var:aarlud_khanate_county_count > global_var:golden_horde_county_count
 					global_var:aarlud_khanate_county_count > global_var:chagatai_county_count
-					global_var:aarlud_khanate_county_count > global_var:black_horde_county_count
+					global_var:aarlud_khanate_county_count > global_var:red_horde_county_count
 					global_var:aarlud_khanate_county_count > global_var:white_horde_county_count
 					global_var:aarlud_khanate_county_count > global_var:togskol_khanate_county_count
 					global_var:aarlud_khanate_county_count > global_var:baruun_khanate_county_count
@@ -3656,7 +3662,7 @@ set_correct_mongol_breakup_vassalage_effect = {
 					global_var:togskol_khanate_county_count > global_var:ilkhanate_county_count
 					global_var:togskol_khanate_county_count > global_var:golden_horde_county_count
 					global_var:togskol_khanate_county_count > global_var:chagatai_county_count
-					global_var:togskol_khanate_county_count > global_var:black_horde_county_count
+					global_var:togskol_khanate_county_count > global_var:red_horde_county_count
 					global_var:togskol_khanate_county_count > global_var:white_horde_county_count
 					global_var:togskol_khanate_county_count > global_var:aarlud_khanate_county_count
 					global_var:togskol_khanate_county_count > global_var:baruun_khanate_county_count
@@ -3669,7 +3675,7 @@ set_correct_mongol_breakup_vassalage_effect = {
 					global_var:baruun_khanate_county_count > global_var:ilkhanate_county_count
 					global_var:baruun_khanate_county_count > global_var:golden_horde_county_count
 					global_var:baruun_khanate_county_count > global_var:chagatai_county_count
-					global_var:baruun_khanate_county_count > global_var:black_horde_county_count
+					global_var:baruun_khanate_county_count > global_var:red_horde_county_count
 					global_var:baruun_khanate_county_count > global_var:white_horde_county_count
 					global_var:baruun_khanate_county_count > global_var:aarlud_khanate_county_count
 					global_var:baruun_khanate_county_count > global_var:togskol_khanate_county_count
@@ -3750,11 +3756,11 @@ shift_counties_on_mongol_succession_effect = {
 			}
 			if = {
 				limit = {
-					exists = global_var:black_horde_handed_out
-					is_in_list = black_horde_counties
-					NOT = { holder = { has_title = title:e_black_horde } }
+					exists = global_var:red_horde_handed_out
+					is_in_list = red_horde_counties
+					NOT = { holder = { has_title = title:e_red_horde } }
 				}
-				add_to_list = black_horde_titles_for_transfer
+				add_to_list = red_horde_titles_for_transfer
 				# Also mark duchies for transfer if relevant
 				if = {
 					limit = {
@@ -3762,7 +3768,7 @@ shift_counties_on_mongol_succession_effect = {
 						holder = duchy.holder
 					}
 					duchy = {
-						add_to_list = black_horde_titles_for_transfer
+						add_to_list = red_horde_titles_for_transfer
 					}
 				}
 				# TODO: Kingdoms??
@@ -3910,11 +3916,11 @@ shift_counties_on_mongol_succession_effect = {
 			}
 			if = {
 				limit = {
-					exists = global_var:black_horde_handed_out
-					is_in_list = black_horde_counties
-					NOT = { holder = { has_title = title:e_black_horde } }
+					exists = global_var:red_horde_handed_out
+					is_in_list = red_horde_counties
+					NOT = { holder = { has_title = title:e_red_horde } }
 				}
-				add_to_list = black_horde_titles_for_transfer
+				add_to_list = red_horde_titles_for_transfer
 				# Also mark duchies for transfer if relevant
 				if = {
 					limit = {
@@ -3922,7 +3928,7 @@ shift_counties_on_mongol_succession_effect = {
 						holder = duchy.holder
 					}
 					duchy = {
-						add_to_list = black_horde_titles_for_transfer
+						add_to_list = red_horde_titles_for_transfer
 					}
 				}
 				# TODO: Kingdoms??
@@ -4086,22 +4092,22 @@ shift_counties_on_mongol_succession_effect = {
 	# Black Horde
 	if = {
 		limit = {
-			exists = scope:black_horde_ruler
+			exists = scope:red_horde_ruler
 		}
 		every_in_list = {
-			list = black_horde_titles_for_transfer
+			list = red_horde_titles_for_transfer
 			change_title_holder = {
-				holder = scope:black_horde_ruler
+				holder = scope:red_horde_ruler
 				change = scope:mongol_succession
 			}
 		}
 		scope:old_mongol_emperor = {
 			every_vassal_or_below = {
 				limit = {
-					has_character_flag = should_be_vassalized_by_black_horde
+					has_character_flag = should_be_vassalized_by_red_horde
 				}
 				change_liege = {
-					liege = scope:black_horde_ruler
+					liege = scope:red_horde_ruler
 					change = scope:mongol_succession
 				}
 			}
@@ -4234,7 +4240,7 @@ shift_counties_on_mongol_succession_effect = {
 						has_character_flag = should_be_vassalized_by_ilkhanate
 						has_character_flag = should_be_vassalized_by_golden_horde
 						has_character_flag = should_be_vassalized_by_chagatai
-						has_character_flag = should_be_vassalized_by_black_horde
+						has_character_flag = should_be_vassalized_by_red_horde
 						has_character_flag = should_be_vassalized_by_white_horde
 						has_character_flag = should_be_vassalized_by_aarlud_khanate
 						has_character_flag = should_be_vassalized_by_togskol_khanate
@@ -4264,7 +4270,7 @@ shift_counties_on_mongol_succession_effect = {
 						has_character_flag = should_be_vassalized_by_ilkhanate
 						has_character_flag = should_be_vassalized_by_golden_horde
 						has_character_flag = should_be_vassalized_by_chagatai
-						has_character_flag = should_be_vassalized_by_black_horde
+						has_character_flag = should_be_vassalized_by_red_horde
 						has_character_flag = should_be_vassalized_by_white_horde
 						has_character_flag = should_be_vassalized_by_aarlud_khanate
 						has_character_flag = should_be_vassalized_by_togskol_khanate
@@ -4294,7 +4300,7 @@ shift_counties_on_mongol_succession_effect = {
 						has_character_flag = should_be_vassalized_by_ilkhanate
 						has_character_flag = should_be_vassalized_by_golden_horde
 						has_character_flag = should_be_vassalized_by_chagatai
-						has_character_flag = should_be_vassalized_by_black_horde
+						has_character_flag = should_be_vassalized_by_red_horde
 						has_character_flag = should_be_vassalized_by_white_horde
 						has_character_flag = should_be_vassalized_by_aarlud_khanate
 						has_character_flag = should_be_vassalized_by_togskol_khanate
@@ -4315,7 +4321,7 @@ shift_counties_on_mongol_succession_effect = {
 	# Black Horde
 	if = {
 		limit = {
-			exists = scope:black_horde_ruler
+			exists = scope:red_horde_ruler
 		}
 		scope:old_mongol_emperor = {
 			every_vassal = {
@@ -4324,7 +4330,7 @@ shift_counties_on_mongol_succession_effect = {
 						has_character_flag = should_be_vassalized_by_ilkhanate
 						has_character_flag = should_be_vassalized_by_golden_horde
 						has_character_flag = should_be_vassalized_by_chagatai
-						has_character_flag = should_be_vassalized_by_black_horde
+						has_character_flag = should_be_vassalized_by_red_horde
 						has_character_flag = should_be_vassalized_by_white_horde
 						has_character_flag = should_be_vassalized_by_aarlud_khanate
 						has_character_flag = should_be_vassalized_by_togskol_khanate
@@ -4332,11 +4338,11 @@ shift_counties_on_mongol_succession_effect = {
 						has_character_flag = should_be_vassalized_by_mongolia
 					}
 					capital_province = {
-						geographical_region = special_mongol_empire_black_horde_region
+						geographical_region = special_mongol_empire_red_horde_region
 					}
 				}
 				change_liege = {
-					liege = scope:black_horde_ruler
+					liege = scope:red_horde_ruler
 					change = scope:mongol_succession
 				}
 			}
@@ -4354,7 +4360,7 @@ shift_counties_on_mongol_succession_effect = {
 						has_character_flag = should_be_vassalized_by_ilkhanate
 						has_character_flag = should_be_vassalized_by_golden_horde
 						has_character_flag = should_be_vassalized_by_chagatai
-						has_character_flag = should_be_vassalized_by_black_horde
+						has_character_flag = should_be_vassalized_by_red_horde
 						has_character_flag = should_be_vassalized_by_white_horde
 						has_character_flag = should_be_vassalized_by_aarlud_khanate
 						has_character_flag = should_be_vassalized_by_togskol_khanate
@@ -4384,7 +4390,7 @@ shift_counties_on_mongol_succession_effect = {
 						has_character_flag = should_be_vassalized_by_ilkhanate
 						has_character_flag = should_be_vassalized_by_golden_horde
 						has_character_flag = should_be_vassalized_by_chagatai
-						has_character_flag = should_be_vassalized_by_black_horde
+						has_character_flag = should_be_vassalized_by_red_horde
 						has_character_flag = should_be_vassalized_by_white_horde
 						has_character_flag = should_be_vassalized_by_aarlud_khanate
 						has_character_flag = should_be_vassalized_by_togskol_khanate
@@ -4414,7 +4420,7 @@ shift_counties_on_mongol_succession_effect = {
 						has_character_flag = should_be_vassalized_by_ilkhanate
 						has_character_flag = should_be_vassalized_by_golden_horde
 						has_character_flag = should_be_vassalized_by_chagatai
-						has_character_flag = should_be_vassalized_by_black_horde
+						has_character_flag = should_be_vassalized_by_red_horde
 						has_character_flag = should_be_vassalized_by_white_horde
 						has_character_flag = should_be_vassalized_by_aarlud_khanate
 						has_character_flag = should_be_vassalized_by_togskol_khanate
@@ -4444,7 +4450,7 @@ shift_counties_on_mongol_succession_effect = {
 						has_character_flag = should_be_vassalized_by_ilkhanate
 						has_character_flag = should_be_vassalized_by_golden_horde
 						has_character_flag = should_be_vassalized_by_chagatai
-						has_character_flag = should_be_vassalized_by_black_horde
+						has_character_flag = should_be_vassalized_by_red_horde
 						has_character_flag = should_be_vassalized_by_white_horde
 						has_character_flag = should_be_vassalized_by_aarlud_khanate
 						has_character_flag = should_be_vassalized_by_togskol_khanate
@@ -4474,7 +4480,7 @@ shift_counties_on_mongol_succession_effect = {
 						has_character_flag = should_be_vassalized_by_ilkhanate
 						has_character_flag = should_be_vassalized_by_golden_horde
 						has_character_flag = should_be_vassalized_by_chagatai
-						has_character_flag = should_be_vassalized_by_black_horde
+						has_character_flag = should_be_vassalized_by_red_horde
 						has_character_flag = should_be_vassalized_by_white_horde
 						has_character_flag = should_be_vassalized_by_aarlud_khanate
 						has_character_flag = should_be_vassalized_by_togskol_khanate
@@ -4486,7 +4492,7 @@ shift_counties_on_mongol_succession_effect = {
 							geographical_region = special_mongol_empire_ilkhanate_region
 							geographical_region = special_mongol_empire_golden_horde_region
 							geographical_region = special_mongol_empire_chagatai_region
-							geographical_region = special_mongol_empire_black_horde_region
+							geographical_region = special_mongol_empire_red_horde_region
 							geographical_region = special_mongol_empire_white_horde_region
 							geographical_region = special_mongol_empire_aarlud_khanate_region
 							geographical_region = special_mongol_empire_togskol_khanate_region
@@ -4522,7 +4528,7 @@ shift_counties_on_mongol_succession_effect = {
 						has_character_flag = should_be_vassalized_by_ilkhanate
 						has_character_flag = should_be_vassalized_by_golden_horde
 						has_character_flag = should_be_vassalized_by_chagatai
-						has_character_flag = should_be_vassalized_by_black_horde
+						has_character_flag = should_be_vassalized_by_red_horde
 						has_character_flag = should_be_vassalized_by_white_horde
 						has_character_flag = should_be_vassalized_by_aarlud_khanate
 						has_character_flag = should_be_vassalized_by_togskol_khanate
@@ -4569,12 +4575,12 @@ shift_counties_on_mongol_succession_effect = {
 				else_if = {
 					limit = {
 						capital_province = {
-							geographical_region = special_mongol_empire_black_horde_region
+							geographical_region = special_mongol_empire_red_horde_region
 						}
-						exists = scope:black_horde_ruler
+						exists = scope:red_horde_ruler
 					}
 					change_liege = {
-						liege = scope:black_horde_ruler
+						liege = scope:red_horde_ruler
 						change = scope:mongol_cleanup_succession
 					}
 				}
@@ -4670,12 +4676,12 @@ shift_counties_on_mongol_succession_effect = {
 				if = {
 					limit = {
 						title_province = {
-							geographical_region = special_mongol_empire_black_horde_region
+							geographical_region = special_mongol_empire_red_horde_region
 						}
-						exists = scope:black_horde_ruler
+						exists = scope:red_horde_ruler
 					}
 					change_title_holder = {
-						holder = scope:black_horde_ruler
+						holder = scope:red_horde_ruler
 						change = scope:mongol_cleanup_succession
 					}
 				}
@@ -4742,7 +4748,7 @@ shift_counties_on_mongol_succession_effect = {
 						has_character_flag = should_be_vassalized_by_ilkhanate
 						has_character_flag = should_be_vassalized_by_golden_horde
 						has_character_flag = should_be_vassalized_by_chagatai
-						has_character_flag = should_be_vassalized_by_black_horde
+						has_character_flag = should_be_vassalized_by_red_horde
 						has_character_flag = should_be_vassalized_by_white_horde
 						has_character_flag = should_be_vassalized_by_aarlud_khanate
 						has_character_flag = should_be_vassalized_by_togskol_khanate
@@ -4757,7 +4763,7 @@ shift_counties_on_mongol_succession_effect = {
 								geographical_region = special_mongol_empire_ilkhanate_region
 								geographical_region = special_mongol_empire_golden_horde_region
 								geographical_region = special_mongol_empire_chagatai_region
-								geographical_region = special_mongol_empire_black_horde_region
+								geographical_region = special_mongol_empire_red_horde_region
 								geographical_region = special_mongol_empire_white_horde_region
 								geographical_region = special_mongol_empire_aarlud_khanate_region
 								geographical_region = special_mongol_empire_togskol_khanate_region
@@ -4798,12 +4804,12 @@ shift_counties_on_mongol_succession_effect = {
 				else_if = {
 					limit = {
 						capital_province = {
-							geographical_region = special_mongol_empire_black_horde_region
+							geographical_region = special_mongol_empire_red_horde_region
 						}
-						exists = scope:black_horde_ruler
+						exists = scope:red_horde_ruler
 					}
 					change_liege = {
-						liege = scope:black_horde_ruler
+						liege = scope:red_horde_ruler
 						change = scope:mongol_cleanup_succession
 					}
 				}
@@ -4867,7 +4873,7 @@ shift_counties_on_mongol_succession_effect = {
 								geographical_region = special_mongol_empire_ilkhanate_region
 								geographical_region = special_mongol_empire_golden_horde_region
 								geographical_region = special_mongol_empire_chagatai_region
-								geographical_region = special_mongol_empire_black_horde_region
+								geographical_region = special_mongol_empire_red_horde_region
 								geographical_region = special_mongol_empire_white_horde_region
 								geographical_region = special_mongol_empire_aarlud_khanate_region
 								geographical_region = special_mongol_empire_togskol_khanate_region
@@ -4908,12 +4914,12 @@ shift_counties_on_mongol_succession_effect = {
 				if = {
 					limit = {
 						title_province = {
-							geographical_region = special_mongol_empire_black_horde_region
+							geographical_region = special_mongol_empire_red_horde_region
 						}
-						exists = scope:black_horde_ruler
+						exists = scope:red_horde_ruler
 					}
 					change_title_holder = {
-						holder = scope:black_horde_ruler
+						holder = scope:red_horde_ruler
 						change = scope:mongol_cleanup_succession
 					}
 				}
@@ -4980,7 +4986,7 @@ shift_counties_on_mongol_succession_effect = {
 						has_character_flag = should_be_vassalized_by_ilkhanate
 						has_character_flag = should_be_vassalized_by_golden_horde
 						has_character_flag = should_be_vassalized_by_chagatai
-						has_character_flag = should_be_vassalized_by_black_horde
+						has_character_flag = should_be_vassalized_by_red_horde
 						has_character_flag = should_be_vassalized_by_white_horde
 						has_character_flag = should_be_vassalized_by_aarlud_khanate
 						has_character_flag = should_be_vassalized_by_togskol_khanate
@@ -5007,7 +5013,7 @@ shift_counties_on_mongol_succession_effect = {
 								geographical_region = special_mongol_empire_ilkhanate_region
 								geographical_region = special_mongol_empire_golden_horde_region
 								geographical_region = special_mongol_empire_chagatai_region
-								geographical_region = special_mongol_empire_black_horde_region
+								geographical_region = special_mongol_empire_red_horde_region
 								geographical_region = special_mongol_empire_white_horde_region
 								geographical_region = special_mongol_empire_aarlud_khanate_region
 								geographical_region = special_mongol_empire_togskol_khanate_region
@@ -5036,12 +5042,12 @@ shift_counties_on_mongol_succession_effect = {
 				else_if = {
 					limit = {
 						capital_province = {
-							geographical_region = special_mongol_empire_black_horde_region
+							geographical_region = special_mongol_empire_red_horde_region
 						}
-						exists = scope:black_horde_ruler
+						exists = scope:red_horde_ruler
 					}
 					change_liege = {
-						liege = scope:black_horde_ruler
+						liege = scope:red_horde_ruler
 						change = scope:mongol_cleanup_succession
 					}
 				}
@@ -5117,7 +5123,7 @@ shift_counties_on_mongol_succession_effect = {
 								geographical_region = special_mongol_empire_ilkhanate_region
 								geographical_region = special_mongol_empire_golden_horde_region
 								geographical_region = special_mongol_empire_chagatai_region
-								geographical_region = special_mongol_empire_black_horde_region
+								geographical_region = special_mongol_empire_red_horde_region
 								geographical_region = special_mongol_empire_white_horde_region
 								geographical_region = special_mongol_empire_aarlud_khanate_region
 								geographical_region = special_mongol_empire_togskol_khanate_region
@@ -5146,12 +5152,12 @@ shift_counties_on_mongol_succession_effect = {
 				if = {
 					limit = {
 						title_province = {
-							geographical_region = special_mongol_empire_black_horde_region
+							geographical_region = special_mongol_empire_red_horde_region
 						}
-						exists = scope:black_horde_ruler
+						exists = scope:red_horde_ruler
 					}
 					change_title_holder = {
-						holder = scope:black_horde_ruler
+						holder = scope:red_horde_ruler
 						change = scope:mongol_cleanup_succession
 					}
 				}
@@ -5218,7 +5224,7 @@ shift_counties_on_mongol_succession_effect = {
 						has_character_flag = should_be_vassalized_by_ilkhanate
 						has_character_flag = should_be_vassalized_by_golden_horde
 						has_character_flag = should_be_vassalized_by_chagatai
-						has_character_flag = should_be_vassalized_by_black_horde
+						has_character_flag = should_be_vassalized_by_red_horde
 						has_character_flag = should_be_vassalized_by_white_horde
 						has_character_flag = should_be_vassalized_by_aarlud_khanate
 						has_character_flag = should_be_vassalized_by_togskol_khanate
@@ -5257,7 +5263,7 @@ shift_counties_on_mongol_succession_effect = {
 								geographical_region = special_mongol_empire_ilkhanate_region
 								geographical_region = special_mongol_empire_golden_horde_region
 								geographical_region = special_mongol_empire_chagatai_region
-								geographical_region = special_mongol_empire_black_horde_region
+								geographical_region = special_mongol_empire_red_horde_region
 								geographical_region = special_mongol_empire_white_horde_region
 								geographical_region = special_mongol_empire_aarlud_khanate_region
 								geographical_region = special_mongol_empire_togskol_khanate_region
@@ -5274,12 +5280,12 @@ shift_counties_on_mongol_succession_effect = {
 				else_if = {
 					limit = {
 						capital_province = {
-							geographical_region = special_mongol_empire_black_horde_region
+							geographical_region = special_mongol_empire_red_horde_region
 						}
-						exists = scope:black_horde_ruler
+						exists = scope:red_horde_ruler
 					}
 					change_liege = {
-						liege = scope:black_horde_ruler
+						liege = scope:red_horde_ruler
 						change = scope:mongol_cleanup_succession
 					}
 				}
@@ -5367,7 +5373,7 @@ shift_counties_on_mongol_succession_effect = {
 								geographical_region = special_mongol_empire_ilkhanate_region
 								geographical_region = special_mongol_empire_golden_horde_region
 								geographical_region = special_mongol_empire_chagatai_region
-								geographical_region = special_mongol_empire_black_horde_region
+								geographical_region = special_mongol_empire_red_horde_region
 								geographical_region = special_mongol_empire_white_horde_region
 								geographical_region = special_mongol_empire_aarlud_khanate_region
 								geographical_region = special_mongol_empire_togskol_khanate_region
@@ -5384,12 +5390,12 @@ shift_counties_on_mongol_succession_effect = {
 				if = {
 					limit = {
 						title_province = {
-							geographical_region = special_mongol_empire_black_horde_region
+							geographical_region = special_mongol_empire_red_horde_region
 						}
-						exists = scope:black_horde_ruler
+						exists = scope:red_horde_ruler
 					}
 					change_title_holder = {
-						holder = scope:black_horde_ruler
+						holder = scope:red_horde_ruler
 						change = scope:mongol_cleanup_succession
 					}
 				}
@@ -5447,16 +5453,16 @@ shift_counties_on_mongol_succession_effect = {
 	# Black Horde
 	if = {
 		limit = {
-			exists = scope:black_horde_ruler
+			exists = scope:red_horde_ruler
 		}
-		scope:black_horde_ruler = {
+		scope:red_horde_ruler = {
 			every_vassal_or_below = {
 				limit = {
 					NOR = {
 						has_character_flag = should_be_vassalized_by_ilkhanate
 						has_character_flag = should_be_vassalized_by_golden_horde
 						has_character_flag = should_be_vassalized_by_chagatai
-						has_character_flag = should_be_vassalized_by_black_horde
+						has_character_flag = should_be_vassalized_by_red_horde
 						has_character_flag = should_be_vassalized_by_white_horde
 						has_character_flag = should_be_vassalized_by_aarlud_khanate
 						has_character_flag = should_be_vassalized_by_togskol_khanate
@@ -5507,7 +5513,7 @@ shift_counties_on_mongol_succession_effect = {
 								geographical_region = special_mongol_empire_ilkhanate_region
 								geographical_region = special_mongol_empire_golden_horde_region
 								geographical_region = special_mongol_empire_chagatai_region
-								geographical_region = special_mongol_empire_black_horde_region
+								geographical_region = special_mongol_empire_red_horde_region
 								geographical_region = special_mongol_empire_white_horde_region
 								geographical_region = special_mongol_empire_aarlud_khanate_region
 								geographical_region = special_mongol_empire_togskol_khanate_region
@@ -5617,7 +5623,7 @@ shift_counties_on_mongol_succession_effect = {
 								geographical_region = special_mongol_empire_ilkhanate_region
 								geographical_region = special_mongol_empire_golden_horde_region
 								geographical_region = special_mongol_empire_chagatai_region
-								geographical_region = special_mongol_empire_black_horde_region
+								geographical_region = special_mongol_empire_red_horde_region
 								geographical_region = special_mongol_empire_white_horde_region
 								geographical_region = special_mongol_empire_aarlud_khanate_region
 								geographical_region = special_mongol_empire_togskol_khanate_region
@@ -5694,7 +5700,7 @@ shift_counties_on_mongol_succession_effect = {
 						has_character_flag = should_be_vassalized_by_ilkhanate
 						has_character_flag = should_be_vassalized_by_golden_horde
 						has_character_flag = should_be_vassalized_by_chagatai
-						has_character_flag = should_be_vassalized_by_black_horde
+						has_character_flag = should_be_vassalized_by_red_horde
 						has_character_flag = should_be_vassalized_by_white_horde
 						has_character_flag = should_be_vassalized_by_aarlud_khanate
 						has_character_flag = should_be_vassalized_by_togskol_khanate
@@ -5741,12 +5747,12 @@ shift_counties_on_mongol_succession_effect = {
 				else_if = {
 					limit = {
 						capital_province = {
-							geographical_region = special_mongol_empire_black_horde_region
+							geographical_region = special_mongol_empire_red_horde_region
 						}
-						exists = scope:black_horde_ruler
+						exists = scope:red_horde_ruler
 					}
 					change_liege = {
-						liege = scope:black_horde_ruler
+						liege = scope:red_horde_ruler
 						change = scope:mongol_cleanup_succession
 					}
 				}
@@ -5757,7 +5763,7 @@ shift_counties_on_mongol_succession_effect = {
 								geographical_region = special_mongol_empire_ilkhanate_region
 								geographical_region = special_mongol_empire_golden_horde_region
 								geographical_region = special_mongol_empire_chagatai_region
-								geographical_region = special_mongol_empire_black_horde_region
+								geographical_region = special_mongol_empire_red_horde_region
 								geographical_region = special_mongol_empire_white_horde_region
 								geographical_region = special_mongol_empire_aarlud_khanate_region
 								geographical_region = special_mongol_empire_togskol_khanate_region
@@ -5851,12 +5857,12 @@ shift_counties_on_mongol_succession_effect = {
 				if = {
 					limit = {
 						title_province = {
-							geographical_region = special_mongol_empire_black_horde_region
+							geographical_region = special_mongol_empire_red_horde_region
 						}
-						exists = scope:black_horde_ruler
+						exists = scope:red_horde_ruler
 					}
 					change_title_holder = {
-						holder = scope:black_horde_ruler
+						holder = scope:red_horde_ruler
 						change = scope:mongol_cleanup_succession
 					}
 				}
@@ -5867,7 +5873,7 @@ shift_counties_on_mongol_succession_effect = {
 								geographical_region = special_mongol_empire_ilkhanate_region
 								geographical_region = special_mongol_empire_golden_horde_region
 								geographical_region = special_mongol_empire_chagatai_region
-								geographical_region = special_mongol_empire_black_horde_region
+								geographical_region = special_mongol_empire_red_horde_region
 								geographical_region = special_mongol_empire_white_horde_region
 								geographical_region = special_mongol_empire_aarlud_khanate_region
 								geographical_region = special_mongol_empire_togskol_khanate_region
@@ -5932,7 +5938,7 @@ shift_counties_on_mongol_succession_effect = {
 						has_character_flag = should_be_vassalized_by_ilkhanate
 						has_character_flag = should_be_vassalized_by_golden_horde
 						has_character_flag = should_be_vassalized_by_chagatai
-						has_character_flag = should_be_vassalized_by_black_horde
+						has_character_flag = should_be_vassalized_by_red_horde
 						has_character_flag = should_be_vassalized_by_white_horde
 						has_character_flag = should_be_vassalized_by_aarlud_khanate
 						has_character_flag = should_be_vassalized_by_togskol_khanate
@@ -5979,12 +5985,12 @@ shift_counties_on_mongol_succession_effect = {
 				else_if = {
 					limit = {
 						capital_province = {
-							geographical_region = special_mongol_empire_black_horde_region
+							geographical_region = special_mongol_empire_red_horde_region
 						}
-						exists = scope:black_horde_ruler
+						exists = scope:red_horde_ruler
 					}
 					change_liege = {
-						liege = scope:black_horde_ruler
+						liege = scope:red_horde_ruler
 						change = scope:mongol_cleanup_succession
 					}
 				}
@@ -6007,7 +6013,7 @@ shift_counties_on_mongol_succession_effect = {
 								geographical_region = special_mongol_empire_ilkhanate_region
 								geographical_region = special_mongol_empire_golden_horde_region
 								geographical_region = special_mongol_empire_chagatai_region
-								geographical_region = special_mongol_empire_black_horde_region
+								geographical_region = special_mongol_empire_red_horde_region
 								geographical_region = special_mongol_empire_white_horde_region
 								geographical_region = special_mongol_empire_aarlud_khanate_region
 								geographical_region = special_mongol_empire_togskol_khanate_region
@@ -6089,12 +6095,12 @@ shift_counties_on_mongol_succession_effect = {
 				if = {
 					limit = {
 						title_province = {
-							geographical_region = special_mongol_empire_black_horde_region
+							geographical_region = special_mongol_empire_red_horde_region
 						}
-						exists = scope:black_horde_ruler
+						exists = scope:red_horde_ruler
 					}
 					change_title_holder = {
-						holder = scope:black_horde_ruler
+						holder = scope:red_horde_ruler
 						change = scope:mongol_cleanup_succession
 					}
 				}
@@ -6117,7 +6123,7 @@ shift_counties_on_mongol_succession_effect = {
 								geographical_region = special_mongol_empire_ilkhanate_region
 								geographical_region = special_mongol_empire_golden_horde_region
 								geographical_region = special_mongol_empire_chagatai_region
-								geographical_region = special_mongol_empire_black_horde_region
+								geographical_region = special_mongol_empire_red_horde_region
 								geographical_region = special_mongol_empire_white_horde_region
 								geographical_region = special_mongol_empire_aarlud_khanate_region
 								geographical_region = special_mongol_empire_togskol_khanate_region
@@ -6170,7 +6176,7 @@ shift_counties_on_mongol_succession_effect = {
 						has_character_flag = should_be_vassalized_by_ilkhanate
 						has_character_flag = should_be_vassalized_by_golden_horde
 						has_character_flag = should_be_vassalized_by_chagatai
-						has_character_flag = should_be_vassalized_by_black_horde
+						has_character_flag = should_be_vassalized_by_red_horde
 						has_character_flag = should_be_vassalized_by_white_horde
 						has_character_flag = should_be_vassalized_by_aarlud_khanate
 						has_character_flag = should_be_vassalized_by_togskol_khanate
@@ -6217,12 +6223,12 @@ shift_counties_on_mongol_succession_effect = {
 				else_if = {
 					limit = {
 						capital_province = {
-							geographical_region = special_mongol_empire_black_horde_region
+							geographical_region = special_mongol_empire_red_horde_region
 						}
-						exists = scope:black_horde_ruler
+						exists = scope:red_horde_ruler
 					}
 					change_liege = {
-						liege = scope:black_horde_ruler
+						liege = scope:red_horde_ruler
 						change = scope:mongol_cleanup_succession
 					}
 				}
@@ -6257,7 +6263,7 @@ shift_counties_on_mongol_succession_effect = {
 								geographical_region = special_mongol_empire_ilkhanate_region
 								geographical_region = special_mongol_empire_golden_horde_region
 								geographical_region = special_mongol_empire_chagatai_region
-								geographical_region = special_mongol_empire_black_horde_region
+								geographical_region = special_mongol_empire_red_horde_region
 								geographical_region = special_mongol_empire_white_horde_region
 								geographical_region = special_mongol_empire_aarlud_khanate_region
 								geographical_region = special_mongol_empire_togskol_khanate_region
@@ -6327,12 +6333,12 @@ shift_counties_on_mongol_succession_effect = {
 				if = {
 					limit = {
 						title_province = {
-							geographical_region = special_mongol_empire_black_horde_region
+							geographical_region = special_mongol_empire_red_horde_region
 						}
-						exists = scope:black_horde_ruler
+						exists = scope:red_horde_ruler
 					}
 					change_title_holder = {
-						holder = scope:black_horde_ruler
+						holder = scope:red_horde_ruler
 						change = scope:mongol_cleanup_succession
 					}
 				}
@@ -6367,7 +6373,7 @@ shift_counties_on_mongol_succession_effect = {
 								geographical_region = special_mongol_empire_ilkhanate_region
 								geographical_region = special_mongol_empire_golden_horde_region
 								geographical_region = special_mongol_empire_chagatai_region
-								geographical_region = special_mongol_empire_black_horde_region
+								geographical_region = special_mongol_empire_red_horde_region
 								geographical_region = special_mongol_empire_white_horde_region
 								geographical_region = special_mongol_empire_aarlud_khanate_region
 								geographical_region = special_mongol_empire_togskol_khanate_region
@@ -6408,7 +6414,7 @@ shift_counties_on_mongol_succession_effect = {
 						has_character_flag = should_be_vassalized_by_ilkhanate
 						has_character_flag = should_be_vassalized_by_golden_horde
 						has_character_flag = should_be_vassalized_by_chagatai
-						has_character_flag = should_be_vassalized_by_black_horde
+						has_character_flag = should_be_vassalized_by_red_horde
 						has_character_flag = should_be_vassalized_by_white_horde
 						has_character_flag = should_be_vassalized_by_aarlud_khanate
 						has_character_flag = should_be_vassalized_by_togskol_khanate
@@ -6455,12 +6461,12 @@ shift_counties_on_mongol_succession_effect = {
 				else_if = {
 					limit = {
 						capital_province = {
-							geographical_region = special_mongol_empire_black_horde_region
+							geographical_region = special_mongol_empire_red_horde_region
 						}
-						exists = scope:black_horde_ruler
+						exists = scope:red_horde_ruler
 					}
 					change_liege = {
-						liege = scope:black_horde_ruler
+						liege = scope:red_horde_ruler
 						change = scope:mongol_cleanup_succession
 					}
 				}
@@ -6507,7 +6513,7 @@ shift_counties_on_mongol_succession_effect = {
 								geographical_region = special_mongol_empire_ilkhanate_region
 								geographical_region = special_mongol_empire_golden_horde_region
 								geographical_region = special_mongol_empire_chagatai_region
-								geographical_region = special_mongol_empire_black_horde_region
+								geographical_region = special_mongol_empire_red_horde_region
 								geographical_region = special_mongol_empire_white_horde_region
 								geographical_region = special_mongol_empire_aarlud_khanate_region
 								geographical_region = special_mongol_empire_togskol_khanate_region
@@ -6565,12 +6571,12 @@ shift_counties_on_mongol_succession_effect = {
 				if = {
 					limit = {
 						title_province = {
-							geographical_region = special_mongol_empire_black_horde_region
+							geographical_region = special_mongol_empire_red_horde_region
 						}
-						exists = scope:black_horde_ruler
+						exists = scope:red_horde_ruler
 					}
 					change_title_holder = {
-						holder = scope:black_horde_ruler
+						holder = scope:red_horde_ruler
 						change = scope:mongol_cleanup_succession
 					}
 				}
@@ -6617,7 +6623,7 @@ shift_counties_on_mongol_succession_effect = {
 								geographical_region = special_mongol_empire_ilkhanate_region
 								geographical_region = special_mongol_empire_golden_horde_region
 								geographical_region = special_mongol_empire_chagatai_region
-								geographical_region = special_mongol_empire_black_horde_region
+								geographical_region = special_mongol_empire_red_horde_region
 								geographical_region = special_mongol_empire_white_horde_region
 								geographical_region = special_mongol_empire_aarlud_khanate_region
 								geographical_region = special_mongol_empire_togskol_khanate_region
@@ -6748,9 +6754,9 @@ grant_suitable_title_to_candidate_effect = {
 		# Black Horde
 		1 = {
 			trigger = {
-				exists = global_var:creatable_black_horde
-				NOT = { exists = global_var:black_horde_handed_out }
-				NOT = { exists = title:e_black_horde.holder }
+				exists = global_var:creatable_red_horde
+				NOT = { exists = global_var:red_horde_handed_out }
+				NOT = { exists = title:e_red_horde.holder }
 			}
 			# Weight the chance by how much territory you hold there
 			modifier = {
@@ -6758,7 +6764,7 @@ grant_suitable_title_to_candidate_effect = {
 					every_sub_realm_county = {
 						limit = {
 							title_province = {
-								geographical_region = special_mongol_empire_black_horde_region
+								geographical_region = special_mongol_empire_red_horde_region
 							}
 						}
 						add = 50
@@ -6766,7 +6772,7 @@ grant_suitable_title_to_candidate_effect = {
 				}
 				always = yes
 			}
-			grant_black_horde_effect = yes
+			grant_red_horde_effect = yes
 		}
 		# White Horde
 		1 = {
@@ -6945,10 +6951,10 @@ break_up_mongol_empire_effect = { # Intended to run in the Mongol Emperor's scop
 	every_sub_realm_county = {
 		limit = {
 			title_province = {
-				geographical_region = special_mongol_empire_black_horde_region
+				geographical_region = special_mongol_empire_red_horde_region
 			}
 		}
-		add_to_temporary_list = black_horde_counties
+		add_to_temporary_list = red_horde_counties
 	}
 	# Gather White Horde counties
 	every_sub_realm_county = {
@@ -7050,13 +7056,13 @@ break_up_mongol_empire_effect = { # Intended to run in the Mongol Emperor's scop
 	if = {
 		limit = {
 			any_in_list = {
-				list = black_horde_counties
+				list = red_horde_counties
 				count >= @creatable_successor_empire_county_threshold
 			}
 		}
 		debug_log = "Black Horde is creatable"
 		set_global_variable = {
-			name = creatable_black_horde
+			name = creatable_red_horde
 			value = yes
 		}
 		change_global_variable = {
@@ -7222,7 +7228,7 @@ break_up_mongol_empire_effect = { # Intended to run in the Mongol Emperor's scop
 	remove_global_variable = creatable_ilkhanate
 	remove_global_variable = creatable_golden_horde
 	remove_global_variable = creatable_chagatai
-	remove_global_variable = creatable_black_horde
+	remove_global_variable = creatable_red_horde
 	remove_global_variable = creatable_white_horde
 	remove_global_variable = creatable_aarlud_khanate
 	remove_global_variable = creatable_togskol_khanate
@@ -7372,15 +7378,15 @@ break_up_mongol_empire_effect = { # Intended to run in the Mongol Emperor's scop
 	}
 	if = {
 		limit = {
-			exists = scope:black_horde_ruler
+			exists = scope:red_horde_ruler
 		}
-		scope:black_horde_ruler = {
+		scope:red_horde_ruler = {
 			add_realm_law_skip_effects = high_partition_succession_law
 			save_scope_as = title_assignment
 			every_sub_realm_county = {
 				limit = {
 					title_province = {
-						geographical_region = black_horde_de_jure_region
+						geographical_region = red_horde_de_jure_region
 					}
 					exists = kingdom
 					OR = {

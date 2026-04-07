@@ -1,0 +1,42 @@
+﻿# Geographical regions for Natural Disasters
+# Regions can be declared with one or more of the following fields:
+#	duchies = { }, takes duchy title names declared in landed_titles.txt
+#	counties = { }, takes county title names declared in landed_titles.txt
+#	provinces = { }, takes province id numbers declared in /history/provinces
+#	regions = { }, a region can also include other regions, however the subregions needs to be declared before the parent region.
+#		E.g. If the region world_europe contains the region world_europe_west then world_europe_west needs to be declared as a region before (i.e. higher up in this file) world_europe.
+
+global_flood_region = { }
+yellow_river_region = { }
+yangtze_river_region = { }
+pearl_river_region = { }
+tigris_river_region = { }
+irrawaddy_river_region = { }
+mekong_river_region = { }
+amur_river_region = { }
+nile_river_region = { }
+niger_river_region = { }
+po_river_region = { }
+rhine_river_region = { }
+elbe_river_region = { }
+rhone_river_region = { }
+garonne_river_region = { }
+seine_river_region = { }
+loire_river_region = { }
+vistula_river_region = { }
+danube_river_region = { }
+dniester_river_region = { }
+dnieper_river_region = { }
+daugava_river_region = { }
+lovat_river_region = { }
+volga_river_region = { }
+don_river_region = { }
+guadiana_river_region = { }
+guadalquivir_river_region = { }
+ganges_river_region = { }
+indus_river_region = { }
+kaveri_river_region = { }
+godavari_river_region = { }
+mahanadi_river_region = { }
+tapti_river_region = { }
+

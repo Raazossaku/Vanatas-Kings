@@ -1,0 +1,420 @@
+﻿@never_primary_score = -1000
+
+c_nf_park_juksan = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_park_milyang = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_park_pyeongsan = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_park_silla = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_bok_myeoncheon = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_chae_pyeonggang = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_cheok_goksan = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_choe_dongju = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_choe_gyeongju = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_choe_haeju = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_choe_jiksan = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_choe_suwon = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_choe_ubong = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_gim_eonyang = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_gim_gangneung = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_gim_gimhae = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_gim_gwangsan = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_gim_gyeongju = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_gim_ulleong = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_gim_yeonggwang = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_go_jeju = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_gwak_cheongju = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_gwon_andong = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_gyeong_cheongju = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_gyeon_gaeunhyeon = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_han_daeheung = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_heo_gongam = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_hong_namyang = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_yi_gyeongwon = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_yi_jeonju = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_yi_jeongseon = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_yi_suju = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_im_jangheung = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_jeong_dongrae = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_jeong_haeju = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_sin_pyeongsan = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_jo_hoengcheon = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_min_hwangryeo = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_mun_gangneung = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_mun_nampyeong = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_wang_goryeo = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_wang_seohae = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_yeom_paju = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_yang_wonju = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_yang_anak = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_yun_papyeong = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_yu_pyeongsan = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_seo_icheon = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_tak = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_song = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_gang_sincheon = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_gang_geumcheon = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_gang_jinju = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_go_balhae = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_wi_balhae = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_yeol_balhae = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_o_balhae = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_geom_nakrang = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_dae = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_du_dureung = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_wu_mokcheon = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_balhae_nan = {
+	capital = c_atlantis
+	landless = yes
+}
+c_nf_balhae_yeon = {
+	capital = c_atlantis
+	landless = yes
+}
+c_nf_balhae_baek = {
+	capital = c_atlantis
+	landless = yes
+}
+c_nf_balhae_ye = {
+	capital = c_atlantis
+	landless = yes
+}
+c_nf_balhae_mun = {
+	capital = c_atlantis
+	landless = yes
+}
+c_nf_balhae_mok = {
+	capital = c_atlantis
+	landless = yes
+}
+c_nf_mohe_baishan = {
+	capital = c_atlantis
+	landless = yes
+}
+c_nf_balhae_dongseong = {
+	capital = c_atlantis
+	landless = yes
+}
+c_nf_mohe_boduo = {
+	capital = c_atlantis
+	landless = yes
+}
+c_nf_balhae_seop = {
+	capital = c_atlantis
+	landless = yes
+}
+c_nf_mohe_sumo = {
+	capital = c_atlantis
+	landless = yes
+}
+c_nf_balhae_yang = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_korean_o_naju = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_korean_ryu_jeongju = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_korean_ryu_yeomju = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_korean_hwangbo = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_korean_myeong = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_korean_jang_andong = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_korean_yu_chungju = {
+	capital = c_atlantis
+	landless = yes
+}
+
+c_nf_korean_bak_seungju = {
+	capital = c_atlantis
+	landless = yes
+}
+
+d_laamp_hidden_valley_banner = {
+	capital = c_atlantis
+	landless = yes
+}
+
+d_laamp_way_of_the_mountains = {
+	capital = c_atlantis
+	landless = yes
+}
+
+d_laamp_munheon_disciples = {
+	capital = c_atlantis
+	landless = yes
+}
+
+d_laamp_white_tigers = {
+	capital = c_atlantis
+	landless = yes
+}
+
+d_laamp_samadhi_and_prajna_society = {
+	capital = c_atlantis
+	landless = yes
+}

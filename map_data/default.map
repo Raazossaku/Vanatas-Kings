@@ -1,20 +1,28 @@
 ﻿definitions = "definition.csv"
 provinces = "provinces.png"
+#positions = "positions.txt"
 rivers = "rivers.png"
+#terrain_definition = "terrain.txt"
 topology = "heightmap.heightmap"
+#tree_definition = "trees.bmp"
 continent = "continent.txt"
 adjacencies = "adjacencies.csv"
+#climate = "climate.txt"
 island_region = "island_region.txt"
-geographical_region = "geographical_region.txt"
+#geographical_region = "geographical_region.txt"
 seasons = "seasons.txt"
 
 
 
-sea_zones = LIST { 1 88 89 90 91 92 }
+sea_zones = LIST { 1 89 90 91 92 93 94 95 96 97 }
+
+#river_provinces = LIST {  }
+
+#lakes = LIST {  }
 
 impassable_seas = LIST { 1 }
 
-impassable_mountains = LIST { 93 }
+impassable_mountains = LIST { 98 }
 
 
 
