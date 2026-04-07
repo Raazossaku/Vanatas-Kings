@@ -5477,7 +5477,7 @@ ach_coronation.0018 = {
 	override_background = {
 		trigger = {
 			#Do not want generic courtyard calling up Constantinople for this one
-			location.county = title:c_atlantis
+			location.county = title:c_melesa
 		}
 		reference = bp2_courtyard
 	}

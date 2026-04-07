@@ -1575,7 +1575,7 @@ pilgrimage_seasia.1000 = {
 				geographical_region = world_asia_southeast_islands
 			}
 		}
-		title:c_atlantis.religion = religion:islam_religion
+		title:c_melesa.religion = religion:islam_religion
 		location = {
 			has_sea_danger_type = { TRAVEL = root.current_travel_plan }
 			any_neighboring_province = {
@@ -1608,7 +1608,7 @@ pilgrimage_seasia.1000 = {
 		location = {
 			save_scope_as = background_terrain_scope
 		}
-		title:c_atlantis.kingdom = {
+		title:c_melesa.kingdom = {
 			random_in_de_jure_hierarchy = {
 				continue = {
 					tier >= tier_duchy
@@ -2071,7 +2071,7 @@ pilgrimage_seasia.1200 = {
 				geographical_region = world_asia_southeast_islands
 			}
 		}
-		title:c_atlantis.title_province = { has_building_or_higher = nalanda_university }
+		title:c_melesa.title_province = { has_building_or_higher = nalanda_university }
 	}
 
 	immediate = {
@@ -2107,7 +2107,7 @@ pilgrimage_seasia.1200 = {
 				save_scope_as = artifact_target
 			}
 		}
-		title:c_atlantis.kingdom = {
+		title:c_melesa.kingdom = {
 			random_in_de_jure_hierarchy = {
 				continue = {
 					tier >= tier_county

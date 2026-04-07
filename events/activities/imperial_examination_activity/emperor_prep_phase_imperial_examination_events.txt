@@ -952,9 +952,9 @@ emperor_imperial_examination.700 = {
 			}
 		}
 		OR = {
-			title:c_atlantis.holder.top_liege != scope:host
-			title:c_atlantis.holder.top_liege != scope:host
-			title:c_atlantis.holder.top_liege != scope:host
+			title:c_melesa.holder.top_liege != scope:host
+			title:c_melesa.holder.top_liege != scope:host
+			title:c_melesa.holder.top_liege != scope:host
 		}
 	}
 	immediate = {
@@ -985,21 +985,21 @@ emperor_imperial_examination.700 = {
 		random_list = {
 			10 = {
 				trigger = {
-					title:c_atlantis.holder.top_liege != scope:host
+					title:c_melesa.holder.top_liege != scope:host
 				}
-				title:c_atlantis = { save_scope_as = silver_county }
+				title:c_melesa = { save_scope_as = silver_county }
 			}
 			10 = {
 				trigger = {
-					title:c_atlantis.holder.top_liege != scope:host
+					title:c_melesa.holder.top_liege != scope:host
 				}
-				title:c_atlantis = { save_scope_as = silver_county }
+				title:c_melesa = { save_scope_as = silver_county }
 			}
 			10 = {
 				trigger = {
-					title:c_atlantis.holder.top_liege != scope:host
+					title:c_melesa.holder.top_liege != scope:host
 				}
-				title:c_atlantis = { save_scope_as = silver_county }
+				title:c_melesa = { save_scope_as = silver_county }
 			}
 		}
 		scope:silver_county.holder.top_liege = { save_scope_as = silver_county_top_liege }

@@ -370,11 +370,11 @@ RiverNameLoc = {
 	text = {
 		trigger = {
 			OR = {
-				this = province:1
-				this = province:1
-				this = province:1
-				this = province:1
-				this = province:1
+				this = province:88
+				this = province:88
+				this = province:88
+				this = province:88
+				this = province:88
 			}
 		}
 		localization_key = RiverNameTheNile

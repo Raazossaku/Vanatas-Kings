@@ -334,7 +334,7 @@ tgp_silk_road_movement_china_effect = {
 	situation_sub_region:region_silk_road_proper_china = { save_temporary_scope_as = sub_region_temp }
 
 	# Find the culture of the province the market of Chang'an is located in
-	title:c_atlantis = {
+	title:c_melesa = {
 		culture = {
 			save_temporary_scope_as = region_silk_road_proper_china_market_culture
 			random_culture_innovation = {

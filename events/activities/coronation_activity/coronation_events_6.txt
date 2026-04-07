@@ -5087,14 +5087,14 @@ coronation_events.6100 = {
 	}
 	override_background = {
 		trigger = {
-			scope:host.capital_county = title:c_atlantis
+			scope:host.capital_county = title:c_melesa
 		}
 		reference = ep3_hagia_sophia
 	}
 	override_background = {
 		trigger = {
 			NOT = {
-				scope:host.capital_county = title:c_atlantis
+				scope:host.capital_county = title:c_melesa
 			}
 		}
 		reference = temple
@@ -7035,14 +7035,14 @@ coronation_events.6110 = {
 	}
 	override_background = {
 		trigger = {
-			scope:host.capital_county = title:c_atlantis
+			scope:host.capital_county = title:c_melesa
 		}
 		reference = ep3_hagia_sophia
 	}
 	override_background = {
 		trigger = {
 			NOT = {
-				scope:host.capital_county = title:c_atlantis
+				scope:host.capital_county = title:c_melesa
 			}
 		}
 		reference = temple
@@ -11901,14 +11901,14 @@ coronation_events.6130 = {
 	
 	override_background = {
 		trigger = {
-			scope:host.capital_county = title:c_atlantis
+			scope:host.capital_county = title:c_melesa
 		}
 		reference = ep3_hagia_sophia
 	}
 	override_background = {
 		trigger = {
 			NOT = {
-				scope:host.capital_county = title:c_atlantis
+				scope:host.capital_county = title:c_melesa
 			}
 		}
 		reference = temple
@@ -13226,7 +13226,7 @@ coronation_events.6140 = {
 	override_background = {
 		trigger = {
 			NOT = {
-				scope:host.capital_county = title:c_atlantis
+				scope:host.capital_county = title:c_melesa
 			}
 			coronation_being_crowned_trigger = no
 			coronation_self_crowning_trigger = no
@@ -13235,7 +13235,7 @@ coronation_events.6140 = {
 	}
 	override_background = {
 		trigger = {
-			scope:host.capital_county = title:c_atlantis
+			scope:host.capital_county = title:c_melesa
 			OR = {
 				coronation_being_crowned_trigger = yes
 				coronation_self_crowning_trigger = yes
@@ -13246,7 +13246,7 @@ coronation_events.6140 = {
 	override_background = {
 		trigger = {
 			NOT = {
-				scope:host.capital_county = title:c_atlantis
+				scope:host.capital_county = title:c_melesa
 			}
 			OR = {
 				coronation_being_crowned_trigger = yes

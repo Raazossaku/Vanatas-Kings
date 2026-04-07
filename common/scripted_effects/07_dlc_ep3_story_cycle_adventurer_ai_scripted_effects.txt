@@ -1382,63 +1382,63 @@ ep3_adventurer_ai_contract_find_next_kingdom_effect = {
 				random_list = {
 					1 = {
 						trigger = {
-							NOT = { province:1 = scope:story.story_owner.domicile.domicile_location }
+							NOT = { province:88 = scope:story.story_owner.domicile.domicile_location }
 						}
-						province:1 = { save_scope_as = destination_province }
+						province:88 = { save_scope_as = destination_province }
 					}
 					1 = {
 						trigger = {
-							NOT = { province:1 = scope:story.story_owner.domicile.domicile_location }
+							NOT = { province:88 = scope:story.story_owner.domicile.domicile_location }
 						}
-						province:1 = { save_scope_as = destination_province }
+						province:88 = { save_scope_as = destination_province }
 					}
 					1 = {
 						trigger = {
-							NOT = { province:1 = scope:story.story_owner.domicile.domicile_location }
+							NOT = { province:88 = scope:story.story_owner.domicile.domicile_location }
 						}
-						province:1 = { save_scope_as = destination_province }
+						province:88 = { save_scope_as = destination_province }
 					}
 					1 = {
 						trigger = {
-							NOT = { province:1 = scope:story.story_owner.domicile.domicile_location }
+							NOT = { province:88 = scope:story.story_owner.domicile.domicile_location }
 						}
-						province:1 = { save_scope_as = destination_province }
+						province:88 = { save_scope_as = destination_province }
 					}
 					1000 = {
 						trigger = {
-							NOT = { province:1 = scope:story.story_owner.domicile.domicile_location }
+							NOT = { province:88 = scope:story.story_owner.domicile.domicile_location }
 						}
-						province:1 = { save_scope_as = destination_province }
+						province:88 = { save_scope_as = destination_province }
 					}
 					1 = {
 						trigger = {
-							NOT = { province:1 = scope:story.story_owner.domicile.domicile_location }
+							NOT = { province:88 = scope:story.story_owner.domicile.domicile_location }
 						}
-						province:1 = { save_scope_as = destination_province }
+						province:88 = { save_scope_as = destination_province }
 					}
 					1 = {
 						trigger = {
-							NOT = { province:1 = scope:story.story_owner.domicile.domicile_location }
+							NOT = { province:88 = scope:story.story_owner.domicile.domicile_location }
 						}
-						province:1 = { save_scope_as = destination_province }
+						province:88 = { save_scope_as = destination_province }
 					}
 					1 = {
 						trigger = {
-							NOT = { province:1 = scope:story.story_owner.domicile.domicile_location }
+							NOT = { province:88 = scope:story.story_owner.domicile.domicile_location }
 						}
-						province:1 = { save_scope_as = destination_province }
+						province:88 = { save_scope_as = destination_province }
 					}
 					1 = {
 						trigger = {
-							NOT = { province:1 = scope:story.story_owner.domicile.domicile_location }
+							NOT = { province:88 = scope:story.story_owner.domicile.domicile_location }
 						}
-						province:1 = { save_scope_as = destination_province }
+						province:88 = { save_scope_as = destination_province }
 					}
 					1 = {
 						trigger = {
-							NOT = { province:1 = scope:story.story_owner.domicile.domicile_location }
+							NOT = { province:88 = scope:story.story_owner.domicile.domicile_location }
 						}
-						province:1 = { save_scope_as = destination_province }
+						province:88 = { save_scope_as = destination_province }
 					}
 				}
 			}

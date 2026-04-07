@@ -142,7 +142,7 @@
 			desc = activity_chariot_race_province_capital
 		}
 		triggered_desc = {
-			trigger = { this = province:1 }
+			trigger = { this = province:88 }
 			desc = activity_chariot_race_province_constantinople
 		}
 	}

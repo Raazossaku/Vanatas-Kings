@@ -2690,12 +2690,12 @@ points_of_interest_tracker_effect = {
 						province_owner.top_liege ?= { highest_held_title_tier >= tier_kingdom }
 					}
 					# Grand Cities
-					this = province:1 #Baghdad
-					this = province:1 #Rome
-					this = province:1 #Constantinople
+					this = province:88 #Baghdad
+					this = province:88 #Rome
+					this = province:88 #Constantinople
 					# Points of interest
-					this = province:1 # Halikarnassos
-					this = province:1 # Alexandria
+					this = province:88 # Halikarnassos
+					this = province:88 # Alexandria
 					# Legend stuff
 					any_legend = {
 						legend_owner.capital_province ?= scope:province_temp
@@ -12386,16 +12386,16 @@ ep3_camp_party_visit_holding_skills_boost = {
 
 #Setting up the Fens as a pseudo-custom region
 ep3_the_fens_list_effect = {
-	province:1 = { add_to_list = the_fens } #b_melesa
-	province:1 = { add_to_list = the_fens } #b_melesa
-	province:1 = { add_to_list = the_fens } #b_melesa
-	province:1 = { add_to_list = the_fens } #b_melesa
-	province:1 = { add_to_list = the_fens } #b_melesa
-	province:1 = { add_to_list = the_fens } #b_melesa
-	province:1 = { add_to_list = the_fens } #b_melesa
-	province:1 = { add_to_list = the_fens } #b_melesa
-	province:1 = { add_to_list = the_fens } #b_melesa
-	province:1 = { add_to_list = the_fens } #b_melesa
+	province:88 = { add_to_list = the_fens } #b_melesa
+	province:88 = { add_to_list = the_fens } #b_melesa
+	province:88 = { add_to_list = the_fens } #b_melesa
+	province:88 = { add_to_list = the_fens } #b_melesa
+	province:88 = { add_to_list = the_fens } #b_melesa
+	province:88 = { add_to_list = the_fens } #b_melesa
+	province:88 = { add_to_list = the_fens } #b_melesa
+	province:88 = { add_to_list = the_fens } #b_melesa
+	province:88 = { add_to_list = the_fens } #b_melesa
+	province:88 = { add_to_list = the_fens } #b_melesa
 }
 
 #Used for setting up the Harrying of the North widget for events

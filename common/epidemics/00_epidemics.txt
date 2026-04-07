@@ -18,14 +18,14 @@ smallpox = {
 			triggered_desc = {
 				trigger = {
 					outbreak_intensity = apocalyptic
-					outbreak_province = province:1
+					outbreak_province = province:88
 				}
 				desc = epidemic_bonifacy_gift
 			}
 			triggered_desc = {
 				trigger = {
 					outbreak_intensity = apocalyptic
-					outbreak_province = province:1
+					outbreak_province = province:88
 				}
 				desc = epidemic_raqguul_plague
 			}
@@ -269,14 +269,14 @@ bubonic_plague = {
 		first_valid = {
 			triggered_desc = {
 				trigger = {
-					outbreak_province = province:1
+					outbreak_province = province:88
 					outbreak_intensity = apocalyptic
 				}
 				desc = epidemic_mitcheldean_malaise
 			}
 			triggered_desc = {
 				trigger = {
-					outbreak_province = province:1
+					outbreak_province = province:88
 					outbreak_intensity = apocalyptic
 				}
 				desc = epidemic_green_death
@@ -664,21 +664,21 @@ typhus = {
 			triggered_desc = {
 				trigger = {
 					outbreak_intensity = apocalyptic
-					outbreak_province = province:1
+					outbreak_province = province:88
 				}
 				desc = epidemic_bydgoszczanka
 			}
 			triggered_desc = {
 				trigger = {
 					outbreak_intensity = apocalyptic
-					outbreak_province = province:1
+					outbreak_province = province:88
 				}
 				desc = epidemic_torunianka
 			}
 			triggered_desc = {
 				trigger = {
 					outbreak_intensity = apocalyptic
-					outbreak_province = province:1
+					outbreak_province = province:88
 				}
 				desc = epidemic_penge_plague
 			}
@@ -967,14 +967,14 @@ consumption = { #Tuberculosis
 			triggered_desc = {
 				trigger = {
 					outbreak_intensity = apocalyptic
-					outbreak_province = province:1
+					outbreak_province = province:88
 				}
 				desc = epidemic_napolna_zaraza
 			}
 			triggered_desc = {
 				trigger = {
 					outbreak_intensity = apocalyptic
-					outbreak_province = province:1
+					outbreak_province = province:88
 				}
 				desc = epidemic_gannholm_grievance
 			}
@@ -1326,14 +1326,14 @@ measles = {
 		first_valid = {
 			triggered_desc = {
 				trigger = {
-					outbreak_province = province:1
+					outbreak_province = province:88
 					outbreak_intensity = apocalyptic
 				}
 				desc = epidemic_cooties
 			}
 			triggered_desc = {
 				trigger = {
-					outbreak_province = province:1
+					outbreak_province = province:88
 					outbreak_intensity = apocalyptic
 					outbreak_province.county.faith = { religion_tag = christianity_religion }
 				}
@@ -1644,8 +1644,8 @@ dysentery = {
 				trigger = {
 					outbreak_intensity = apocalyptic
 					OR = {
-						outbreak_province = province:1
-						outbreak_province = province:1
+						outbreak_province = province:88
+						outbreak_province = province:88
 					}
 				}
 				desc = epidemic_twin_cods_revenge
@@ -1653,7 +1653,7 @@ dysentery = {
 			triggered_desc = {
 				trigger = {
 					outbreak_intensity = apocalyptic
-					outbreak_province = province:1
+					outbreak_province = province:88
 				}
 				desc = epidemic_ligma
 			}
@@ -1914,7 +1914,7 @@ ergotism = { #dancing plague - not contagious
 			triggered_desc = {
 				trigger = {
 					outbreak_intensity = apocalyptic
-					outbreak_province = province:1
+					outbreak_province = province:88
 				}
 				desc = epidemic_saturday_night_fever
 			}

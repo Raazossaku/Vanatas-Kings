@@ -4559,7 +4559,7 @@
 				activity_location = { NOT = { has_holding_type = church_holding } }
 				scope:host = {
 					OR = {
-						location = province:b_constantinople
+						location = province:b_melesa
 						AND = {
 							primary_title = title:e_byzantium
 							title:c_byzantion = {
@@ -4785,7 +4785,7 @@
 				has_current_phase = coronation_phase_coronation
 			}
 			scope:host = {
-				scope:activity.activity_location.county = title:c_atlantis
+				scope:activity.activity_location.county = title:c_melesa
 			}
 		}
 		texture = "gfx/interface/illustrations/event_scenes/ep3_hagia_sophia.dds"

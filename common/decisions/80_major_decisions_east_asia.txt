@@ -189,7 +189,7 @@ form_majapahit_empire_decision = {
 		}
 		custom_tooltip = {
 			text = form_majapahit_empire_decision_requirement_4_tt
-			title:c_atlantis = {
+			title:c_melesa = {
 				this = { is_title_created = yes }
 				holder = {
 					OR = {
@@ -289,7 +289,7 @@ form_ryukyu_empire_decision = {
 	is_valid = {
 		top_liege = this
 		highest_held_title_tier = tier_kingdom
-		has_title = title:c_atlantis
+		has_title = title:c_melesa
 		has_title = title:d_ruucuu
 		has_title = title:k_ruucuu
 		sub_realm_size >= 60
@@ -503,7 +503,7 @@ form_brunei_kingdom_decision = {
 		}
 		custom_tooltip = {
 			text = form_brunei_kingdom_decision_requirement_2_tt
-			title:c_atlantis = {
+			title:c_melesa = {
 				this = { is_title_created = yes }
 				holder = {
 					OR = {
@@ -612,7 +612,7 @@ form_brunei_empire_decision = {
 		}
 		custom_tooltip = {
 			text = form_brunei_empire_decision_requirement_2_tt
-			title:c_atlantis = {
+			title:c_melesa = {
 				this = { is_title_created = yes }
 				holder = {
 					OR = {
@@ -625,7 +625,7 @@ form_brunei_empire_decision = {
 		completely_controls = title:k_brunei
 		completely_controls = title:k_tanjungnagara
 		completely_controls = title:d_PHI_sandao
-		completely_controls = title:c_atlantis
+		completely_controls = title:c_melesa
 	}
 
 	is_valid_showing_failures_only = {

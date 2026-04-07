@@ -986,8 +986,8 @@ fp3_start_zanj_rebellion_effect = {
 				type = light_footmen
 				stacks = zanj_rebellion_strength_score_skirmishers
 			}
-			location = province:1
-			origin = province:1
+			location = province:88
+			origin = province:88
 			inheritable = yes
 			name = fp3_zanj_rebel_army_title
 		}

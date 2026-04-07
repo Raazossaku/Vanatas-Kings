@@ -926,7 +926,7 @@ coronation_events.1007 = {
 	override_background = {
 		trigger = {
 			#Don't want Constantinople background for depth perspective chars
-			location.county = title:c_atlantis
+			location.county = title:c_melesa
 		}
 		reference = bp2_courtyard
 	}

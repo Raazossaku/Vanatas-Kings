@@ -35,7 +35,7 @@ silk_road_innovation_trigger = {
 		}
 		# Sinophilic
 		AND = {
-			title:c_atlantis.culture ?= { has_innovation = innovation_$INNOVATION$ }
+			title:c_melesa.culture ?= { has_innovation = innovation_$INNOVATION$ }
 			has_cultural_parameter = may_adopt_silk_road_innovations
 		}
 	}

@@ -10,21 +10,21 @@
 # Used to keep track of mines found after our time period, so they have a higher chance to spawn for the Inspection event, particularly in Norway
 later_historical_gold_mine_trigger = {
 	OR = {
-		this = province:1 # Kildonan Gold Rush, 1869
-		this = province:1 # Dolgellau Gold Rush, Mid-19th century
+		this = province:88 # Kildonan Gold Rush, 1869
+		this = province:88 # Dolgellau Gold Rush, Mid-19th century
 	}
 }
 
 later_historical_silver_mine_trigger = {
 	OR = {
-		this = province:1 # Kongsberg, 1623
-		this = province:1 # Sala, 15th century
+		this = province:88 # Kongsberg, 1623
+		this = province:88 # Sala, 15th century
 	}
 }
 
 later_historical_copper_mine_trigger = {
 	OR = {
-		this = province:1 # Røros, 1645
+		this = province:88 # Røros, 1645
 	}
 }
 

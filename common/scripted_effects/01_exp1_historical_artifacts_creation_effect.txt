@@ -1135,7 +1135,7 @@ create_artifact_edmund_head_effect = {
 			type = created
 			date = 869.11.20
 			recipient = character:1 #Eadmund the Martyr
-			location = province:1 #Blything
+			location = province:88 #Blything
 		}
 		modifier = edmund_head_modifier
 		save_scope_as = newly_created_artifact
@@ -1275,7 +1275,7 @@ create_artifact_throne_charlemagne_effect = { #Create at start
 			type = created
 			date = 800.12.25
 			recipient = character:1 #Karl I the Great
-			location = province:1 #Aachen
+			location = province:88 #Aachen
 		}
 		modifier = throne_charlemagne_modifier
 		save_scope_as = newly_created_artifact
@@ -1404,7 +1404,7 @@ create_artifact_throne_scone_effect = {
 			type = created
 			date = 841.6.1
 			recipient = character:1 #Kenneth mac Ailpín
-			location = province:1 #Scone
+			location = province:88 #Scone
 		}
 		modifier = throne_scone_modifier
 		save_scope_as = newly_created_artifact
@@ -1477,7 +1477,7 @@ create_artifact_sculpture_cabinet_pentapyrgion_effect = {
 			type = created
 			date = 839.6.1
 			recipient = character:1 #Theophilos
-			location = province:1 #Constantinople
+			location = province:88 #Constantinople
 		}
 		modifier = pentapyrgion_modifier
 		save_scope_as = newly_created_artifact
@@ -1516,7 +1516,7 @@ create_artifact_monomachus_crown_effect = {
 			type = created
 			date = 1042.6.11
 			recipient = character:1 #Konstantinos IX
-			location = province:1 #Constantinople
+			location = province:88 #Constantinople
 		}
 		modifier = monomachus_crown_modifier
 		save_scope_as = newly_created_artifact
@@ -2067,7 +2067,7 @@ create_artifact_reichskrone_effect = {
 			type = created
 			date = 962.1.1
 			recipient = character:1 #Otto I
-			location = province:1 #Aachen
+			location = province:88 #Aachen
 		}
 		modifier = reichskrone_modifier
 		save_scope_as = newly_created_artifact
@@ -2175,7 +2175,7 @@ create_artifact_wall_banner_edessa_effect = {
 		template = edessa_template
 		history = {
 			type = created_before_history
-			location = province:1 #Edessa
+			location = province:88 #Edessa
 		}
 		modifier = banner_of_edessa_modifier
 		save_scope_as = newly_created_artifact
@@ -2467,7 +2467,7 @@ create_artifact_wall_muhammad_sword_effect = {
 				type = conquest
 				date = 622.5.1
 				recipient = character:1 #Muhammad the Prophet
-				location = province:1
+				location = province:88
 			}
 		}
 	}
@@ -2480,7 +2480,7 @@ create_artifact_wall_muhammad_sword_effect = {
 				type = conquest
 				date = 624.3.13
 				recipient = character:1 #Muhammad the Prophet
-				location = province:1 #Al-Jar
+				location = province:88 #Al-Jar
 			}
 		}
 	}
@@ -2772,7 +2772,7 @@ create_artifact_pedestal_crown_iron_effect = { #Create at start
 			type = created
 			date = 313.2.1
 			recipient = character:1 #Konstantinos I the Great
-			location = province:1 #Constantinople
+			location = province:88 #Constantinople
 		}
 		modifier = iron_crown_modifier
 		save_scope_as = newly_created_artifact
@@ -2787,37 +2787,37 @@ create_artifact_pedestal_crown_iron_effect = { #Create at start
 			date = 600.1.1
 			actor = character:1
 			recipient = character:1
-			location = province:1
+			location = province:88
 		}
 		add_artifact_history = {
 			type = given
 			date = 774.7.10
 			recipient = character:1
-			location = province:1
+			location = province:88
 		}
 		add_artifact_history = {
 			type = given
 			date = 781.1.1
 			recipient = character:1
-			location = province:1
+			location = province:88
 		}
 		add_artifact_history = {
 			type = inherited
 			date = 810.1.1
 			recipient = character:1
-			location = province:1
+			location = province:88
 		}
 		add_artifact_history = {
 			type = inherited
 			date = 818.4.17
 			recipient = character:1
-			location = province:1
+			location = province:88
 		}
 		add_artifact_history = {
 			type = inherited
 			date = 887.1.1
 			recipient = character:1
-			location = province:1
+			location = province:88
 		}
 		# k_italy history copied manually because it is destroyed before 1066
 		add_artifact_history = {
@@ -2892,7 +2892,7 @@ create_artifact_nikephoros_crown_effect = {
 			type = created
 			date = 963.7.2
 			recipient = character:1 #Nikephoros Phokas
-			location = province:1 #Constantinople
+			location = province:88 #Constantinople
 		}
 		modifier = nikephoros_crown_modifier
 		save_scope_as = newly_created_artifact
@@ -2991,7 +2991,7 @@ create_artifact_essen_crown_effect = {
 			type = created
 			date = 983.1.1
 			recipient = character:1 #Otto III
-			location = province:1 #Essen
+			location = province:88 #Essen
 		}
 		modifier = essen_crown_modifier
 		save_scope_as = newly_created_artifact
@@ -3516,7 +3516,7 @@ create_artifact_curtana_effect = {
 			type = created
 			date = 1042.6.9
 			recipient = character:1 #Eadward the Confessor
-			location = province:1 #Lunden
+			location = province:88 #Lunden
 		}
 		modifier = curtana_modifier
 		save_scope_as = newly_created_artifact
@@ -3743,7 +3743,7 @@ create_artifact_pedestal_david_harp_effect = {
 		quality = scope:quality
 		history = {
 			type = created_before_history
-			location = province:1 #Jerusalem
+			location = province:88 #Jerusalem
 		}
 		modifier = david_harp_modifier
 		save_scope_as = newly_created_artifact
@@ -3805,7 +3805,7 @@ create_artifact_papal_tiara_effect = {
 			type = created
 			date = 800.1.1
 			recipient = character:1 #Leo III - fictitious date, probably somewhere between the 8th and 9th centuries
-			location = province:1 #Rome
+			location = province:88 #Rome
 		}
 		modifier = artifact_monthly_piety_4_modifier
 		save_scope_as = newly_created_artifact
@@ -4188,7 +4188,7 @@ create_artifact_pedestal_justinian_effect = {
 			type = created
 			date = 527.4.1
 			recipient = character:1 #Justinian the Great
-			location = province:1 #Constantinople
+			location = province:88 #Constantinople
 		}
 		modifier = justinian_crown_modifier
 		save_scope_as = newly_created_artifact
@@ -4225,7 +4225,7 @@ create_artifact_statue_constantine_effect = {
 			type = created
 			date = 330.1.1
 			recipient = character:1 #Constantine the Great
-			location = province:1 #Constantinople
+			location = province:88 #Constantinople
 		}
 		modifier = statue_constantine_modifier
 		save_scope_as = newly_created_artifact

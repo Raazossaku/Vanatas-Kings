@@ -4,54 +4,54 @@ visiting_poi_effect = {
 	if = { # Offa's Dyke
 		limit = {
 			OR = {
-				scope:province = province:1
-				scope:province = province:1
-				scope:province = province:1
-				scope:province = province:1
-				scope:province = province:1
-				scope:province = province:1
+				scope:province = province:88
+				scope:province = province:88
+				scope:province = province:88
+				scope:province = province:88
+				scope:province = province:88
+				scope:province = province:88
 			}
 		}
-		visiting_poi_variable_effect = { PROVINCE = province:1 }
-		visiting_poi_variable_effect = { PROVINCE = province:1 }
-		visiting_poi_variable_effect = { PROVINCE = province:1 }
-		visiting_poi_variable_effect = { PROVINCE = province:1 }
-		visiting_poi_variable_effect = { PROVINCE = province:1 }
-		visiting_poi_variable_effect = { PROVINCE = province:1 }
+		visiting_poi_variable_effect = { PROVINCE = province:88 }
+		visiting_poi_variable_effect = { PROVINCE = province:88 }
+		visiting_poi_variable_effect = { PROVINCE = province:88 }
+		visiting_poi_variable_effect = { PROVINCE = province:88 }
+		visiting_poi_variable_effect = { PROVINCE = province:88 }
+		visiting_poi_variable_effect = { PROVINCE = province:88 }
 	}
 	else_if = { # Hadrian's Wall
 		limit = {
 			OR = {
-				scope:province = province:1
-				scope:province = province:1
-				scope:province = province:1
-				scope:province = province:1
+				scope:province = province:88
+				scope:province = province:88
+				scope:province = province:88
+				scope:province = province:88
 			}
 		}
-		visiting_poi_variable_effect = { PROVINCE = province:1 }
-		visiting_poi_variable_effect = { PROVINCE = province:1 }
-		visiting_poi_variable_effect = { PROVINCE = province:1 }
-		visiting_poi_variable_effect = { PROVINCE = province:1 }
+		visiting_poi_variable_effect = { PROVINCE = province:88 }
+		visiting_poi_variable_effect = { PROVINCE = province:88 }
+		visiting_poi_variable_effect = { PROVINCE = province:88 }
+		visiting_poi_variable_effect = { PROVINCE = province:88 }
 	}
 	else_if = { # Danevirke
 		limit = {
 			OR = {
-				scope:province = province:1
-				scope:province = province:1
+				scope:province = province:88
+				scope:province = province:88
 			}
 		}
-		visiting_poi_variable_effect = { PROVINCE = province:1 }
-		visiting_poi_variable_effect = { PROVINCE = province:1 }
+		visiting_poi_variable_effect = { PROVINCE = province:88 }
+		visiting_poi_variable_effect = { PROVINCE = province:88 }
 	}
 	else_if = { # Great Wall of Gorgan
 		limit = {
 			OR = {
-				scope:province = province:1
-				scope:province = province:1
+				scope:province = province:88
+				scope:province = province:88
 			}
 		}
-		visiting_poi_variable_effect = { PROVINCE = province:1 }
-		visiting_poi_variable_effect = { PROVINCE = province:1 }
+		visiting_poi_variable_effect = { PROVINCE = province:88 }
+		visiting_poi_variable_effect = { PROVINCE = province:88 }
 	}
 	else = {
 		visiting_poi_variable_effect = { PROVINCE = scope:province }
@@ -69,54 +69,54 @@ visiting_monument_exploration_effect = {
 	if = { # Offa's Dyke
 		limit = {
 			OR = {
-				scope:province = province:1
-				scope:province = province:1
-				scope:province = province:1
-				scope:province = province:1
-				scope:province = province:1
-				scope:province = province:1
+				scope:province = province:88
+				scope:province = province:88
+				scope:province = province:88
+				scope:province = province:88
+				scope:province = province:88
+				scope:province = province:88
 			}
 		}
-		visiting_monument_exploration_variable_effect = { PROVINCE = province:1 }
-		visiting_monument_exploration_variable_effect = { PROVINCE = province:1 }
-		visiting_monument_exploration_variable_effect = { PROVINCE = province:1 }
-		visiting_monument_exploration_variable_effect = { PROVINCE = province:1 }
-		visiting_monument_exploration_variable_effect = { PROVINCE = province:1 }
-		visiting_monument_exploration_variable_effect = { PROVINCE = province:1 }
+		visiting_monument_exploration_variable_effect = { PROVINCE = province:88 }
+		visiting_monument_exploration_variable_effect = { PROVINCE = province:88 }
+		visiting_monument_exploration_variable_effect = { PROVINCE = province:88 }
+		visiting_monument_exploration_variable_effect = { PROVINCE = province:88 }
+		visiting_monument_exploration_variable_effect = { PROVINCE = province:88 }
+		visiting_monument_exploration_variable_effect = { PROVINCE = province:88 }
 	}
 	else_if = { # Hadrian's Wall
 		limit = {
 			OR = {
-				scope:province = province:1
-				scope:province = province:1
-				scope:province = province:1
-				scope:province = province:1
+				scope:province = province:88
+				scope:province = province:88
+				scope:province = province:88
+				scope:province = province:88
 			}
 		}
-		visiting_monument_exploration_variable_effect = { PROVINCE = province:1 }
-		visiting_monument_exploration_variable_effect = { PROVINCE = province:1 }
-		visiting_monument_exploration_variable_effect = { PROVINCE = province:1 }
-		visiting_monument_exploration_variable_effect = { PROVINCE = province:1 }
+		visiting_monument_exploration_variable_effect = { PROVINCE = province:88 }
+		visiting_monument_exploration_variable_effect = { PROVINCE = province:88 }
+		visiting_monument_exploration_variable_effect = { PROVINCE = province:88 }
+		visiting_monument_exploration_variable_effect = { PROVINCE = province:88 }
 	}
 	else_if = { # Danevirke
 		limit = {
 			OR = {
-				scope:province = province:1
-				scope:province = province:1
+				scope:province = province:88
+				scope:province = province:88
 			}
 		}
-		visiting_monument_exploration_variable_effect = { PROVINCE = province:1 }
-		visiting_monument_exploration_variable_effect = { PROVINCE = province:1 }
+		visiting_monument_exploration_variable_effect = { PROVINCE = province:88 }
+		visiting_monument_exploration_variable_effect = { PROVINCE = province:88 }
 	}
 	else_if = { # Great Wall of Gorgan
 		limit = {
 			OR = {
-				scope:province = province:1
-				scope:province = province:1
+				scope:province = province:88
+				scope:province = province:88
 			}
 		}
-		visiting_monument_exploration_variable_effect = { PROVINCE = province:1 }
-		visiting_monument_exploration_variable_effect = { PROVINCE = province:1 }
+		visiting_monument_exploration_variable_effect = { PROVINCE = province:88 }
+		visiting_monument_exploration_variable_effect = { PROVINCE = province:88 }
 	}
 	else = {
 		visiting_monument_exploration_variable_effect = { PROVINCE = scope:province }

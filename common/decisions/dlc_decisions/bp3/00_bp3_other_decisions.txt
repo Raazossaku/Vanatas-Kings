@@ -662,14 +662,14 @@ form_bosporan_kingdom_decision = {
 		
 		if = {
 			limit = {
-				province:1 = {
+				province:88 = {
 					has_holding_type = castle_holding
 				}
-				province:1 = {
+				province:88 = {
 					has_holding = no
 				}
 			}
-			province:1 = {
+			province:88 = {
 				begin_create_holding = castle_holding
 			}
 		}		

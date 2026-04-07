@@ -104,7 +104,7 @@ TriumphReligiousLocation = {
 	text = {
 		trigger = {
 			# Constantinople
-			location = province:1
+			location = province:88
 			# Christian
 			faith.religion = religion:christianity_religion
 		}
@@ -114,7 +114,7 @@ TriumphReligiousLocation = {
 	text = {
 		trigger = {
 			# not Constantinople
-			NOT = { location = province:1 }
+			NOT = { location = province:88 }
 			# Christian
 			faith.religion = religion:christianity_religion
 		}
@@ -124,7 +124,7 @@ TriumphReligiousLocation = {
 	text = {
 		trigger = {
 			# Constantinople
-			location = province:1
+			location = province:88
 			# Muslim
 			faith.religion = religion:islam_religion
 		}
@@ -151,7 +151,7 @@ TriumphReligiousLocationCapitalized = {
 	text = {
 		trigger = {
 			# Constantinople
-			location = province:1
+			location = province:88
 			# Christian
 			faith.religion = religion:christianity_religion
 		}
@@ -161,7 +161,7 @@ TriumphReligiousLocationCapitalized = {
 	text = {
 		trigger = {
 			# not Constantinople
-			NOT = { location = province:1 }
+			NOT = { location = province:88 }
 			# Christian
 			faith.religion = religion:christianity_religion
 		}
@@ -171,7 +171,7 @@ TriumphReligiousLocationCapitalized = {
 	text = {
 		trigger = {
 			# Constantinople
-			location = province:1
+			location = province:88
 			# Muslim
 			faith.religion = religion:islam_religion
 		}
@@ -1221,7 +1221,7 @@ GetThroneRoom = {
 	text = {
 		trigger = {
 			has_title = title:e_byzantium
-			capital_province = province:1
+			capital_province = province:88
 		}
 		localization_key = throne_room_chrysotriklinos
 	}

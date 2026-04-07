@@ -322,13 +322,13 @@ hunt_animal_big_available_trigger = {
 				limit = { exists = county }
 				NOR = {
 					# Counties
-					county = title:c_atlantis # Not native
-					county = title:c_atlantis # Not native
-					county = title:c_atlantis # Not native
-					county = title:c_atlantis # Extinct
-					county = title:c_atlantis # Not native
-					county = title:c_atlantis # Extinct
-					county = title:c_atlantis # Extinct
+					county = title:c_melesa # Not native
+					county = title:c_melesa # Not native
+					county = title:c_melesa # Not native
+					county = title:c_melesa # Extinct
+					county = title:c_melesa # Not native
+					county = title:c_melesa # Extinct
+					county = title:c_melesa # Extinct
 				}
 			}
 			trigger_if = {
@@ -355,8 +355,8 @@ hunt_animal_small_available_trigger = {
 			trigger_if = {
 				limit = { exists = county }
 				NOR = {
-					county = title:c_atlantis # Not native
-					county = title:c_atlantis # Not native
+					county = title:c_melesa # Not native
+					county = title:c_melesa # Not native
 				}
 			}
 			trigger_if = {
@@ -489,7 +489,7 @@ hunt_sighting_event_trigger = {
 	NOT = { has_character_flag = recent_hunt_sighting }
 	trigger_if = {
 		limit = { is_landed = no }
-		NOT = { domicile.domicile_location ?= province:1 }
+		NOT = { domicile.domicile_location ?= province:88 }
 	}
 	OR = {
 		court_position:master_of_hunt_court_position ?= { is_available_adult = yes }
