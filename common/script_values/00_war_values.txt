@@ -357,7 +357,7 @@ byzantium_conquests_ai_score_value = {
 								empire = title:e_byzantium
 								empire = title:e_latin_empire
 							}
-						}s
+						}
 						OR = {
 							culture = { has_cultural_pillar = heritage_byzantine }
 							culture = culture:greek

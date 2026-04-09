@@ -32,6 +32,57 @@ language_gundiagh = {
 	
 	color = gaelic
 }
+language_canach = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_canach
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_canach }
+			multiply = 10
+		}
+	}
+	
+	color = gaelic
+}
+language_lledoweg = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_lledoweg
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_lledoweg }
+			multiply = 10
+		}
+	}
+	
+	color = welsh
+}
+language_tretu = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_lledoweg
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_tretu }
+			multiply = 10
+		}
+	}
+	
+	color = welsh
+}
 
 language_manuak = {
 	type = language

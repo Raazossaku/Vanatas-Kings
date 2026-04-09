@@ -156,7 +156,9 @@ material_hsb_boar_tusk = {
 }
 sea_south_atlantic = {
 	provinces = {
-		1 89 90 91 92 93 94 95 96 97
+		1
+		        142 143 144 145 146 147 148 149
+		150 151 152 153
 	}
 }
 sea_atlantic_ocean = {

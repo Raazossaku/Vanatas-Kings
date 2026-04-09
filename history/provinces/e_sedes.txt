@@ -1,0 +1,908 @@
+﻿# e_sedes
+#  k_ordrey
+#   d_lathadu
+#    c_ooylshugrey
+#     b_ooylshugrey
+2 = {
+    culture = gundiagh
+    religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_messglassey_1
+3 = {
+    culture = gundiagh
+    religion = cideach_ayekism
+	holding = none
+}
+#     b_calleebane
+4 = {
+    culture = gundiagh
+    religion = cideach_ayekism
+    holding = castle_holding
+}
+#    c_blaas
+#     b_ushteyghoo
+5 = {
+    culture = gundiagh
+    religion = cideach_ayekism
+    holding = castle_holding
+}
+#     b_aarnieu_delta
+6 = {
+	culture = gundiagh
+	religion = cideach_ayekism
+	holding = city_holding
+}
+#    c_crongan
+#     b_lheimmeyushtey
+7 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_loch_craine
+8 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#    c_gareyblaa
+#     b_loch_bane
+9 = {
+	culture = gundiagh
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_gareyblaa_1
+10 = {
+    culture = gundiagh
+    religion = cideach_ayekism
+	holding = none
+}
+#     b_gareyblaa_2
+11 = {
+    culture = gundiagh
+    religion = cideach_ayekism
+	holding = none
+}
+#    c_neear
+#     b_balleyollym
+12 = {
+	culture = gundiagh
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_doghyscalit
+13 = {
+    culture = gundiagh
+    religion = cideach_ayekism
+	holding = none
+}
+#     b_shenncheyll
+14 = {
+    culture = gundiagh
+    religion = cideach_ayekism
+	holding = none
+}
+#    c_doochassagh
+#     b_logh_bowen
+15 = {
+	culture = gundiagh
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_mayragh_ushtaghyn
+16 = {
+    culture = gundiagh
+    religion = cideach_ayekism
+	holding = none
+}
+#     b_doochassagh_1
+17 = {
+    culture = gundiagh
+    religion = cideach_ayekism
+	holding = none
+}
+#    c_forbes
+#     b_forbes_forbes
+18 = {
+    culture = gundiagh
+    religion = cideach_ayekism
+	holding = city_holding
+}
+#   d_bueica
+#    c_damsey
+#     b_damsey_damsey
+19 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#    c_fallone
+#     b_fallone_fallone
+20 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_fallone_1
+21 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_fallone_2
+22 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_noters
+#     b_noters_noters
+23 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = city_holding
+}
+#    c_boubrigge
+#     b_boubrigge_boubrigge
+24 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_boubrigge_1
+25 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_boubrigge_2
+26 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_eprodour
+#     b_eprodour_eprodour
+27 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_eprodour_1
+28 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_eprodour_2
+29 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_eprodour_3
+30 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_bueica
+#     b_bueica_1
+31 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_bueica_2
+32 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_alisse
+#     b_alisse_alisse
+33 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#   d_ceithunac
+#    c_onach
+#     b_onach_onadon
+34 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_onach_1
+35 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_onach_2
+36 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_lem
+#     b_lem_lemdon
+37 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_lem_1
+38 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_lem_2
+39 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_salney
+#     b_salney_saldour
+40 = {
+	culture = ordrish
+	religion = tretweg_ayekism
+	holding = castle_holding
+}
+#     b_salney_1
+41 = {
+	culture = ordrish
+	religion = tretweg_ayekism
+	holding = none
+}
+#    c_segou
+#     b_segou_segou
+42 = {
+	culture = tretu
+	religion = tretweg_ayekism
+	holding = castle_holding
+}
+#     b_segou_1
+43 = {
+	culture = tretu
+	religion = tretweg_ayekism
+	holding = none
+}
+#    c_ondaffe
+#     b_ondaffe_ondaffe
+44 = {
+	culture = tretu
+	religion = tretweg_ayekism
+	holding = castle_holding
+}
+#     b_ondaffe_1
+45 = {
+	culture = tretu
+	religion = tretweg_ayekism
+	holding = none
+}
+#    c_lowerey
+#     b_lowerey_1
+46 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_lowerey_2
+47 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_lowerey_3
+48 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_lowerey_4
+49 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_calla
+#     b_calla_calla
+50 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_calla_1
+51 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#   d_ariclon
+#    c_cosan
+#     b_cosan_cosan
+52 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_cosan_1
+53 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_cosan_2
+54 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_cosan_3
+55 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_catobon
+#     b_catobon_catobon
+56 = {
+	culture = tretu
+	religion = tretweg_ayekism
+	holding = castle_holding
+}
+#    c_weilan
+#     b_weilan_weilan
+57 = {
+	culture = tretu
+	religion = tretweg_ayekism
+	holding = castle_holding
+}
+#     b_weilan_1
+58 = {
+	culture = tretu
+	religion = tretweg_ayekism
+	holding = none
+}
+#    c_flay
+#     b_flay_flaisdour
+59 = {
+	culture = ordrish
+	religion = tretweg_ayekism
+	holding = castle_holding
+}
+#     b_flay_1
+60 = {
+	culture = ordrish
+	religion = tretweg_ayekism
+	holding = none
+}
+#    c_ardaguinne
+#     b_ardaguinne_ardaguinne
+61 = {
+	culture = ordrish
+	religion = tretweg_ayekism
+	holding = castle_holding
+}
+#     b_ardaguinne_1
+62 = {
+	culture = ordrish
+	religion = tretweg_ayekism
+	holding = none
+}
+#   d_lanamoi
+#    c_vernon
+#     b_vernon_vernon
+63 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#    c_ebroudon
+#     b_ebroudon_ebroudon
+64 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_ebroudon_1
+65 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_ebroudon_2
+66 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_ebroudon_3
+67 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_mogone
+#     b_mogone_mogone
+68 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_mogone_1
+69 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_mogone_2
+70 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_mogone_3
+71 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_carreney
+#     b_carreney_selocarre
+72 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_carreney_1
+73 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_carreney_2
+74 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_carreney_3
+75 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_dovney
+#     b_dovney_doven
+76 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_dovney_1
+77 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_dovney_2
+78 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_dovney_3
+79 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_ledoride
+#     b_ledoride_ledoride
+80 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_ledoride_1
+81 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_ledoride_2
+82 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_giry
+#     b_giry_giry
+83 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_giry_1
+84 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_glesson
+#     b_glesson_glesson
+85 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_glesson_1
+86 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_glesson_graulen
+87 = {
+	culture = ordrish
+	religion = cideach_ayekism
+	holding = none
+}
+#   d_tretland
+#    c_keilyn
+#     b_keilyn_keilyn
+88 = {
+	culture = tretu
+	religion = tretweg_ayekism
+	holding = nomad_holding
+}
+#     b_keilyn_1
+89 = {
+	culture = tretu
+	religion = tretweg_ayekism
+	holding = none
+}
+#     b_keilyn_2
+90 = {
+	culture = tretu
+	religion = tretweg_ayekism
+	holding = none
+}
+#     b_keilyn_3
+91 = {
+	culture = tretu
+	religion = tretweg_ayekism
+	holding = none
+}
+#  k_salia
+#   d_lledowu
+#    c_melesa
+#     b_melesa
+92 = {
+	culture = cadalig
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#    c_lledowu_1
+#     b_lledowu_1_1
+93 = {
+	culture = lledow
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_lledowu_1_2
+94 = {
+	culture = lledow
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_lledowu_1_3
+95 = {
+	culture = lledow
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_lledowu_2
+#     b_lledowu_2_1
+96 = {
+	culture = lledow
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_lledowu_2_2
+97 = {
+	culture = lledow
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_lledowu_2_3
+98 = {
+	culture = lledow
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_porth_grai
+#     b_porth_grai_porth_grai
+99 = {
+	culture = lledow
+	religion = cideach_ayekism
+	holding = city_holding
+}
+#     b_porth_grai_1
+100 = {
+	culture = lledow
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_porth_grai_2
+101 = {
+	culture = lledow
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_lledowu_3
+#     b_lledowu_3_1
+102 = {
+	culture = lledow
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_lledowu_3_2
+103 = {
+	culture = lledow
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_lledowu_3_3
+104 = {
+	culture = lledow
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_ynys_rhon
+#     b_ynys_rhon_porth_rhon
+105 = {
+	culture = lledow
+	religion = cideach_ayekism
+	holding = city_holding
+}
+#     b_ynys_rhon_1
+106 = {
+	culture = lledow
+	religion = cideach_ayekism
+	holding = none
+}
+#   d_west_cideacht
+#    c_bryngaer
+#     b_bryngaer_bryngaer
+107 = {
+	culture = lledow
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_bryngaer_1
+108 = {
+	culture = lledow
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_scra
+#     b_scra_scra
+109 = {
+	culture = cideach
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_scra_1
+110 = {
+	culture = cideach
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_scra_2
+111 = {
+	culture = cideach
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_west_cideacht_1
+#     b_west_cideacht_1_1
+112 = {
+	culture = cideach
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_west_cideacht_1_2
+113 = {
+	culture = cideach
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_west_cideacht_1_3
+114 = {
+	culture = cideach
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_west_cideacht_2
+#     b_west_cideacht_2_1
+115 = {
+	culture = cideach
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_west_cideacht_2_2
+116 = {
+	culture = cideach
+	religion = cideach_ayekism
+	holding = none
+}
+#   d_east_cideacht
+#    c_dha_bheal
+#     b_dha_bheal_dha_bheal
+117 = {
+	culture = cideach
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_dha_bheal_1
+118 = {
+	culture = cideach
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_dha_bheal_2
+119 = {
+	culture = cideach
+	religion = cideach_ayekism
+	holding = none
+}
+#     c_east_cideacht_1
+#     b_east_cideacht_1_1
+120 = {
+	culture = canach
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_east_cideacht_1_2
+121 = {
+	culture = canach
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_cloichin
+#     b_cloichin_cloichin
+122 = {
+	culture = cideach
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_cloichin_1
+123 = {
+	culture = cideach
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_cloichin_2
+124 = {
+	culture = cideach
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_east_cideacht_2
+#     b_east_cideacht_2_1
+125 = {
+	culture = canach
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_east_cideacht_2_2
+126 = {
+	culture = canach
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_east_cideacht_3
+#     b_east_cideacht_3_1
+127 = {
+	culture = cideach
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_east_cideacht_3_2
+128 = {
+	culture = cideach
+	religion = cideach_ayekism
+	holding = none
+}
+#   d_tir_ganache
+#    c_dirai
+#     b_dirai_dirai
+129 = {
+	culture = canach
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_dirai_1
+130 = {
+	culture = canach
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_dirai_2
+131 = {
+	culture = canach
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_tir_ganache_1
+#     b_tir_ganache_1_1
+132 = {
+	culture = canach
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_tir_ganache_1_2
+133 = {
+	culture = canach
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_orwenthrev
+#     b_orwenthrev_orwenthrev
+134 = {
+	culture = cideach
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_orwenthrev_1
+135 = {
+	culture = cideach
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_orwenthrev_2
+136 = {
+	culture = cideach
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_arwor_noiv
+#     b_arwor_noiv_arwor_noiv
+137 = {
+	culture = canach
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_arwor_noiv_1
+138 = {
+	culture = canach
+	religion = cideach_ayekism
+	holding = none
+}
+#     b_arwor_noiv_2
+139 = {
+	culture = canach
+	religion = cideach_ayekism
+	holding = none
+}
+#    c_melath
+#     b_melath_melath
+140 = {
+	culture = canach
+	religion = cideach_ayekism
+	holding = castle_holding
+}
+#     b_melath_1
+141 = {
+	culture = canach
+	religion = cideach_ayekism
+	holding = none
+}

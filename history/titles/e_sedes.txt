@@ -1,0 +1,470 @@
+﻿k_ordrey = {
+	959.1.1 = {
+		holder = vernon_1
+		government = feudal_government
+	}
+}
+
+c_messglassey = {
+	959.1.1 = {
+		holder = messglassey_1
+		government = feudal_government
+		liege = 0
+	}
+}
+c_blaas = {
+	959.1.1 = {
+		holder = blaas_1
+		government = feudal_government
+		liege = 0
+	}
+}
+c_crongan = {
+	959.1.1 = {
+		holder = crongan_1
+		government = feudal_government
+		liege = 0
+	}
+}
+c_gareyblaa = {
+	959.1.1 = {
+		holder = gareyblaa_1
+		government = feudal_government
+		liege = 0
+	}
+}
+c_neear = {
+	959.1.1 = {
+		holder = neear_1
+		government = feudal_government
+		liege = 0
+	}
+}
+c_doochassagh = {
+	959.1.1 = {
+		holder = doochassagh_1
+		government = feudal_government
+		liege = 0
+	}
+}
+
+d_bueica = {
+	959.1.1 = {
+		holder = bueica_1
+		government = feudal_government
+		liege = k_ordrey
+	}
+}
+
+c_forbes = {
+	959.1.1 = {
+		holder = forbes_1
+		government = republic_government
+		liege = d_bueica
+	}
+}
+
+c_damsey = {
+	959.1.1 = {
+		holder = damsey_1
+		government = feudal_government
+		liege = d_bueica
+	}
+}
+c_fallone = {
+	959.1.1 = {
+		holder = fallone_1
+		government = feudal_government
+		liege = d_bueica
+	}
+}
+c_noters = {
+	959.1.1 = {
+		holder = noters_1
+		government = republic_government
+		liege = d_bueica
+	}
+}
+c_boubrigge = {
+	959.1.1 = {
+		holder = boubrigge_1
+		government = feudal_government
+		liege = d_bueica
+	}
+}
+c_eprodour = {
+	959.1.1 = {
+		holder = eprodour_1
+		government = feudal_government
+		liege = d_bueica
+	}
+}
+c_bueica = {
+	959.1.1 = {
+		holder = bueica_1
+		government = feudal_government
+	}
+}
+
+d_ceithunac = {
+	959.1.1 = {
+		holder = ceithunac_1
+		government = feudal_government
+		liege = k_ordrey
+	}
+}
+
+c_alisse = {
+	959.1.1 = {
+		holder = alisse_1
+		government = feudal_government
+		liege = d_ceithunac
+	}
+}
+c_onach = {
+	959.1.1 = {
+		holder = onach_1
+		government = feudal_government
+		liege = d_ceithunac
+	}
+}
+c_lem = {
+	959.1.1 = {
+		holder = ceithunac_1
+		government = feudal_government
+	}
+}
+c_salney = {
+	959.1.1 = {
+		holder = salney_1
+		government = tribal_government
+		liege = d_ceithunac
+	}
+}
+c_segou = {
+	959.1.1 = {
+		holder = segou_1
+		government = tribal_government
+		liege = d_ceithunac
+	}
+}
+c_ondaffe = {
+	959.1.1 = {
+		holder = ondaffe_1
+		government = tribal_government
+		liege = d_ceithunac
+	}
+}
+c_lowerey = {
+	959.1.1 = {
+		holder = lowerey_1
+		government = feudal_government
+		liege = d_ceithunac
+	}
+}
+c_calla = {
+	959.1.1 = {
+		holder = calla_1
+		government = feudal_government
+		liege = d_ceithunac
+	}
+}
+
+
+d_ariclon = {
+	959.1.1 = {
+		holder = ariclon_1
+		government = feudal_government
+		liege = k_ordrey
+	}
+}
+
+c_cosan = {
+	959.1.1 = {
+		holder = cosan_1
+		government = feudal_government
+		liege = d_ariclon
+	}
+}
+c_catobon = {
+	959.1.1 = {
+		holder = catobon_1
+		government = feudal_government
+		liege = d_ariclon
+	}
+}
+c_weilan = {
+	959.1.1 = {
+		holder = weilan_1
+		government = feudal_government
+		liege = d_ariclon
+	}
+}
+c_flay = {
+	959.1.1 = {
+		holder = ariclon_1
+		government = feudal_government
+	}
+}
+c_ardaguinne = {
+	959.1.1 = {
+		holder = ardaguinne_1
+		government = feudal_government
+		liege = d_ariclon
+	}
+}
+
+d_lanamoi = {
+	959.1.1 = {
+		holder = vernon_1
+		government = feudal_government
+	}
+}
+c_vernon = {
+	959.1.1 = {
+		holder = vernon_1
+		government = feudal_government
+	}
+}
+c_ebroudon = {
+	959.1.1 = {
+		holder = ebroudon_1
+		government = feudal_government
+		liege = d_lanamoi
+	}
+}
+c_mogone = {
+	959.1.1 = {
+		holder = mogone_1
+		government = feudal_government
+		liege = d_lanamoi
+	}
+}
+c_carreney = {
+	959.1.1 = {
+		holder = carreney_1
+		government = feudal_government
+		liege = d_lanamoi
+	}
+}
+c_dovney = {
+	959.1.1 = {
+		holder = dovney_1
+		government = feudal_government
+		liege = d_lanamoi
+	}
+}
+c_ledoride = {
+	959.1.1 = {
+		holder = ledoride_1
+		government = feudal_government
+		liege = d_lanamoi
+	}
+}
+c_giry = {
+	959.1.1 = {
+		holder = giry_1
+		government = feudal_government
+		liege = d_lanamoi
+	}
+}
+c_glesson = {
+	959.1.1 = {
+		holder = glesson_1
+		government = feudal_government
+		liege = d_lanamoi
+	}
+}
+d_tretland = {
+	959.1.1 = {
+		holder = tretland_1
+		government = nomad_government
+		liege = 0
+	}
+}
+c_keilyn = {
+	959.1.1 = {
+		holder = tretland_1
+		government = nomad_government
+		liege = d_tretland
+	}
+}
+
+k_salia = {
+	959.1.1 = {
+		holder = scra_1
+		government = tribal_government
+		succession_laws = { gaelic_elective_succession_law }
+	}
+}
+
+d_lledowu = {
+	959.1.1 = {
+		holder = porth_grai_1
+		government = tribal_government
+		liege = k_salia
+	}
+}
+c_melesa = {
+	959.1.1 = {
+		holder = melesa_1
+		government = tribal_government
+		liege = 0
+	}
+}
+c_lledowu_1 = {
+	959.1.1 = {
+		holder = lledowu_1
+		government = tribal_government
+		liege = d_lledowu
+	}
+}
+c_lledowu_2 = {
+	959.1.1 = {
+		holder = lledowu_1
+		government = tribal_government
+		liege = d_lledowu
+	}
+}
+c_porth_grai = {
+	959.1.1 = {
+		holder = porth_grai_1
+		government = tribal_government
+		liege = d_lledowu
+	}
+}
+c_lledowu_3 = {
+	959.1.1 = {
+		holder = porth_grai_1
+		government = tribal_government
+		liege = d_lledowu
+	}
+}
+c_ynys_rhon = {
+	959.1.1 = {
+		holder = ynys_rhon_1
+		government = tribal_government
+		liege = d_lledowu
+	}
+}
+
+d_west_cideacht = {
+	959.1.1 = {
+		holder = scra_1
+		government = tribal_government
+		liege = k_salia
+	}
+}
+c_bryngaer = {
+	959.1.1 = {
+		holder = bryngaer_1
+		government = tribal_government
+		liege = d_west_cideacht
+	}
+}
+c_scra = {
+	959.1.1 = {
+		holder = scra_1
+		government = tribal_government
+		liege = d_west_cideacht
+	}
+}
+c_west_cideacht_1 = {
+	959.1.1 = {
+		holder = scra_1
+		government = tribal_government
+		liege = d_west_cideacht
+	}
+}
+c_west_cideacht_2 = {
+	959.1.1 = {
+		holder = scra_1
+		government = tribal_government
+		liege = d_west_cideacht
+	}
+}
+
+d_east_cideacht = {
+	959.1.1 = {
+		holder = cloichin_1
+		government = tribal_government
+		liege = k_salia
+	}
+}
+c_dha_bheal = {
+	959.1.1 = {
+		holder = dha_bheal_1
+		government = tribal_government
+		liege = d_east_cideacht
+	}
+}
+c_east_cideacht_1 = {
+	959.1.1 = {
+		holder = dha_bheal_1
+		government = tribal_government
+		liege = d_east_cideacht
+	}
+}
+c_cloichin = {
+	959.1.1 = {
+		holder = cloichin_1
+		government = tribal_government
+		liege = d_east_cideacht
+	}
+}
+c_east_cideacht_2 = {
+	959.1.1 = {
+		holder = cloichin_1
+		government = tribal_government
+		liege = d_east_cideacht
+	}
+}
+c_east_cideacht_3 = {
+	959.1.1 = {
+		holder = cloichin_1
+		government = tribal_government
+		liege = d_east_cideacht
+	}
+}
+d_tir_ganache = {
+	959.1.1 = {
+		holder = dirai_1
+		government = tribal_government
+		liege = k_salia
+	}
+}
+c_dirai = {
+	959.1.1 = {
+		holder = dirai_1
+		government = tribal_government
+		liege = d_tir_ganache
+	}
+}
+c_tir_ganache_1 = {
+	959.1.1 = {
+		holder = dirai_1
+		government = tribal_government
+		liege = d_tir_ganache
+	}
+}
+c_orwenthrev = {
+	959.1.1 = {
+		holder = orwenthrev_1
+		government = tribal_government
+		liege = d_tir_ganache
+	}
+}
+c_arwor_noiv = {
+	959.1.1 = {
+		holder = arwor_noiv_1
+		government = tribal_government
+		liege = d_tir_ganache
+	}
+}
+c_melath = {
+	959.1.1 = {
+		holder = melath_1
+		government = tribal_government
+		liege = d_tir_ganache
+	}
+}

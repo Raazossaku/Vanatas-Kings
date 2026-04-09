@@ -119,7 +119,7 @@
 			c_forbes = {
 				color = { 189 222 32 }
 
-				b_forbes = {
+				b_forbes_forbes = {
 					color = { 189 222 32 }
 					province = 18
 				}
@@ -133,7 +133,7 @@
 			c_damsey = {
 				color = { 225 238 160 }
 
-				b_damsey = {
+				b_damsey_damsey = {
 					color = { 225 238 160 }
 					province = 19
 				}
@@ -266,45 +266,6 @@
 				}
 			}
 
-			c_salney = {
-				color = { 140 153 37 }
-
-				b_salney_saldour = {
-					color = { 140 153 37 }
-					province = 40
-				}
-				b_salney_1 = {
-					color = { 140 153 37 }
-					province = 41
-				}
-			}
-
-			c_segou = {
-				color = { 109 114 26 }
-
-				b_segou_segou = {
-					color = { 109 114 26 }
-					province = 42
-				}
-				b_segou_1 = {
-					color = { 109 114 26 }
-					province = 43
-				}
-			}
-
-			c_ondaffe = {
-				color = { 114 140 31 }
-
-				b_ondaffe_ondaffe = {
-					color = { 114 140 31 }
-					province = 44
-				}
-				b_ondaffe_1 = {
-					color = { 114 140 31 }
-					province = 45
-				}
-			}
-
 			c_lowerey = {
 				color = { 110 131 83 }
 
@@ -338,6 +299,51 @@
 					province = 51
 				}
 			}
+		}
+		
+		d_the_fens = {
+			color = { 119 179 31 }
+			capital = c_segou
+
+			c_salney = {
+				color = { 140 153 37 }
+
+				b_salney_saldour = {
+					color = { 140 153 37 }
+					province = 40
+				}
+				b_salney_1 = {
+					color = { 140 153 37 }
+					province = 41
+				}
+			}
+			
+			c_segou = {
+				color = { 109 114 26 }
+
+				b_segou_segou = {
+					color = { 109 114 26 }
+					province = 42
+				}
+				b_segou_1 = {
+					color = { 109 114 26 }
+					province = 43
+				}
+			}
+
+			c_ondaffe = {
+				color = { 114 140 31 }
+
+				b_ondaffe_ondaffe = {
+					color = { 114 140 31 }
+					province = 44
+				}
+				b_ondaffe_1 = {
+					color = { 114 140 31 }
+					province = 45
+				}
+			}
+
 		}
 		
 		d_ariclon = {
@@ -558,23 +564,331 @@
 				}
 			}
 		}
-	}
-	
-	k_salia = {
-		color = { 77 166 67 }
-		capital = c_melesa
+		
+		d_tretland = {
+			c_keilyn = {
+				color = { 115 119 87 }
 
-		d_melesa = {
-			color = { 230 180 1 }
-			capital = c_melesa
-
-			c_melesa = {
-				color = { 208 168 28 }
-
-				b_melesa = {
-					color = { 208 168 28 }
+				b_keilyn_keilyn = {
+					color = { 115 119 87 }
 					province = 88
 				}
+				b_keilyn_1 = {
+					color = { 115 119 87 }
+					province = 89
+				}
+				b_keilyn_2 = {
+					color = { 115 119 87 }
+					province = 90
+				}
+				b_keilyn_3 = {
+					color = { 115 119 87 }
+					province = 91
+				}
+			}
+		}
+	}
+	
+	k_salia = {	# elective among councils of 3 tribes
+		color = { 211 222 46 }
+		capital = c_scra
+		
+		d_lledowu = {
+			color = { 166 225 23 }
+			capital = c_porth_grai
+			c_melesa = {
+				color = { 128 230 161 }
 
+				b_melesa = {
+					color = { 128 230 161 }
+					province = 92
+				}
+			}
+			c_lledowu_1 = {
+				color = { 118 149 12 }
+
+				b_lledowu_1_1 = {
+					color = { 118 149 12 }
+					province = 93
+				}
+				b_lledowu_1_2 = {
+					color = { 118 149 12 }
+					province = 94
+				}
+				b_lledowu_1_3 = {
+					color = { 118 149 12 }
+					province = 95
+				}
+			}
+			c_lledowu_2 = {
+				color = { 165 241 45 }
+
+				b_lledowu_2_1 = {
+					color = { 165 241 45 }
+					province = 96
+				}
+				b_lledowu_2_2 = {
+					color = { 165 241 45 }
+					province = 97
+				}
+				b_lledowu_2_3 = {
+					color = { 165 241 45 }
+					province = 98
+				}
+			}
+			c_porth_grai = {
+				color = { 159 191 51 }
+
+				b_porth_grai_porth_grai = {
+					color = { 159 191 51 }
+					province = 99
+				}
+				b_porth_grai_1 = {
+					color = { 159 191 51 }
+					province = 100
+				}
+				b_porth_grai_2 = {
+					color = { 159 191 51 }
+					province = 101
+				}
+			}
+			c_lledowu_3 = {
+				color = { 129 228 42 }
+
+				b_lledowu_3_1 = {
+					color = { 129 228 42 }
+					province = 102
+				}
+				b_lledowu_3_2 = {
+					color = { 129 228 42 }
+					province = 103
+				}
+				b_lledowu_3_3 = {
+					color = { 129 228 42 }
+					province = 104
+				}
+			}
+			c_ynys_rhon = {
+				color = { 55 151 27 }
+
+				b_ynys_rhon_porth_rhon = {
+					color = { 55 151 27 }
+					province = 105
+				}
+				b_ynys_rhon_1 = {
+					color = { 55 151 27 }
+					province = 106
+				}
+			}
+		}
+		d_west_cideacht = {
+			color = { 164 183 38 }
+			capital = c_scra
+			c_bryngaer = {
+				color = { 198 193 63 }
+
+				b_bryngaer_bryngaer = {
+					color = { 198 193 63 }
+					province = 107
+				}
+				b_bryngaer_1 = {
+					color = { 198 193 63 }
+					province = 108
+				}
+			}
+			c_scra = {
+				color = { 180 182 19 }
+
+				b_scra_scra = {
+					color = { 180 182 19 }
+					province = 109
+				}
+				b_scra_1 = {
+					color = { 180 182 19 }
+					province = 110
+				}
+				b_scra_2 = {
+					color = { 180 182 19 }
+					province = 111
+				}
+			}
+			c_west_cideacht_1 = {
+				color = { 128 167 30 }
+
+				b_west_cideacht_1_1 = {
+					color = { 128 167 30 }
+					province = 112
+				}
+				b_west_cideacht_1_2 = {
+					color = { 128 167 30 }
+					province = 113
+				}
+				b_west_cideacht_1_3 = {
+					color = { 128 167 30 }
+					province = 114
+				}
+			}
+			c_west_cideacht_2 = {
+				color = { 170 200 54 }
+
+				b_west_cideacht_2_1 = {
+					color = { 170 200 54 }
+					province = 115
+				}
+				b_west_cideacht_2_2 = {
+					color = { 170 200 54 }
+					province = 116
+				}
+			}
+		}
+		d_east_cideacht = {
+			color = { 245 247 100 }
+			capital = c_cloichin
+			c_dha_bheal = {
+				color = { 251 251 85 }
+
+				b_dha_bheal_dha_bheal = {
+					color = { 251 251 85 }
+					province = 117
+				}
+				b_dha_bheal_1 = {
+					color = { 251 251 85 }
+					province = 118
+				}
+				b_dha_bheal_2 = {
+					color = { 251 251 85 }
+					province = 119
+				}
+			}
+			c_east_cideacht_1 = {
+				color = { 234 238 124 }
+
+				b_east_cideacht_1_1 = {
+					color = { 234 238 124 }
+					province = 120
+				}
+				b_east_cideacht_1_2 = {
+					color = { 234 238 124 }
+					province = 121
+				}
+			}
+			c_cloichin = {
+				color = { 255 255 150 }
+
+				b_cloichin_cloichin = {
+					color = { 255 255 150 }
+					province = 122
+				}
+				b_cloichin_1 = {
+					color = { 255 255 150 }
+					province = 123
+				}
+				b_cloichin_2 = {
+					color = { 255 255 150 }
+					province = 124
+				}
+			}
+			c_east_cideacht_2 = {
+				color = { 227 226 62 }
+
+				b_east_cideacht_2_1 = {
+					color = { 227 226 62 }
+					province = 125
+				}
+				b_east_cideacht_2_2 = {
+					color = { 227 226 62 }
+					province = 126
+				}
+			}
+			c_east_cideacht_3 = {
+				color = { 201 237 64 }
+
+				b_east_cideacht_3_1 = {
+					color = { 201 237 64 }
+					province = 127
+				}
+				b_east_cideacht_3_2 = {
+					color = { 201 237 64 }
+					province = 128
+				}
+			}
+		}
+		d_tir_ganache = {
+			color = { 209 212 127 }
+			capital = c_dirai
+			c_dirai = {
+				color = { 215 207 92 }
+
+				b_dirai_dirai = {
+					color = { 215 207 92 }
+					province = 129
+				}
+				b_dirai_1 = {
+					color = { 215 207 92 }
+					province = 130
+				}
+				b_dirai_2 = {
+					color = { 215 207 92 }
+					province = 131
+				}
+			}
+			c_tir_ganache_1 = {
+				color = { 201 227 139 }
+
+				b_tir_ganache_1_1 = {
+					color = { 201 227 139 }
+					province = 132
+				}
+				b_tir_ganache_1_2 = {
+					color = { 201 227 139 }
+					province = 133
+				}
+			}
+			c_orwenthrev = {
+				color = { 208 208 134 }
+
+				b_orwenthrev_orwenthrev = {
+					color = { 208 208 134 }
+					province = 134
+				}
+				b_orwenthrev_1 = {
+					color = { 208 208 134 }
+					province = 135
+				}
+				b_orwenthrev_2 = {
+					color = { 208 208 134 }
+					province = 136
+				}
+			}
+			c_arwor_noiv = {
+				color = { 159 187 81 }
+
+				b_arwor_noiv_arwor_noiv = {
+					color = { 159 187 81 }
+					province = 137
+				}
+				b_arwor_noiv_1 = {
+					color = { 159 187 81 }
+					province = 138
+				}
+				b_arwor_noiv_2 = {
+					color = { 159 187 81 }
+					province = 139
+				}
+			}
+			c_melath = {
+				color = { 225 227 178 }
+
+				b_melath_melath = {
+					color = { 225 227 178 }
+					province = 140
+				}
+				b_melath_1 = {
+					color = { 225 227 178 }
+					province = 141
+				}
+			}
+		}
+	}
 }
 

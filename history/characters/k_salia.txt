@@ -1,0 +1,172 @@
+﻿
+
+1 = { 
+	name = "Atlas"
+	dynasty = 1
+	dna = 1
+	religion = "cideach_ayekism"
+	culture = "cadalig"
+	1.1.1 = {
+		birth = yes
+	}
+	1.1.2 = {
+		death = yes
+	}
+}
+
+lledowu_1 = { 
+	name = "Lledowu"
+	dynasty = dynasty_lledowu
+	religion = "cideach_ayekism"
+	culture = "lledow"
+	923.5.6 = {
+		birth = yes
+	}
+	965.8.17 = {
+		death = yes
+	}
+}
+
+melesa_1 = { 
+	name = "Atlas"
+	dynasty = dynasty_melesa
+	dna = 1
+	religion = "cideach_ayekism"
+	culture = "cadalig"
+	905.7.31 = {
+		birth = yes
+	}
+	960.6.14 = {
+		death = yes
+	}
+}
+
+porth_grai_1 = { 
+	name = "Porth Grai"
+	dynasty = dynasty_porth_grai
+	religion = "cideach_ayekism"
+	culture = "lledow"
+	917.4.5 = {
+		birth = yes
+	}
+	991.6.5 = {
+		death = yes
+	}
+}
+
+ynys_rhon_1 = { 
+	name = "Ynys Rhon"
+	dynasty = dynasty_ynys_rhon
+	religion = "cideach_ayekism"
+	culture = "lledow"
+	906.7.12 = {
+		birth = yes
+	}
+	960.5.15 = {
+		death = yes
+	}
+}
+
+scra_1 = { 
+	name = "Scra"
+	dynasty = dynasty_scra
+	religion = "cideach_ayekism"
+	culture = "cideach"
+	901.7.6 = {
+		birth = yes
+	}
+	966.1.1 = {
+		death = yes
+	}
+}
+
+bryngaer_1 = { 
+	name = "Bryngaer"
+	dynasty = dynasty_bryngaer
+	religion = "cideach_ayekism"
+	culture = "lledow"
+	951.12.12 = {
+		birth = yes
+	}
+	975.11.20 = {
+		death = yes
+	}
+}
+
+cloichin_1 = { 
+	name = "Cloichin"
+	dynasty = dynasty_cloichin
+	religion = "cideach_ayekism"
+	culture = "cideach"
+	906.3.19 = {
+		birth = yes
+	}
+	962.10.2 = {
+		death = yes
+	}
+}
+
+dha_bheal_1 = { 
+	name = "Dha Bheal"
+	dynasty = dynasty_dha_bheal
+	religion = "cideach_ayekism"
+	culture = "cideach"
+	942.6.14 = {
+		birth = yes
+	}
+	972.6.5 = {
+		death = yes
+	}
+}
+
+dirai_1 = { 
+	name = "Dirai"
+	dynasty = dynasty_dirai
+	religion = "cideach_ayekism"
+	culture = "canach"
+	905.1.6 = {
+		birth = yes
+	}
+	977.8.17 = {
+		death = yes
+	}
+}
+
+orwenthrev_1 = { 
+	name = "Orwen'threv"
+	dynasty = dynasty_orwenthrev
+	religion = "cideach_ayekism"
+	culture = "cideach"
+	947.10.15 = {
+		birth = yes
+	}
+	1014.8.6 = {
+		death = yes
+	}
+}
+
+arwor_noiv_1 = { 
+	name = "Arwor Noiv"
+	dynasty = dynasty_arwor_noiv
+	religion = "cideach_ayekism"
+	culture = "canach"
+	938.8.27 = {
+		birth = yes
+	}
+	992.9.12 = {
+		death = yes
+	}
+}
+
+melath_1 = { 
+	name = "Melath"
+	dynasty = dynasty_melath
+	religion = "cideach_ayekism"
+	culture = "canach"
+	910.12.5 = {
+		birth = yes
+	}
+	999.3.7 = {
+		death = yes
+	}
+}

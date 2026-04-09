@@ -1,0 +1,435 @@
+﻿messglassey_1 = { 
+	name = "Messglassey"
+	dynasty = dynasty_messglassey
+	religion = "cideach_ayekism"
+	culture = "gundiagh"
+	908.3.25 = {
+		birth = yes
+	}
+	960.5.27 = {
+		death = yes
+	}
+}
+blaas_1 = { 
+	name = "Blaas"
+	dynasty = dynasty_blaas
+	religion = "cideach_ayekism"
+	culture = "gundiagh"
+	949.8.25 = {
+		birth = yes
+	}
+	971.12.5 = {
+		death = yes
+	}
+}
+crongan_1 = { 
+	name = "Crongan"
+	dynasty = dynasty_crongan
+	religion = "cideach_ayekism"
+	culture = "ordrish"
+	885.5.6 = {
+		birth = yes
+	}
+	970.7.13 = {
+		death = yes
+	}
+}
+gareyblaa_1 = { 
+	name = "Gareyblaa"
+	dynasty = dynasty_gareyblaa
+	religion = "cideach_ayekism"
+	culture = "gundiagh"
+	927.6.25 = {
+		birth = yes
+	}
+	1015.8.5 = {
+		death = yes
+	}
+}
+neear_1 = { 
+	name = "Neear"
+	dynasty = dynasty_neear
+	religion = "cideach_ayekism"
+	culture = "gundiagh"
+	880.5.4 = {
+		birth = yes
+	}
+	962.7.31 = {
+		death = yes
+	}
+}
+doochassagh_1 = { 
+	name = "Doochassagh"
+	dynasty = dynasty_doochassagh
+	religion = "cideach_ayekism"
+	culture = "gundiagh"
+	912.7.6 = {
+		birth = yes
+	}
+	967.5.3 = {
+		death = yes
+	}
+}
+
+bueica_1 = { 
+	name = "Bueica"
+	dynasty = dynasty_bueica
+	religion = "cideach_ayekism"
+	culture = "ordrish"
+	935.2.3 = {
+		birth = yes
+	}
+	979.5.15 = {
+		death = yes
+	}
+}
+
+forbes_1 = { 
+	name = "Forbes"
+	dynasty = dynasty_forbes
+	religion = "cideach_ayekism"
+	culture = "gundiagh"
+	921.3.6 = {
+		birth = yes
+	}
+	970.1.6 = {
+		death = yes
+	}
+}
+damsey_1 = { 
+	name = "Damsey"
+	dynasty = dynasty_damsey
+	religion = "cideach_ayekism"
+	culture = "ordrish"
+	946.4.3 = {
+		birth = yes
+	}
+	974.5.3 = {
+		death = yes
+	}
+}
+fallone_1 = { 
+	name = "Fallone"
+	dynasty = dynasty_fallone
+	religion = "cideach_ayekism"
+	culture = "ordrish"
+	935.5.7 = {
+		birth = yes
+	}
+	987.5.4 = {
+		death = yes
+	}
+}
+noters_1 = { 
+	name = "Noters"
+	dynasty = dynasty_noters
+	religion = "cideach_ayekism"
+	culture = "ordrish"
+	915.7.2 = {
+		birth = yes
+	}
+	979.1.2 = {
+		death = yes
+	}
+}
+boubrigge_1 = { 
+	name = "Boubrigge"
+	dynasty = dynasty_boubrigge
+	religion = "cideach_ayekism"
+	culture = "ordrish"
+	909.5.31 = {
+		birth = yes
+	}
+	959.9.23 = {
+		death = yes
+	}
+}
+eprodour_1 = { 
+	name = "Eprodour"
+	dynasty = dynasty_eprodour
+	religion = "cideach_ayekism"
+	culture = "ordrish"
+	878.7.5 = {
+		birth = yes
+	}
+	985.5.19 = {
+		death = yes
+	}
+}
+
+ceithunac_1 = { 
+	name = "Ceithunac"
+	dynasty = dynasty_ceithunac
+	religion = "cideach_ayekism"
+	culture = "ordrish"
+	884.1.19 = {
+		birth = yes
+	}
+	961.8.28 = {
+		death = yes
+	}
+}
+
+alisse_1 = { 
+	name = "Alisse"
+	dynasty = dynasty_alisse
+	religion = "cideach_ayekism"
+	culture = "ordrish"
+	895.6.19 = {
+		birth = yes
+	}
+	976.2.1 = {
+		death = yes
+	}
+}
+onach_1 = { 
+	name = "Onach"
+	dynasty = dynasty_onach
+	religion = "cideach_ayekism"
+	culture = "ordrish"
+	909.6.30 = {
+		birth = yes
+	}
+	971.4.27 = {
+		death = yes
+	}
+}
+salney_1 = { 
+	name = "Salney"
+	dynasty = dynasty_salney
+	religion = "tretweg_ayekism"
+	culture = "ordrish"
+	896.7.24 = {
+		birth = yes
+	}
+	971.3.10 = {
+		death = yes
+	}
+}
+segou_1 = { 
+	name = "Segou"
+	dynasty = dynasty_segou
+	religion = "tretweg_ayekism"
+	culture = "tretu"
+	919.1.8 = {
+		birth = yes
+	}
+	972.4.17 = {
+		death = yes
+	}
+}
+ondaffe_1 = { 
+	name = "Ondaffe"
+	dynasty = dynasty_ondaffe
+	religion = "tretweg_ayekism"
+	culture = "tretu"
+	939.12.17 = {
+		birth = yes
+	}
+	992.3.16 = {
+		death = yes
+	}
+}
+lowerey_1 = { 
+	name = "Lowerey"
+	dynasty = dynasty_lowerey
+	religion = "cideach_ayekism"
+	culture = "ordrish"
+	933.12.11 = {
+		birth = yes
+	}
+	1001.8.5 = {
+		death = yes
+	}
+}
+calla_1 = { 
+	name = "Calla"
+	dynasty = dynasty_calla
+	religion = "cideach_ayekism"
+	culture = "ordrish"
+	923.6.7 = {
+		birth = yes
+	}
+	960.1.14 = {
+		death = yes
+	}
+}
+
+ariclon_1 = { 
+	name = "Ariclon"
+	dynasty = dynasty_ariclon
+	religion = "tretweg_ayekism"
+	culture = "ordrish"
+	923.5.6 = {
+		birth = yes
+	}
+	986.9.14 = {
+		death = yes
+	}
+}
+
+
+cosan_1 = {
+	name = "Cosan"
+	dynasty = dynasty_cosan
+	religion = "cideach_ayekism"
+	culture = "ordrish"
+	915.3.6 = {
+		birth = yes
+	}
+	978.5.16 = {
+		death = yes
+	}
+}
+catobon_1 = { 
+	name = "Catobon"
+	dynasty = dynasty_catobon
+	religion = "tretweg_ayekism"
+	culture = "tretu"
+	939.12.30 = {
+		birth = yes
+	}
+	1004.11.27 = {
+		death = yes
+	}
+}
+weilan_1 = { 
+	name = "Weilan"
+	dynasty = dynasty_weilan
+	religion = "tretweg_ayekism"
+	culture = "tretu"
+	919.2.1 = {
+		birth = yes
+	}
+	977.9.24 = {
+		death = yes
+	}
+}
+ardaguinne_1 = { 
+	name = "Ardaguinne"
+	dynasty = dynasty_ardaguinne
+	religion = "tretweg_ayekism"
+	culture = "ordrish"
+	979.12.29 = {
+		birth = yes
+	}
+	967.12.28 = {
+		death = yes
+	}
+}
+
+vernon_1 = { 
+	name = "Vernon"
+	dynasty = dynasty_vernon
+	religion = "cideach_ayekism"
+	culture = "ordrish"
+	927.2.3 = {
+		birth = yes
+	}
+	995.10.6 = {
+		death = yes
+	}
+}
+
+# vernon_20 = {
+	# 1238.1.1 = {
+		# add_pressed_claim = title:k_ordrey
+	# }
+# }
+
+ebroudon_1 = { 
+	name = "Ebroudon"
+	dynasty = dynasty_ebroudon
+	religion = "cideach_ayekism"
+	culture = "ordrish"
+	901.1.6 = {
+		birth = yes
+	}
+	986.5.28 = {
+		death = yes
+	}
+}
+mogone_1 = { 
+	name = "Mogone"
+	dynasty = dynasty_mogone
+	religion = "cideach_ayekism"
+	culture = "ordrish"
+	894.9.18 = {
+		birth = yes
+	}
+	974.2.5 = {
+		death = yes
+	}
+}
+carreney_1 = { 
+	name = "Carreney"
+	dynasty = dynasty_carreney
+	religion = "cideach_ayekism"
+	culture = "ordrish"
+	914.8.12 = {
+		birth = yes
+	}
+	962.10.12 = {
+		death = yes
+	}
+}
+dovney_1 = { 
+	name = "Dovney"
+	dynasty = dynasty_dovney
+	religion = "cideach_ayekism"
+	culture = "ordrish"
+	907.1.6 = {
+		birth = yes
+	}
+	973.9.10 = {
+		death = yes
+	}
+}
+ledoride_1 = { 
+	name = "Ledoride"
+	dynasty = dynasty_ledoride
+	religion = "cideach_ayekism"
+	culture = "ordrish"
+	905.10.2 = {
+		birth = yes
+	}
+	961.2.17 = {
+		death = yes
+	}
+}
+giry_1 = { 
+	name = "Giry"
+	dynasty = dynasty_giry
+	religion = "cideach_ayekism"
+	culture = "ordrish"
+	907.1.6 = {
+		birth = yes
+	}
+	973.9.10 = {
+		death = yes
+	}
+}
+glesson_1 = { 
+	name = "Glesson"
+	dynasty = dynasty_glesson
+	religion = "cideach_ayekism"
+	culture = "ordrish"
+	944.6.23 = {
+		birth = yes
+	}
+	996.12.18 = {
+		death = yes
+	}
+}
+tretland_1 = { 
+	name = "Treþuiogh"
+	dynasty = dynasty_tretland
+	religion = "tretweg_ayekism"
+	culture = "tretu"
+	921.6.17 = {
+		birth = yes
+	}
+	978.7.30 = {
+		death = yes
+	}
+}

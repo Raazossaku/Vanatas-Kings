@@ -10,6 +10,6 @@
 
 island_region_salia = {
 	duchies = {
-		d_melesa
+		d_lledowu d_west_cideacht d_east_cideacht d_tir_ganache
 	}
 }

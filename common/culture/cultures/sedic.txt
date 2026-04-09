@@ -1,4 +1,4 @@
-cideach = {
+﻿cideach = {
 	color = hsv { 0.65 0.75 0.18 }
 	
 	ethos = ethos_courtly
@@ -31,12 +31,107 @@ cideach = {
 
 gundiagh = {
 	color = hsv { 0.80 0.84 0.19 }
-	created = 1000.1.1
+	created = 900.1.1
 	parents = { cideach }
 	
 	ethos = ethos_stoic
 	heritage = heritage_sedic
 	language = language_gundiagh
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mystical_ancestors
+		tradition_strong_kinship
+		tradition_wetlanders
+		tradition_storytellers
+		tradition_festivities
+	}
+
+	name_list = name_list_gaelic
+	
+	coa_gfx = { welsh_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { cornish_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+lledow = {	# have not changed any details yet
+	color = hsv { 0.54 0.70 0.22 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_sedic
+	language = language_lledoweg
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mystical_ancestors
+		tradition_strong_kinship
+		tradition_wetlanders
+		tradition_storytellers
+		tradition_festivities
+	}
+
+	name_list = name_list_welsh
+	
+	coa_gfx = { welsh_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+ordrish = {	# have not changed any details yet
+	color = hsv { 0.46 0.61 0.17 }
+	created = 400.1.1
+	parents = { lledow }
+	
+	ethos = ethos_stoic
+	heritage = heritage_sedic
+	language = language_lledoweg
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mystical_ancestors
+		tradition_strong_kinship
+		tradition_wetlanders
+		tradition_storytellers
+		tradition_festivities
+	}
+
+	name_list = name_list_cumbrian
+	
+	coa_gfx = { scottish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+canach = {	# have not changed any details yet
+	color = hsv { 0.70 0.79 0.21 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_sedic
+	language = language_canach
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
@@ -62,14 +157,14 @@ gundiagh = {
 	}
 }
 
-ordrish = {
-	color = hsv { 0.46 0.61 0.17 }
-	created = 400.1.1
-	parents = { lledoweg }
+cadalig = {	# have not changed any details yet
+	color = hsv { 0.20 0.63 0.41 }
+	created = 883.1.1
+	# parents = { lledow ventrose }
 	
 	ethos = ethos_stoic
-	heritage = heritage_sedic
-	language = language_ordrish
+	heritage = heritage_ventrose
+	language = language_lledoweg
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
@@ -80,17 +175,56 @@ ordrish = {
 		tradition_festivities
 	}
 
-	name_list = name_list_cumbrian
+	name_list = name_list_breton
 	
-	coa_gfx = { welsh_coa_gfx western_coa_gfx }
+	coa_gfx = { breton_coa_gfx  western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
+	clothing_gfx = { breton_clothing_gfx western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
 		5 = caucasian_blond
-		30 = caucasian_ginger
-		35 = caucasian_brown_hair
-		30 = caucasian_dark_hair
+		20 = caucasian_ginger
+		40 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+
+tretu = {
+	color = hsv { 0.09 0.29 0.13 }
+	
+	ethos = ethos_communal
+	heritage = heritage_sedic
+	language = language_tretu
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_culture_blending
+		tradition_isolationist
+		tradition_strong_kinship
+		tradition_pastoralists
+	}
+	dlc_tradition = {
+		trait = tradition_ce1_ritual_washing
+		requires_dlc_flag = legends_of_the_dead
+		fallback = tradition_steppe_tolerance
+	}
+
+	name_list = name_list_cornish
+	
+	coa_gfx = { magyar_group_coa_gfx ugro_permian_group_coa_gfx steppe_coa_gfx }
+	coa_gfx = { breton_coa_gfx western_coa_gfx } 
+	building_gfx = { steppe_building_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { pommeranian_clothing_gfx west_slavic_clothing_gfx western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		15 = caucasian_northern_ginger
+		30 = caucasian_northern_brown_hair
+		30 = caucasian_northern_dark_hair
+		5 = slavic_northern_ginger
+		10 = slavic_northern_brown_hair
+		10 = slavic_northern_dark_hair
 	}
 }

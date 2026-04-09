@@ -13,3 +13,88 @@ heritage_sedic = {
 	}
 	audio_parameter = european
 }
+heritage_ventrose = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ventrose
+		}
+	}
+	audio_parameter = byzantine
+}
+heritage_blethic = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_blethic
+		}
+	}
+	audio_parameter = european
+}
+heritage_myric = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_myric
+		}
+	}
+	audio_parameter = european
+}
+heritage_gozyar = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_gozyar
+		}
+	}
+	audio_parameter = european
+}
+heritage_west_letanic = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_west_letanic
+		}
+	}
+	audio_parameter = byzantine
+}
+heritage_east_letanic = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_east_letanic
+		}
+	}
+	audio_parameter = european
+}
+
+
+
+heritage_manuak = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_manuak
+		}
+	}
+	audio_parameter = mena
+}
+
+heritage_kidal = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_kidal
+		}
+	}
+	audio_parameter = indian
+}
+heritage_zauyan = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_zauyan
+		}
+	}
+	audio_parameter = sea
+}

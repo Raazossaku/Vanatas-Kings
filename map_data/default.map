@@ -14,7 +14,8 @@ seasons = "seasons.txt"
 
 
 
-sea_zones = LIST { 1 89 90 91 92 93 94 95 96 97 }
+sea_zones = LIST { 1 }
+sea_zones = RANGE { 142 153 }
 
 #river_provinces = LIST {  }
 
@@ -22,7 +23,7 @@ sea_zones = LIST { 1 89 90 91 92 93 94 95 96 97 }
 
 impassable_seas = LIST { 1 }
 
-impassable_mountains = LIST { 98 }
+impassable_mountains = LIST { 154 }
 
 
 

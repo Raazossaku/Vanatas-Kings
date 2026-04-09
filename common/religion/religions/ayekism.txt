@@ -224,7 +224,7 @@
 
 			doctrine = tenet_astrology
 			doctrine = tenet_reincarnation
-			doctrine = tenet_ancestor_veneration
+			doctrine = tenet_ancestor_worship
 		}
 		tretweg_ayekism = {
 			color = { 0.3 0.6 0.1 }
@@ -240,7 +240,7 @@
 
 			doctrine = tenet_astrology
 			doctrine = tenet_reincarnation
-			doctrine = tenet_ancestor_veneration
+			doctrine = tenet_ancestor_worship
 		}
 	}
 }

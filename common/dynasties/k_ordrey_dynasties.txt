@@ -1,0 +1,170 @@
+﻿1 = {
+	name = "dynn_atlas"
+	culture = "cadalig"
+}
+dynasty_bueica = {
+	name = "dynn_bueica"
+	culture = "ordrish"
+}
+dynasty_forbes = {
+	name = "dynn_forbes"
+	culture = "gundiagh"
+}
+dynasty_damsey = {
+	name = "dynn_damsey"
+	culture = "ordrish"
+}
+dynasty_fallone = {
+	name = "dynn_fallone"
+	culture = "ordrish"
+}
+dynasty_noters = {
+	name = "dynn_noters"
+	culture = "ordrish"
+}
+dynasty_boubrigge = {
+	name = "dynn_boubrigge"
+	culture = "ordrish"
+}
+dynasty_eprodour = {
+	name = "dynn_eprodour"
+	culture = "ordrish"
+}
+
+dynasty_ceithunac = {
+	name = "dynn_ceithunac"
+	culture = "ordrish"
+}
+
+dynasty_alisse = {
+	name = "dynn_alisse"
+	culture = "ordrish"
+}
+dynasty_onach = {
+	name = "dynn_onach"
+	culture = "ordrish"
+}
+dynasty_salney = {
+	name = "dynn_salney"
+	culture = "ordrish"
+}
+dynasty_segou = {
+	name = "dynn_segou"
+	culture = "tretu"
+}
+dynasty_ondaffe = {
+	name = "dynn_ondaffe"
+	culture = "tretu"
+}
+dynasty_lowerey = {
+	name = "dynn_lowerey"
+	culture = "ordrish"
+}
+dynasty_calla = {
+	name = "dynn_calla"
+	culture = "ordrish"
+}
+dynasty_ariclon = {
+	name = "dynn_ariclon"
+	culture = "ordrish"
+}
+dynasty_cosan = {
+	name = "dynn_cosan"
+	culture = "ordrish"
+}
+dynasty_catobon = {
+	name = "dynn_catobon"
+	culture = "tretu"
+}
+dynasty_weilan = {
+	name = "dynn_weilan"
+	culture = "tretu"
+}
+dynasty_ardaguinne = {
+	name = "dynn_ardaguinne"
+	culture = "ordrish"
+}
+dynasty_vernon = {
+	name = "dynn_vernon"
+	culture = "ordrish"
+}
+dynasty_ebroudon = {
+	name = "dynn_ebroudon"
+	culture = "ordrish"
+}
+dynasty_mogone = {
+	name = "dynn_mogone"
+	culture = "ordrish"
+}
+dynasty_carreney = {
+	name = "dynn_carreney"
+	culture = "ordrish"
+}
+dynasty_dovney = {
+	name = "dynn_dovney"
+	culture = "ordrish"
+}
+dynasty_ledoride = {
+	name = "dynn_ledoride"
+	culture = "ordrish"
+}
+dynasty_giry = {
+	name = "dynn_giry"
+	culture = "ordrish"
+}
+dynasty_glesson = {
+	name = "dynn_glesson"
+	culture = "ordrish"
+}
+dynasty_tretland = {
+	name = "dynn_tretland"
+	culture = "ordrish"
+}
+dynasty_lledowu = {
+	name = "dynn_lledowu"
+	culture = "lledow"
+}
+dynasty_melesa = {
+	name = "dynn_melesa"
+	culture = "cadalig"
+}
+dynasty_porth_grai = {
+	name = "dynn_porth_grai"
+	culture = "lledow"
+}
+dynasty_ynys_rhon = {
+	name = "dynn_ynys_rhon"
+	culture = "lledow"
+}
+dynasty_scra = {
+	name = "dynn_scra"
+	culture = "cideach"
+}
+dynasty_bryngaer = {
+	name = "dynn_bryngaer"
+	culture = "lledow"
+}
+dynasty_cloichin = {
+	name = "dynn_cloichin"
+	culture = "cideach"
+}
+dynasty_dha_bheal = {
+	name = "dynn_dha_bheal"
+	culture = "cideach"
+}
+dynasty_dirai = {
+	name = "dynn_dirai"
+	culture = "canach"
+}
+dynasty_orwenthrev = {
+	name = "dynn_orwenthrev"
+	culture = "cideach"
+}
+dynasty_arwor_noiv = {
+	name = "dynn_arwor_noiv"
+	culture = "canach"
+}
+dynasty_melath = {
+	name = "dynn_melath"
+	culture = "canach"
+}
