@@ -1,6 +1,4 @@
-﻿
-
-#############
+﻿#############
 # Christian #
 #############
 
@@ -12,7 +10,10 @@ jerusalem = {
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
 	}
-	flag = jerusalem_conversion_bonus # +20% County Conversion
+
+	parameters = {
+		jerusalem_conversion_bonus # +20% County Conversion
+	}
 }
 
 rome = {
@@ -54,16 +55,6 @@ kent = {
 		name = holy_site_kent_effect_name
 		religious_vassal_opinion = 5
 		sway_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
-	}
-}
-
-segrada_familia = {
-	county = c_melesa
-	is_active = no
-
-	character_modifier = {
-		name = holy_site_segrada_familia_effect_name
-		monthly_piety_gain_mult = 0.1
 	}
 }
 
@@ -180,7 +171,9 @@ farz = {
 kerala = {
 	county = c_melesa #St. Thomas Christians. Gotta give this one a *big* bonus - conversion speed maybe??
 
-	flag = kerala_conversion_bonus # +50% County Conversion Speed
+	parameters = {
+		kerala_conversion_bonus # +50% County Conversion Speed
+	}
 }
 
 # Insular Celtic
@@ -198,8 +191,9 @@ armagh = {
 iona = {
 	county = c_melesa
 
-	# +20% County Conversion Speed in the British Isles
-	flag = iona_conversion_bonus
+	parameters = {
+		iona_conversion_bonus # +20% County Conversion Speed in the British Isles
+	}
 }
 
 # Bosnian Church
@@ -208,8 +202,9 @@ iona = {
 visoki = {
 	county = c_melesa
 
-	# 50% County Conversion Resistance
-	flag = visoki_conversion_resistance_bonus
+	parameters = {
+		visoki_conversion_resistance_bonus # 50% County Conversion Resistance
+	}
 }
 
 ## Seat of the Archbishop of Ragusa, the diocese under which the Bishopric of Bosnia fell, and whose political support allowed them to stay largely independent of Rome.
@@ -310,7 +305,9 @@ medina = {
 cordoba = {
 	county = c_melesa
 
-	flag = cordoba_conversion_bonus # +20% county conversion speed
+	parameters = {
+		cordoba_conversion_bonus # +20% county conversion speed
+	}
 }
 
 sinai = {
@@ -681,7 +678,7 @@ bodh_gaya = { # Where Buddha reached enlightenment
 	}
 }
 
-kusinagara = { # Where Buddha was born - Actually Lumbini
+kusinagara = { # Where Buddha was born - Actually Lumbini but that was not known at this time
 	county = c_melesa
 
 	character_modifier = {
@@ -702,6 +699,7 @@ sarnath = { # Where Buddha first taught his diciples. Also the #1 most holy site
 
 sanchi = { # Important temple complex
 	county = c_melesa
+	barony = b_melesa
 
 	character_modifier = {
 		name = holy_site_sanchi_effect_name
@@ -853,6 +851,176 @@ dwarka = {
 		name = holy_site_dwarka_effect_name
 		martial = 1
 		hard_casualty_modifier = -0.1
+	}
+}
+
+puri = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_puri_effect_name
+		monthly_piety_gain_mult = 0.05
+		learning_per_piety_level = 1
+	}
+}
+
+badrinath = {
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_badrinath_effect_name
+		short_reign_duration_mult = -0.25
+		vassal_opinion = 3
+	}
+}
+
+shringeri = {
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_shringeri_effect_name
+		stewardship_per_piety_level = 1
+	}
+}
+
+konarak = {
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_konarak_effect_name
+		development_growth_factor = 0.1
+		church_holding_build_gold_cost = -0.1
+	}
+}
+
+#Southeast Asia
+angkor = { #Shaivism
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_angkor_effect_name
+		tributary_opinion = 5
+		jungle_construction_gold_cost = -0.1
+	}
+}
+
+bantey_srei = { #Vaishnavism
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_bantey_srei_effect_name
+		county_opinion_add = 5
+		great_project_build_speed = -0.05
+	}
+}
+
+borobudur = { #Mahayana
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_borobudur_effect_name
+		monthly_piety_gain_per_knight_mult = 0.01
+		knight_effectiveness_mult = 0.1
+	}
+}
+
+muara_takus = { #Vajrayana
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_muara_takus_effect_name
+		tributary_opinion = 5
+		temple_citadel_holding_build_gold_cost = -0.1
+	}
+}
+
+prambanan = { #Shaivism & Krishnaism
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_prambanan_effect_name
+		different_culture_opinion = 10
+	}
+}
+
+kalasan = { #Vajrayana & Mahayana
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_kalasan_effect_name
+		diplomacy = 1
+		powerful_vassal_opinion = 5
+	}
+}
+
+preah_vihear = { #Shaivism
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_preah_vihear_effect_name
+		jungle_development_growth_factor = 0.2
+		county_opinion_add = 5
+	}
+}
+
+my_son = { #Shaivism
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_my_son_effect_name
+		monthly_prestige_gain_per_knight_mult = 0.01
+		build_prestige_cost = -0.15
+	}
+}
+
+bayon = { #Mahayana
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_bayon_effect_name
+		wetlands_development_growth_factor = 0.2
+		county_opinion_add = 5
+	}
+}
+
+bumiayu = { #Shaivism
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_bumiayu_effect_name
+		clergy_opinion = 5
+		monthly_piety_gain_mult = 0.1
+	}
+}
+
+khao_khlang_nai = { #Vaishnavism
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_khao_khlang_nai_effect_name
+		tributary_opinion = 5
+		temple_citadel_holding_build_gold_cost = -0.1
+	}
+}
+
+bupaya = { #Theravada
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_bupaya_effect_name
+		monthly_piety_gain_mult = 0.1
 	}
 }
 
@@ -1583,6 +1751,7 @@ bost = {
 
 khotan = {
 	county = c_melesa
+	barony = b_melesa #Rawak Stupa
 
 	character_modifier = {
 		name = holy_site_khotan_effect_name
@@ -1592,7 +1761,6 @@ khotan = {
 
 balkh = {
 	county = c_melesa #Also important to Zoroastrianism (supposed birthplace of Gayomart and Zoroaster), as well as Mayahana buddhism.
-	#TODO FP3 CD: Make holy site for Mahayana or Pure Land. 
 
 	character_modifier = {
 		name = holy_site_balkh_effect_name
@@ -1602,6 +1770,7 @@ balkh = {
 
 lhasa = {
 	county = c_melesa
+	barony = b_melesa
 
 	character_modifier = {
 		name = holy_site_lhasa_effect_name
@@ -1928,7 +2097,9 @@ aswan = { # For Philae, site of some of the last great Kemetic building projects
 wadi_el_milk = { # Historic traces of Kushitic cults have actually been found here.
 	county = c_melesa
 
-	flag = wadi_el_milk_conversion_resistance_bonus # 50% County Conversion Resistance
+	parameters = {
+		wadi_el_milk_conversion_resistance_bonus # 50% County Conversion Resistance
+	}
 }
 
 naqis = { # Potentially historically important region for these cults.
@@ -2050,6 +2221,41 @@ mogadishu = { # An extremely important local city, and thus probable religious h
 }
 
 #############
+# Ngaiism
+# Reusing some Waaqism sites
+#############
+
+kirinyaga = { # Mount Kenya. Central to Kikuyu worship of Ngai
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_kirinyaga_effect_name
+		health = 0.1
+		monthly_piety_gain_mult = 0.1
+	}
+}
+
+mangea = { # Significant mythical origin of the Mijikenda
+	county = c_melesa
+	barony = b_melesa # Mangea proper is near the coast, just a little north of Mtwapa
+
+	character_modifier = {
+		name = holy_site_mangea_effect_name
+		direct_vassal_opinion = 5
+	}
+}
+
+kilimanjaro = { # Central to Chagga worship of Ngai
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_kilimanjaro_effect_name
+		controlled_province_advantage = 5
+		prowess_per_piety_level = 1
+	}
+}
+
+#############
 # Other
 #############
 
@@ -2063,12 +2269,1275 @@ gilgit = {
 	}
 }
 
+nakkavaram = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_nakkavaram_effect_name
+		build_gold_cost = -0.1
+		stewardship = 1
+	}
+}
+
+ar_kol = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_ar_kol_effect_name
+		jungle_tax_mult = 0.15
+		monthly_piety_gain_mult = 0.1
+	}
+}
+
+#####################
+# Taoism			#
+#####################
+
 suzhou = {
 	county = c_melesa
 
 	character_modifier = {
 		name = holy_site_suzhou_effect_name
 		diplomacy = 1
+	}
+}
+
+mount_heng = {
+	#One of the 5 great Mountains of China
+	#Numerous Temples, such as the Hanging Temple
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_mount_heng_effect_name
+		direct_vassal_opinion = 5
+	}
+}
+
+mount_longhu = {
+	# Where Zhang Daoling had obtained the Tao
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_mount_longhu_effect_name
+		clergy_opinion = 5
+		personal_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
+	}
+}
+
+mount_qingcheng = {
+	#Misty Green City Wall
+	#One of the 4 Sacred Mountains of Taoism 
+	#"The most secluded place in China"
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_mount_qingcheng_effect_name
+		life_expectancy = 1
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.15
+	}
+}
+
+mount_tai = {
+	#Foremost of the 5 sacred mountains of China
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_mount_tai_effect_name
+		monthly_piety_gain_mult = 0.05
+		learning = 1
+	}
+}
+
+mount_mian = {
+	#Important Taoist and Buddhist site
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_mount_mian_effect_name
+		martial_per_piety_level = 1
+		knight_effectiveness_mult = 0.1
+	}
+}
+
+mount_kunyu = {
+	#Location where the quanzhen school was founded
+	#Curated by emperors and Taoist monks
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_mount_kunyu_effect_name
+		stress_loss_mult = 0.2
+		life_expectancy = 1 #Connection to Eternal Life
+	}
+}
+
+mount_wudang = {
+	#Military Wherewithal
+	#One of the 4 Sacred mountains of Taoism
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_mount_wudang_effect_name
+		martial = 1
+		prowess_per_prestige_level = 1
+	}
+}
+
+mount_qiyung = {
+	#Neat Clouds
+	#One of the 4 sacred mountains of Taoism
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_mount_wudang_effect_name
+		learning = 2
+	}
+}
+
+luyi = {
+	#Birthplace of Lǎozǐ
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_luyi_effect_name
+		learning = 1
+		monthly_piety = 1
+	}
+}
+
+#####################
+# Shugendo			#
+#####################
+
+# Kumano covered elsewhere
+# Dewa covered elsewhere
+
+ishizuchi = { 
+	# Ishizuchi, sacred Shugendo mountain
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_ishizuchi_effect_name
+		cultural_head_fascination_mult = 0.15
+	}
+}
+
+fuji = { 
+	# Fujisan
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_fuji_effect_name
+		councillor_opinion = 5
+	}
+}
+
+haku = { 
+	# Hakusan, sacred Shugendo mountain
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_haku_effect_name
+		vassal_levy_contribution_add = 0.15
+	}
+}
+
+#####################
+# Shinto			#
+#####################
+
+ise_jingu = { # Ise Grand Shrine, home of the Saigu
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_ise_jingu_effect_name
+		learning_per_piety_level = 1
+	}
+}
+
+koya = { # Mount Koya
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_koya_effect_name
+		clergy_opinion = 5
+	}
+}
+
+haguro = { # Mount Haguro
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_haguro_effect_name
+		mountains_advantage = 5
+		mountains_development_growth_factor = 0.2
+	}
+}
+
+itsukushima = { # Miyajima
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_itsukushima_effect_name
+		knight_effectiveness_mult = 0.2
+	}
+}
+
+hachimangu = { # Hachimangu
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_hachimangu_effect_name
+		men_at_arms_maintenance = -0.05
+	}
+}
+
+#####################
+# Chan Buddhism		#
+#####################
+
+# Bodh Gaya covered elsewhere
+# Kusinagara covered elsewhere
+
+shaolin = {
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_shaolin_effect_name
+		prowess_per_piety_level = 1
+		clergy_opinion = 5
+	}
+}
+
+hangzhou = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_lingyin_effect_name
+		diplomacy = 1
+		councillor_opinion = 5
+	}
+}
+
+wutai = { # Mount Wutai
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_wutai_effect_name
+		learning = 2
+	}
+}
+
+#####################
+# Huayan Buddhism	#
+#####################
+
+# Kusinagara covered elsewhere
+# Bodh Gaya covered elsewhere
+# Mount Tai covered elsewhere
+# Mount Wutai covered elsewhere
+
+emei = { # Mount Emei
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_emei_effect_name
+		development_growth_factor = 0.1
+	}
+}
+
+#####################
+# Jingtu Buddhism	#
+#####################
+
+# Kusinagara covered elsewhere
+# Bodh Gaya covered elsewhere
+# Mount Heng covered elsewhere
+
+jiuhua = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_jiuhua_effect_name
+		owned_personal_scheme_success_chance_add = 5
+		diplomacy = 1
+	}
+}
+
+putuo = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_putuo_effect_name
+		county_opinion_add = 5 #Center of Worship for Guanyin - Boddhisatva of Compassion
+		different_faith_opinion = 5
+	}
+}
+
+#####################
+# Aluk				#
+#####################
+
+# Sonba-i already covered elsewhere
+# Kepala Burung already covered elsewhere
+# Buru-Sula already covered elsewhere
+
+wenang = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_wenang_effect_name
+		stewardship_per_piety_level = 1
+	}
+}
+
+siang = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_siang_effect_name
+		martial = 1
+		clergy_opinion = 5
+	}
+}
+
+tengchong = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_tengchong_effect_name
+		clergy_opinion = 5
+		personal_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
+	}
+}
+
+dali = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_dali_effect_name
+		knight_effectiveness_mult = 0.2
+		prowess_per_prestige_level = 1
+	}
+}
+
+shicheng = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_shicheng_effect_name
+		diplomacy = 1
+		powerful_vassal_opinion = 5
+	}
+}
+
+jinglong = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_jinglong_effect_name
+		jungle_advantage = 3
+	}
+}
+
+jianchang = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_jianchang_effect_name
+		learning = 1
+		clergy_opinion = 5
+	}
+}
+
+#####################
+# Bimoism			#
+#####################
+
+# Dali already covered elsewhere
+# Tengchong already covered elsewhere
+# Jinglong already covered elsewhere
+
+zhaotong = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_zhaotong_effect_name
+		knight_limit = 1
+		light_cavalry_toughness_mult = 0.1
+	}
+}
+
+xuhen = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_xuhen_effect_name
+		tributary_opinion = 4
+	}
+}
+
+# Buddhist
+
+chang_an = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_xi_an_effect_name
+		monthly_piety_gain_mult = 0.1
+	}
+}
+
+bulguksa = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_bulguksa_effect_name
+		controlled_province_advantage = 5
+	}
+}
+
+donggang = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_donggang_effect_name
+		learning = 1
+		health = 0.1
+	}
+}
+
+#####################
+# Dayawism			#
+#####################
+
+cotabato = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_cotabato_effect_name
+		learning = 1
+		tributary_opinion = 5
+	}
+}
+
+biri_larosa = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_biri_larosa_effect_name
+		monthly_piety_gain_mult = 0.1
+	}
+}
+
+pinatubo = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_pinatubo_effect_name
+		jungle_tax_mult = 0.15
+	}
+}
+
+ivatan = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_pulag_effect_name
+		same_faith_opinion = 10
+	}
+}
+
+mantalingajan = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_mantalingajan_effect_name
+		monthly_prestige_gain_per_knight_mult = 0.01
+		build_prestige_cost = -0.15
+	}
+}
+
+#####################
+# Azhali			#
+#####################
+
+# Dali already covered elsewhere
+# Kusinagara already covered elsewhere
+# Pagan already covered elsewhere
+
+danai = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_danai_effect_name
+		owned_personal_scheme_success_chance_add = 5
+	}
+}
+
+magadha = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_magadha_effect_name
+		short_reign_duration_mult = -0.25
+	}
+}
+
+#####################
+# Satsana Phi		#
+#####################
+
+# Qufu already covered elsewhere
+
+vien_chan = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_vien_chan_effect_name
+		sway_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
+	}
+}
+
+hsenwi = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_hsenwi_effect_name
+		personal_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
+	}
+}
+
+sukhothai = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_sukhothai_effect_name
+		owned_personal_scheme_success_chance_add = 5
+	}
+}
+
+cao_bang = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_cao_bang_effect_name
+		intrigue = 1
+	}
+}
+
+#####################
+# Shamanism			#
+#####################
+
+# Tarayka already covered elsewhere
+
+molihewen = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_molihewen_effect_name
+		prowess_per_piety_level = 1
+	}
+}
+
+yam_alin = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_yam_alin_effect_name
 		martial = 1
 	}
 }
+
+chupka = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_kunasir_effect_name
+		controlled_province_advantage = 5
+	}
+}
+
+yizhou = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_yizhou_effect_name
+		levy_size = 0.1
+	}
+}
+
+#####################
+# Utaki				#
+#####################
+
+# Fuji already covered elsewhere
+
+amandee = {
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_amandee_effect_name
+		mountains_development_growth_factor = 0.2
+	}
+}
+
+sefa_utaki = {
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_sefa_utaki_effect_name
+		mountains_advantage = 5
+	}
+}
+
+tate = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_tate_effect_name
+		levy_size = 0.1
+	}
+}
+
+awa = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_awa_effect_name
+		title_creation_cost_mult = -0.15
+	}
+}
+
+#####################
+# Kaharingan		#
+#####################
+
+iban = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_iban_effect_name
+		martial = 1
+		supply_duration = 0.25
+	}
+}
+
+kudat = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_kudat_effect_name
+		jungle_advantage = 5
+	}
+}
+
+taiao = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_taiao_effect_name
+		advantage_against_coreligionists = 1
+	}
+}
+
+sukadana = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_sukadana_effect_name
+		courtier_and_guest_opinion = 5
+		councillor_opinion = 5
+	}
+}
+
+kutai = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_kutai_effect_name
+		prowess_per_piety_level = 1
+	}
+}
+
+#####################
+# Mingism			#
+#####################
+
+# Xi'an already covered elsewhere
+# Luoyang already covered elsewhere
+# Samarkand already covered elsewhere
+
+quanzhou = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_quanzhou_effect_name
+		monthly_piety_gain_mult = 0.1
+		stress_loss_per_piety_level = 0.05
+	}
+}
+
+turpan = {
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_turpan_effect_name
+		development_growth_factor = 0.1
+	}
+}
+
+#####################
+# Confucianism		#
+#####################
+
+qufu = {
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_qufu_effect_name
+		legitimacy_gain_mult = 0.1
+		monthly_merit_mult = 0.05
+	}
+}
+
+quzhou = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_quzhou_effect_name
+		negate_learning_penalty_add = 4
+	}
+}
+
+linzi = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_linzi_effect_name
+		monthly_piety_gain_mult = 0.15
+		monthly_prestige_gain_mult = 0.05
+	}
+}
+
+bianliang = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_bianliang_effect_name
+		courtier_and_guest_opinion = 5
+		councillor_opinion = 5
+	}
+}
+
+zhuolu = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_zhuolu_effect_name
+		county_opinion_add = 5
+	}
+}
+
+dongting = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_dongting_effect_name
+		levy_reinforcement_rate_same_faith = 0.2
+	}
+}
+
+wehale = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_wehale_effect_name
+		cultural_head_fascination_mult = 0.15
+	}
+}
+
+qiongzhou = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_qiongzhou_effect_name
+		controlled_province_advantage = 5
+	}
+}
+
+#####################
+# Tolotang			#
+#####################
+
+# Sonba_i already covered elsewhere
+
+amparita = {
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_amparita_effect_name
+		jungle_tax_mult = 0.1
+	}
+}
+
+buru-sula = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_buru_sula_effect_name
+		stewardship = 1
+	}
+}
+
+papua_selatan = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_papua_selatan_effect_name
+		dread_gain_mult = 0.1
+	}
+}
+
+kepala_burung = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_kepala_burung_effect_name
+		monthly_tyranny = -0.1
+		tyranny_gain_mult = -0.2
+	}
+}
+
+#####################
+# Hantuism			#
+#####################
+
+# Qiongzhou already covered elsewhere
+
+hoanya = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_hoanya_effect_name
+		development_growth_factor = 0.1
+	}
+}
+
+sonba_i = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_sonba_i_effect_name
+		learning = 2
+	}
+}
+
+riak_nan_berbedur = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_riak_nan_berbedur_effect_name
+		monthly_prestige_gain_mult = 0.2
+	}
+}
+
+gangganegara = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_gangganegara_effect_name
+		county_opinion_add = 10
+		same_faith_opinion = 10
+	}
+}
+
+#####################
+# Kamuyist			#
+#####################
+
+nutapkauspe = {
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_nutapkauspe_effect_name
+		supply_duration = 0.2
+		men_at_arms_maintenance = -0.05
+	}
+}
+
+makkarinupuri = {
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_simenas_effect_name
+		controlled_province_advantage = 5
+	}
+}
+
+tarayka = {
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_tarayka_effect_name
+		same_faith_opinion = 5
+	}
+}
+
+kamuykotan = {
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_kamuykotan_effect_name
+		development_growth_factor = 0.1
+	}
+}
+
+hitakami = {
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_uskes_effect_name
+		cultural_head_fascination_mult = 0.15
+	}
+}
+
+#####################
+# Moism				#
+#####################
+
+nanning = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_nanning_effect_name
+		title_creation_cost_mult = -0.15
+	}
+}
+
+muze = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_muze_effect_name
+		learning = 1
+	}
+}
+
+sizhou = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_sizhou_effect_name
+		monthly_prestige_gain_mult = 0.15
+	}
+}
+
+daozhou = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_daozhou_effect_name
+		development_growth_factor = 0.1
+	}
+}
+
+anlong = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_anlong_effect_name
+		knight_effectiveness_mult = 0.2
+	}
+}
+
+#####################
+# Dab Qhuas			#
+#####################
+
+# Anlong already covered elsewhere
+
+haripunjaya = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_haripunjaya_effect_name
+		cultural_head_fascination_mult = 0.15
+	}
+}
+
+nguu_hong = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_nguu_hong_effect_name
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+yangtze = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_yangtze_effect_name
+		same_faith_opinion = 10
+		dynasty_house_opinion = 5
+	}
+}
+
+zunyi = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_zunyi_effect_name
+		levy_reinforcement_rate_same_faith = 0.2
+	}
+}
+
+#####################
+# Seon Buddhism		#
+#####################
+
+# Bodh Gaya already covered elsewhere
+# Donggang already covered elsewhere
+# Shaolin already covered elsewhere
+
+cheongju = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_cheongju_effect_name
+		direct_vassal_opinion = 5
+	}
+}
+
+goseong = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_goseong_effect_name
+		monthly_piety = 1
+	}
+}
+
+#####################
+# Other				#
+#####################
+
+baekdu = { # Mount Paektu/Baekdu
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_baekdu_effect_name
+		mountains_tax_mult = 0.15
+		stress_loss_mult = 0.1
+	}
+}
+
+taebaek = { # Mount Taebaek
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_taebaek_effect_name
+		monthly_prestige_gain_mult = 0.2
+		same_faith_opinion = 5
+	}
+}
+
+halla = { # Mount Halla
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_halla_effect_name
+		fertility = 0.10
+		monthly_lifestyle_xp_gain_mult = 0.15
+	}
+}
+
+mani = { # Mount Mani
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_mani_effect_name
+		legitimacy_gain_mult = 0.1
+		county_opinion_add = 5
+	}
+}
+
+seorak = { # Mount Geumgang
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_seorak_effect_name
+		different_faith_opinion = 10
+	}
+}
+
+#####################
+# Eastern Buddhism	#
+#####################
+
+sikong = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_mount_sikong_effect_name
+		monthly_county_control_growth_factor = 0.1
+	}
+}
+
+nanhua = {
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_nanhua_effect_name
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+sarasvati = {
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_sarasvati_effect_name
+		learning = 1
+	}
+}
+
+mount_lu = {
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_mount_lu_effect_name
+		same_heritage_county_advantage_add = 2
+	}
+}
+
+nara = {
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_nara_effect_name
+		same_faith_opinion = 5
+	}
+}
+
+vaishali = {
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_vaishali_effect_name
+		monthly_piety = 0.5
+	}
+}
+
+mogao = {
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_mogao_effect_name
+		development_growth_factor = 0.1
+	}
+}
+
+luoyang = {
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_luoyang_effect_name
+		county_opinion_add = 10
+		diplomacy = 1
+	}
+}
+
+gaeseong = {
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_gaeseong_effect_name
+		monthly_county_control_growth_factor = 0.1
+	}
+}
+
+tiantai = { 
+	# Origin of Tiantai Buddhism, birthplace of Zhiyi
+	county = c_melesa
+
+	character_modifier = {
+		name = holy_site_tiantai_effect_name
+		learning = 2
+	}
+}
+
+hiei = { 
+	# Main Tendai temple overlooking Kyoto
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_hiei_effect_name
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+heiankyo = {
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_heiankyo_effect_name
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+kizuki = {
+	county = c_melesa
+	barony = b_melesa
+	
+	character_modifier = {
+		name = holy_site_kizuki_effect_name
+		clergy_opinion = 5
+	}
+}
+
+kashima = {
+	county = c_melesa
+	barony = b_melesa
+
+	character_modifier = {
+		name = holy_site_kashima_effect_name
+		tax_mult = 0.05
+	}
+}
+
+

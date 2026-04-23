@@ -219,7 +219,7 @@ coa_manx_trigger = {
 			any_liege_or_above = {
 				primary_title = {
 					OR = {
-						this = title:c_isle_of_man
+						#this = title:c_melesa
 						this = title:d_the_isles # Mann
 					}
 				}
@@ -408,7 +408,7 @@ has_recognizable_chinese_seal = {
 			has_base_name = "dynn_Shen_6C88"
 			has_base_name = "dynn_Shi_53F2"
 			has_base_name = "dynn_Shi_77F3"
-			has_base_name = "dynn_Situ_53F8"
+			has_base_name = "dynn_Situ_53F8_5F92"
 			has_base_name = "dynn_Song_5B8B"
 			has_base_name = "dynn_Su_8607"
 			has_base_name = "dynn_Sun_5B6B"
